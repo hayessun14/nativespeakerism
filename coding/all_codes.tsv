@@ -1,0 +1,892 @@
+group	contrast	target_corpus	ref_corpus	rank	type	freq_tar	freq_ref	range_tar	range_ref	ll	lr	d1	d1sub	act	hedge	c	conf	note
+1	L1 vs Generic	L1	Generic	1	CLAIM	1663	1211	≥332	≥287	60.215	0.419	G1	Ideas	NA	NA	NA	H	论断/主张名词，Ideas 明示；本身中性，act 层不赋值
+1	L1 vs Generic	L1	Generic	2	rather	833	545	295	243	53.374	0.574	NA	-	NA	PENDING	NA	-	"M1待定：手册列为 hedge，但""rather than""（建议对比框架）可能占主导"
+1	L1 vs Generic	L1	Generic	3	correctness	60	6	54	6	49.868	3.284	G2	Correctness	NA	NA	NA	H	直接命名 Correctness 焦点
+1	L1 vs Generic	L1	Generic	4	aim	92	24	89	24	40.757	1.900	G1	Ideas	PENDING	NA	NA	-	"act 层待定：""aim to/for""（A3）vs ""your aim""（名词，NA）"
+1	L1 vs Generic	L1	Generic	5	paper	216	100	105	68	40.595	1.073	NA	-	NA	NA	NA	H	文本指称语，不指示层级
+1	L1 vs Generic	L1	Generic	6	SHARPEN	138	52	≥94	≥37	38.143	1.370	G1	Ideas	A3	NA	NA	M	主导搭配 sharpen your claim/thesis/argument
+1	L1 vs Generic	L1	Generic	7	mechanical	77	21	63	20	32.556	1.836	G2	Mechanics	NA	NA	NA	H	mechanical errors
+1	L1 vs Generic	L1	Generic	8	instance	202	100	184	98	32.502	0.976	NA	-	NA	NA	NA	M	"主导为""for instance""元话语（反馈自身举例，非要求学生举例）"
+1	L1 vs Generic	L1	Generic	9	level	298	179	232	145	26.954	0.697	PENDING	-	NA	NA	NA	-	维度一待定：sentence-level(G2)/paragraph-level(G1)/level of detail(G1-Dev)
+1	L1 vs Generic	L1	Generic	10	edit	122	53	109	53	26.167	1.165	PENDING	-	A3	NA	NA	-	维度一待定：表层编辑(G2)vs全局修改(G1)
+1	L1 vs Generic	L1	Generic	11	would	786	582	298	255	25.427	0.395	NA	-	PENDING	PENDING	NA	-	手册指定共享项，concordance 抽 50 行判 A3/M1
+1	L1 vs Generic	L1	Generic	12	reasoning	281	169	168	116	25.299	0.695	G1	Ideas	NA	NA	NA	H	Ideas 定义明示 lines of thought and reasoning
+1	L1 vs Generic	L1	Generic	13	tighten	44	9	41	8	24.264	2.251	PENDING	-	A3	NA	NA	-	维度一待定：tighten prose/sentences(G2)vs tighten argument(G1)
+1	L1 vs Generic	L1	Generic	14	NEED	1069	830	≥281	≥241	24.237	0.327	NA	-	A3	NA	NA	H	need to = Hyland&Hyland 明示建议套语
+1	L1 vs Generic	L1	Generic	15	material	166	86	118	68	23.774	0.910	G1	Development	NA	NA	NA	M	source material，属支撑材料
+1	L1 vs Generic	L1	Generic	16	CLARIFY	272	166	≥197	≥129	23.193	0.674	PENDING	-	A3	NA	NA	-	维度一待定：手册 clear/clarity 系列一律 PENDING
+1	L1 vs Generic	L1	Generic	17	defensible	53	14	43	14	23.177	1.882	G1	Ideas	A1	NA	NA	M	域固定于 claim/thesis；正向评价，但存在目标态框架风险
+1	L1 vs Generic	L1	Generic	18	cut	90	36	77	27	22.504	1.284	G2	Local Structure	A3	NA	NA	M	删削冗余，句内/句间
+1	L1 vs Generic	L1	Generic	19	phrasing	229	135	176	112	22.137	0.724	G2	Wording	NA	NA	NA	H	Wording 明示
+1	L1 vs Generic	L1	Generic	20	RELY	125	61	≥63	≥32	20.820	0.997	G1	Development	NA	NA	NA	M	rely on evidence/sources
+1	L1 vs Generic	L1	Generic	21	sweeping	56	18	49	18	19.484	1.599	G1	Ideas	A2	NA	NA	H	sweeping generalization，域固定于论断
+1	L1 vs Generic	L1	Generic	22	vague	126	64	107	52	19.002	0.939	PENDING	-	A2	NA	NA	-	维度一待定：与 unclear 同族，可指论证或用词
+1	L1 vs Generic	L1	Generic	23	credible	125	64	100	55	18.466	0.928	G1	Development	A1	NA	NA	M	credible sources/evidence
+1	L1 vs Generic	L1	Generic	24	distract	58	20	55	18	18.333	1.498	PENDING	-	A2	NA	NA	-	维度一待定：typos distract(G2)vs digression distracts(G1)
+1	L1 vs Generic	L1	Generic	25	authority	65	25	48	19	17.372	1.340	G1	Ideas	NA	NA	NA	L	写作者论述权威/立场，归修辞语境→G1
+1	L1 vs Generic	L1	Generic	26	complexity	63	24	56	22	17.104	1.354	G1	Ideas	NA	NA	NA	M	acknowledge the complexity of the issue
+1	L1 vs Generic	L1	Generic	27	might	187	115	150	85	15.483	0.663	NA	-	PENDING	PENDING	NA	-	手册指定共享项
+1	L1 vs Generic	L1	Generic	28	prose	42	13	37	13	15.334	1.654	G2	Wording	NA	NA	NA	M	主导搭配 tighten/clarify your prose，句级文风
+1	L1 vs Generic	L1	Generic	29	even	232	152	158	119	14.745	0.572	NA	-	NA	NA	NA	H	焦点副词，非 hedge
+1	L1 vs Generic	L1	Generic	30	something	157	94	130	85	14.362	0.702	NA	-	NA	NA	NA	H	不定指代
+1	L1 vs Generic	L1	Generic	31	credibility	243	162	190	128	14.242	0.547	G1	Development	NA	NA	NA	M	与 credible 同域
+1	L1 vs Generic	L1	Generic	32	reads	180	112	164	98	14.237	0.646	PENDING	-	NA	NA	NA	-	维度一待定：the essay reads(整体)vs this sentence reads(句级)
+1	L1 vs Generic	L1	Generic	33	just	263	179	182	121	13.922	0.517	NA	-	NA	PENDING	NA	-	"M1待定：最小化降调(M1)vs""仅仅是""强化批评(NA)；竞争读法全在 hedge 层，与 act 层无关"
+1	L1 vs Generic	L1	Generic	34	PROOFREAD	317	224	≥181	≥145	13.708	0.463	G2	Correctness	A3	NA	NA	H	校对行动，Correctness+建议
+1	L1 vs Generic	L1	Generic	35	currently	259	177	182	122	13.426	0.511	NA	-	NA	NA	NA	M	元话语对比框架（现状→建议），本身非行为
+1	L1 vs Generic	L1	Generic	36	analysis	319	227	153	105	13.244	0.453	G1	Ideas	NA	NA	NA	H	Ideas 明示 analysis
+1	L1 vs Generic	L1	Generic	37	precision	99	53	81	46	12.952	0.863	PENDING	-	NA	NA	NA	-	维度一待定：precision of language(G2)vs of claims(G1)
+1	L1 vs Generic	L1	Generic	38	ASSERT	99	53	≥48	≥27	12.952	0.863	G1	Ideas	NA	NA	NA	H	assertions 属 Ideas
+1	L1 vs Generic	L1	Generic	39	MATTER	235	159	≥123	≥87	12.814	0.525	G1	Ideas	NA	NA	NA	M	why this matters，论点意义
+1	L1 vs Generic	L1	Generic	40	shifts	82	42	75	40	12.100	0.927	PENDING	-	NA	NA	NA	-	维度一待定：tense shifts(G2-Grammar)vs shifts in focus(G1)
+1	L1 vs Generic	L1	Generic	41	case	269	190	137	103	11.659	0.463	G1	Ideas	NA	NA	NA	M	make the case for，论证整体
+1	L1 vs Generic	L1	Generic	42	arguing	95	52	82	47	11.652	0.831	G1	Ideas	NA	NA	NA	H	Ideas 明示 arguments
+1	L1 vs Generic	L1	Generic	43	GIVE	296	213	≥178	≥151	11.493	0.436	NA	-	NA	NA	NA	M	gives/given 混合，无固定层级所指
+1	L1 vs Generic	L1	Generic	44	contains	53	24	48	23	10.442	1.105	NA	-	NA	NA	NA	H	描述性动词
+1	L1 vs Generic	L1	Generic	45	address	264	190	177	135	10.241	0.436	PENDING	-	PENDING	NA	NA	-	"手册 v3 强制查询清单（G1/A3 争议），不得凭词形归类：address counterarguments(G1+A3) vs 元话语""address the points below""(NA)"
+1	L1 vs Generic	L1	Generic	46	reorganize	109	65	108	64	10.115	0.708	G1	Global Structure	A3	NA	NA	H	大单位重排，Global Structure 明示
+1	L1 vs Generic	L1	Generic	47	distinct	82	45	64	34	9.980	0.827	G1	Ideas	NA	NA	NA	M	distinct points/ideas
+1	L1 vs Generic	L1	Generic	48	STRENGTHEN	476	373	≥291	≥246	9.959	0.314	G1	Ideas	A3	NA	NA	M	strengthen your argument/thesis；Ideas/Development 子类边界待核
+1	L1 vs Generic	L1	Generic	49	assertion	58	28	53	25	9.909	1.012	G1	Ideas	NA	NA	NA	H	Ideas 明示
+1	L1 vs Generic	L1	Generic	50	strongest	180	122	137	94	9.728	0.523	NA	-	PENDING	NA	NA	-	手册 v3 强制查询清单（strong 系 A1/A3 争议），不得凭词形归类：your strongest evidence(A1) vs 目标态框架(A3)
+1	L1 vs Generic	L1	Generic	51	then	382	293	225	176	9.538	0.344	NA	-	NA	NA	NA	H	连接副词
+1	L1 vs Generic	L1	Generic	52	measured	65	34	59	31	9.069	0.897	PENDING	-	A1	NA	NA	L	维度一待定：属 tone/register，手册列 PENDING；D2 判定信度低
+1	L1 vs Generic	L1	Generic	53	arguable	76	42	68	37	9.057	0.817	G1	Ideas	A1	NA	NA	M	an arguable thesis，域固定于论断
+1	L1 vs Generic	L1	Generic	54	should	1312	1132	333	328	8.964	0.175	NA	-	A3	NA	NA	H	Hyland&Hyland 明示建议套语
+1	L1 vs Generic	L1	Generic	55	right	548	442	316	263	8.749	0.272	PENDING	-	NA	NA	NA	-	维度一待定：the right word(G2)vs right now(NA)
+1	L1 vs Generic	L1	Generic	56	line	86	50	70	39	8.715	0.744	PENDING	-	NA	NA	NA	-	维度一待定：line of reasoning(G1)vs this line(G2)
+1	L1 vs Generic	L1	Generic	57	now	594	484	320	273	8.532	0.257	NA	-	NA	NA	NA	H	时间/话语副词
+1	L1 vs Generic	L1	Generic	58	structural	92	55	70	48	8.460	0.704	G1	Global Structure	NA	NA	NA	H	structural issues，大单位
+1	L1 vs Generic	L1	Generic	59	engage	45	21	41	20	8.306	1.061	G1	Ideas	A3	NA	NA	M	engage with counterarguments/the reader
+1	L1 vs Generic	L1	Generic	60	piece	123	80	95	70	8.076	0.582	NA	-	NA	NA	NA	H	文本指称语
+1	L1 vs Generic	L1	Generic	61	imprecise	46	22	46	21	8.032	1.026	PENDING	-	A2	NA	NA	-	维度一待定：同 precision
+1	L1 vs Generic	L1	Generic	62	detail	43	20	36	18	7.996	1.066	G1	Development	NA	NA	NA	H	Development 明示 detail
+1	L1 vs Generic	L1	Generic	63	alone	60	32	51	28	7.933	0.869	NA	-	NA	NA	NA	H	限定副词
+1	L1 vs Generic	L1	Generic	64	written	47	23	40	22	7.774	0.993	NA	-	NA	NA	NA	M	被动分词，无固定层级所指
+1	L1 vs Generic	L1	Generic	65	section	164	114	98	67	7.768	0.486	G1	Global Structure	NA	NA	NA	M	大于段落的单位
+1	L1 vs Generic	L1	Generic	66	analytical	153	105	112	78	7.758	0.505	G1	Ideas	NA	NA	NA	M	analytical depth/analytical claim；描述论述方式而非归功
+1	L1 vs Generic	L1	Generic	67	building	48	24	44	22	7.532	0.962	G1	Ideas	NA	NA	NA	M	building on/building your argument
+1	L1 vs Generic	L1	Generic	68	similarly	67	38	66	33	7.365	0.780	NA	-	NA	NA	NA	H	连接副词
+1	L1 vs Generic	L1	Generic	69	typos	71	41	57	34	7.360	0.754	G2	Mechanics	NA	NA	NA	H	Mechanics 明示
+1	L1 vs Generic	L1	Generic	70	public	275	210	114	89	7.105	0.351	NA	-	NA	NA	NA	H	议题内容残留（LOCNESS 主题词）
+1	L1 vs Generic	L1	Generic	71	underdeveloped	65	37	63	36	7.062	0.775	G1	Development	A2	NA	NA	H	Development 域固定，负向
+1	L1 vs Generic	L1	Generic	72	actual	176	126	126	89	7.047	0.444	NA	-	NA	NA	NA	M	对比性强调词
+1	L1 vs Generic	L1	Generic	73	carefully	324	253	237	201	6.984	0.319	NA	-	NA	NA	NA	M	方式副词，非 hedge 非行为
+1	L1 vs Generic	L1	Generic	74	precisely	41	20	37	19	6.834	0.997	NA	-	NA	NA	NA	M	方式副词
+1	L1 vs Generic	L1	Generic	75	define	94	60	62	39	6.696	0.609	PENDING	-	A3	NA	NA	-	维度一待定：define your terms 属 Wording(G2)还是概念澄清(G1)
+1	L1 vs Generic	L1	Generic	76	evidence	1389	1223	321	295	6.644	0.145	G1	Development	NA	NA	NA	H	Development 核心
+1	L1 vs Generic	L1	Generic	77	four	49	26	39	22	6.572	0.876	NA	-	NA	NA	NA	M	数量词，多为反馈条目枚举
+1	L1 vs Generic	L1	Generic	78	specifically	96	62	81	52	6.502	0.592	NA	-	NA	NA	NA	M	元话语副词（区别于手册中 PENDING 的 specific）
+1	L1 vs Generic	L1	Generic	79	concerns	78	48	65	42	6.440	0.662	NA	-	A2	NA	NA	M	my main concerns are…，批评标记语
+1	L1 vs Generic	L1	Generic	80	placeholder	70	42	62	35	6.353	0.699	G2	Wording	A2	NA	NA	M	placeholder phrases/language，空泛措辞
+1	L1 vs Generic	L1	Generic	81	loosely	40	20	38	19	6.277	0.962	PENDING	-	A2	NA	NA	-	维度一待定：loosely connected(G1 连贯)vs loosely worded(G2)
+1	L1 vs Generic	L1	Generic	82	replace	166	120	128	98	6.264	0.430	PENDING	-	A3	NA	NA	-	维度一待定：replace this word(G2)vs replace this paragraph(G1)
+1	L1 vs Generic	L1	Generic	83	takes	37	18	36	17	6.207	1.001	NA	-	NA	NA	NA	M	轻动词
+1	L1 vs Generic	L1	Generic	84	core	63	37	60	32	6.167	0.730	G1	Ideas	NA	NA	NA	H	core claim/argument
+1	L1 vs Generic	L1	Generic	85	acknowledge	106	71	93	64	6.071	0.540	G1	Ideas	A3	NA	NA	M	acknowledge counterarguments
+1	L1 vs Generic	L1	Generic	86	distinguish	41	21	39	20	6.049	0.927	G1	Ideas	A3	NA	NA	M	distinguish between claims
+1	L1 vs Generic	L1	Generic	87	improving	64	38	62	32	6.030	0.714	NA	-	A3	NA	NA	M	改进指向，层级由宾语决定
+1	L1 vs Generic	L1	Generic	88	risk	64	38	48	31	6.030	0.714	NA	-	NA	M1	NA	M	M1：risks sounding X，删除后批评仍在且更强
+1	L1 vs Generic	L1	Generic	89	making	147	105	113	94	5.966	0.447	NA	-	NA	NA	NA	H	轻动词
+1	L1 vs Generic	L1	Generic	90	counterarguments	125	87	96	64	5.880	0.485	G1	Ideas	NA	NA	NA	H	Ideas 明示 counterargument
+1	L1 vs Generic	L1	Generic	91	sharper	57	33	54	32	5.858	0.750	NA	-	PENDING	NA	NA	-	act 层待定：比较级多嵌于目标态框架（make it sharper=A3）而非评价（A1）
+1	L1 vs Generic	L1	Generic	92	terms	79	50	62	42	5.830	0.622	PENDING	-	NA	NA	NA	-	维度一待定：key terms(G2-Wording)vs in terms of(NA)
+1	L1 vs Generic	L1	Generic	93	tackles	66	40	66	39	5.773	0.684	NA	-	A1	NA	NA	M	your essay tackles a difficult question，开场归功套语
+1	L1 vs Generic	L1	Generic	94	policy	139	99	68	59	5.738	0.451	NA	-	NA	NA	NA	H	议题内容残留
+1	L1 vs Generic	L1	Generic	95	cultural	80	51	52	33	5.728	0.611	NA	-	NA	NA	PENDING	-	C1待定：议题内容残留 vs 文化/语言背景框架（理论上关键）
+1	L1 vs Generic	L1	Generic	96	turn	51	29	49	27	5.560	0.776	NA	-	NA	NA	NA	H	in turn / turn to
+1	L1 vs Generic	L1	Generic	97	framing	51	29	41	26	5.560	0.776	G1	Ideas	NA	NA	NA	M	论点呈现方式
+1	L1 vs Generic	L1	Generic	98	weaken	103	70	100	66	5.490	0.519	NA	-	A2	NA	NA	M	weakens your argument，层级由宾语决定
+1	L1 vs Generic	L1	Generic	99	wording	144	104	108	76	5.465	0.431	G2	Wording	NA	NA	NA	H	Wording 明示
+1	L1 vs Generic	L1	Generic	100	abstract	48	27	42	24	5.416	0.792	PENDING	-	A2	NA	NA	-	维度一待定：too abstract=缺具体支撑(G1-Dev)vs abstract language(G2)
+1	L1 vs Generic	L1	Generic	101	readers	327	263	183	161	5.368	0.276	G1	Ideas	NA	NA	NA	M	受众；按窄口径 C1 规定归 G1
+1	L1 vs Generic	L1	Generic	102	mechanics	175	131	148	103	5.238	0.380	G2	Mechanics	NA	NA	NA	H	Mechanics 明示
+1	L1 vs Generic	L1	Generic	103	significant	149	109	111	83	5.213	0.413	NA	-	NA	NA	NA	M	程度形容词，极性依宾语
+1	L1 vs Generic	L1	Generic	104	skeptical	38	20	37	20	5.213	0.888	G1	Ideas	NA	NA	NA	M	a skeptical reader will ask…，预设反驳
+1	L1 vs Generic	L1	Generic	105	entirely	46	26	45	24	5.112	0.785	NA	-	NA	NA	NA	M	"强化词；""not entirely""否定缓和待观察"
+1	L1 vs Generic	L1	Generic	106	anecdote	82	54	52	35	5.088	0.564	G1	Development	NA	NA	NA	H	证据类型
+1	L1 vs Generic	L1	Generic	107	inconsistent	68	43	58	36	5.036	0.623	PENDING	-	A2	NA	NA	-	维度一待定：inconsistent tense(G2)vs inconsistent argument(G1)
+1	L1 vs Generic	L1	Generic	108	fairly	59	36	50	32	5.031	0.674	NA	-	NA	M1	NA	H	手册 v3 M1 明示 hedge
+1	L1 vs Generic	L1	Generic	109	integrate	39	21	39	20	5.018	0.855	G1	Development	A3	NA	NA	M	integrate evidence/quotations
+1	L1 vs Generic	L1	Generic	110	come	73	47	60	38	5.011	0.597	NA	-	NA	NA	NA	M	comes across/comes from
+1	L1 vs Generic	L1	Generic	111	actually	154	114	115	88	4.981	0.396	NA	-	NA	NA	NA	M	强化/对比副词
+1	L1 vs Generic	L1	Generic	112	want	144	106	107	73	4.836	0.404	NA	-	A3	NA	NA	M	you'll want to = 建议套语（常与 may 叠加）
+1	L1 vs Generic	L1	Generic	113	serve	40	22	37	22	4.836	0.824	NA	-	NA	NA	NA	M	描述性动词
+1	L1 vs Generic	L1	Generic	114	broader	103	72	87	65	4.730	0.478	G1	Ideas	NA	NA	NA	M	broader context/implications
+1	L1 vs Generic	L1	Generic	115	move	142	105	117	87	4.627	0.397	PENDING	-	PENDING	NA	NA	-	维度一待定：move this paragraph(G1)vs move on to(NA)；act 层随之待定
+1	L1 vs Generic	L1	Generic	116	genuine	99	69	82	62	4.621	0.483	NA	-	A1	NA	NA	M	a genuine strength/insight
+1	L1 vs Generic	L1	Generic	117	casual	63	40	43	29	4.588	0.617	PENDING	-	A2	NA	NA	-	维度一待定：属 tone/register，手册列 PENDING
+1	L1 vs Generic	L1	Generic	118	single	95	66	71	51	4.512	0.487	NA	-	NA	NA	NA	H	数量词
+1	L1 vs Generic	L1	Generic	119	sense	114	82	97	73	4.435	0.437	NA	-	NA	NA	NA	M	makes sense / a sense of
+1	L1 vs Generic	L1	Generic	120	overly	39	22	36	22	4.361	0.788	NA	-	A2	NA	NA	M	标记过度=内在负向
+1	L1 vs Generic	L1	Generic	121	polished	61	39	59	39	4.314	0.607	PENDING	-	A1	NA	NA	-	维度一待定：手册明列 polished 为 PENDING
+1	L1 vs Generic	L1	Generic	122	biggest	72	48	70	48	4.218	0.547	NA	-	NA	NA	NA	M	级差强化词
+1	L1 vs Generic	L1	Generic	123	power	132	98	55	49	4.185	0.391	NA	-	NA	NA	NA	M	疑似议题内容残留（政治权力）；the power of your argument 待核
+1	L1 vs Generic	L1	Generic	124	draft	164	126	127	101	4.039	0.342	NA	-	NA	NA	NA	H	文本指称/写作过程；窄口径下不设类
+1	L1 vs Generic	L1	Generic	125	heavily	46	28	45	28	3.959	0.678	NA	-	NA	NA	NA	M	强化词（rely heavily），非 hedge
+1	L1 vs Generic	L1	Generic	126	financial	93	66	43	40	3.920	0.456	NA	-	NA	NA	NA	H	议题内容残留
+1	L1 vs Generic	L1	Generic	127	opening	176	137	133	104	3.895	0.323	G1	Global Structure	NA	NA	NA	H	引言段，大单位
+1	L1 vs Generic	L1	Generic	128	develop	169	131	144	110	3.873	0.329	G1	Development	A3	NA	NA	H	Development 明示
+2	Generic vs L1	Generic	L1	1	GOOD	949	498	≥260	≥189	155.568	0.969	NA	-	PENDING	NA	NA	-	act 层待定：good+better 归并，comparative 多嵌于目标态框架（make it better=A3）vs 评价（A1）；LL 全组最高，须查
+2	Generic vs L1	Generic	L1	2	language	642	285	290	177	150.991	1.210	PENDING	-	NA	NA	PENDING	-	维度三待定：your language background/first language(C1) vs academic language(G2 Wording)；本组理论枢纽词
+2	Generic vs L1	Generic	L1	3	writing	439	208	257	154	90.672	1.116	NA	-	NA	NA	NA	M	文本指称/写作过程，不指示层级
+2	Generic vs L1	Generic	L1	4	corrections	90	10	85	10	75.765	3.208	G2	Correctness	NA	NA	NA	M	命名 Correctness 焦点的元话语标签；中性焦点名词，act 层不赋值
+2	Generic vs L1	Generic	L1	5	academic	841	543	262	243	73.006	0.669	PENDING	-	NA	NA	NA	-	维度一待定：属 register，手册列 tone/formal/register 为 PENDING
+2	Generic vs L1	Generic	L1	6	STRENGTH	257	112	≥158	≥56	62.497	1.237	NA	-	PENDING	NA	NA	-	"act 层待定：反馈自身小标题""Strengths:""（元话语 NA）vs 归功（A1）；且属 strong 词族，按 v3 强制查询规则不得凭词形定"
+2	Generic vs L1	Generic	L1	7	grammar	658	416	298	238	61.732	0.700	G2	Grammar	NA	NA	NA	H	Correctness/Grammar 明示；中性焦点名词
+2	Generic vs L1	Generic	L1	8	main	716	486	255	237	50.709	0.597	G1	Ideas	NA	NA	NA	M	main point/argument/idea；子类 Ideas 与 Global Structure 边界待核
+2	Generic vs L1	Generic	L1	9	english	74	16	58	3	42.086	2.248	NA	-	NA	NA	PENDING	-	手册明列：指语言系统（correct English）→C1；作文体修饰（English essay）→NA。两读法维度一均为 NA
+2	Generic vs L1	Generic	L1	10	USE	1068	816	≥295	≥282	40.969	0.427	PENDING	-	PENDING	NA	NA	-	维度一待定：your use of evidence(G1)/word use(G2)/use of tenses(G2)；act 层待定：use more examples(A3)vs 描述(NA)
+2	Generic vs L1	Generic	L1	11	ARTICLE	167	74	≥77	≥33	39.363	1.213	PENDING	-	NA	NA	NA	-	维度一待定：英语冠词(G2-Grammar)vs 引用的文章(G1-Development)；L2 语法标记的关键判别点
+2	Generic vs L1	Generic	L1	12	original	135	54	92	44	38.059	1.360	NA	-	NA	NA	NA	M	"与 revised 配对的""原句/改后句""对照格式，元话语"
+2	Generic vs L1	Generic	L1	13	WORD	537	367	≥273	≥210	36.891	0.587	G2	Wording	NA	NA	NA	H	Wording 明示
+2	Generic vs L1	Generic	L1	14	IDEA	830	619	≥231	≥191	36.787	0.461	G1	Ideas	NA	NA	NA	H	Ideas 明示
+2	Generic vs L1	Generic	L1	15	tense	99	33	46	23	36.317	1.623	G2	Grammar	NA	NA	NA	H	Correctness/Grammar 明示
+2	Generic vs L1	Generic	L1	16	suggestions	160	74	144	69	34.698	1.151	NA	-	PENDING	NA	NA	-	"act 层待定：反馈小标题""Suggestions:""（元话语 NA）vs 名词化建议行为（A3）"
+2	Generic vs L1	Generic	L1	17	verb	221	118	158	98	34.609	0.944	G2	Grammar	NA	NA	NA	H	Correctness/Grammar 明示
+2	Generic vs L1	Generic	L1	18	vocabulary	42	6	38	6	31.338	2.846	G2	Wording	NA	NA	NA	H	Wording 明示
+2	Generic vs L1	Generic	L1	19	try	431	293	228	194	30.295	0.595	NA	-	A3	NA	NA	H	Hyland&Hyland 明示建议套语（the verb try）
+2	Generic vs L1	Generic	L1	20	thank	50	10	50	9	30.185	2.360	NA	-	NA	NA	NA	M	人际礼貌行为（thank you for sharing），未归功于文本属性，不构成 A1；属手册排除的 paired acts 类
+2	Generic vs L1	Generic	L1	21	some	939	747	300	283	27.389	0.368	NA	-	NA	M1	NA	H	手册 v3 M1 明示 hedge
+2	Generic vs L1	Generic	L1	22	important	323	213	198	153	25.774	0.639	NA	-	PENDING	NA	NA	-	act 层待定：an important point(A1)vs it is important to…(A3 框架)
+2	Generic vs L1	Generic	L1	23	OPINION	215	130	≥121	≥78	23.490	0.764	G1	Ideas	NA	NA	NA	M	your opinion / opinion vs fact，属论断层
+2	Generic vs L1	Generic	L1	24	revised	107	50	81	45	22.721	1.136	NA	-	NA	NA	NA	M	与 original 配对的改写对照，元话语
+2	Generic vs L1	Generic	L1	25	understandable	62	21	60	21	22.275	1.600	PENDING	-	A1	NA	NA	L	"维度一待定（clear 系）；act 低信度：作为""低门槛褒扬""（your English is understandable）与 A1 定义是否相符须查"
+2	Generic vs L1	Generic	L1	26	too	529	398	218	198	22.252	0.449	NA	-	A2	NA	NA	M	标记过度=内在负向（同组 1 overly 口径）；polysemy 高于 overly，信度中等
+2	Generic vs L1	Generic	L1	27	advice	128	66	115	62	21.853	0.994	NA	-	PENDING	NA	NA	-	act 层待定：反馈小标题（NA）vs my advice is to…（A3）
+2	Generic vs L1	Generic	L1	28	expressions	49	14	45	14	21.536	1.846	G2	Wording	NA	NA	NA	H	Wording 明示
+2	Generic vs L1	Generic	L1	29	CLEAR	1289	1095	≥328	≥311	21.466	0.274	PENDING	-	PENDING	NA	NA	-	维度一待定（手册 clear 系）；act 层待定：clear(A1)vs clearer 目标态框架(A3)
+2	Generic vs L1	Generic	L1	30	clearly	502	377	269	245	21.342	0.451	PENDING	-	NA	NA	NA	-	维度一待定（clear 系）；方式副词，act 层不赋值
+2	Generic vs L1	Generic	L1	31	comment	57	19	57	18	20.908	1.623	NA	-	NA	NA	NA	M	元话语（a comment on… / 小标题）
+2	Generic vs L1	Generic	L1	32	IMPROVE	351	252	≥181	≥170	19.082	0.516	NA	-	A3	NA	NA	M	改进指向，层级由宾语决定
+2	Generic vs L1	Generic	L1	33	sharing	37	9	37	9	19.045	2.078	NA	-	NA	NA	NA	M	人际礼貌（thank you for sharing）
+2	Generic vs L1	Generic	L1	34	sentences	596	469	286	249	18.775	0.384	G2	Local Structure	NA	NA	NA	H	Local Structure 明示
+2	Generic vs L1	Generic	L1	35	formal	364	265	181	158	18.406	0.496	PENDING	-	NA	NA	NA	-	维度一待定（register）；命名目标态而非评价，act 层不赋值
+2	Generic vs L1	Generic	L1	36	choice	395	292	260	198	18.378	0.474	G2	Wording	NA	NA	NA	M	word choice；your choice of topic 读法待观察
+2	Generic vs L1	Generic	L1	37	many	557	438	239	229	17.631	0.385	NA	-	NA	NA	NA	M	量词
+2	Generic vs L1	Generic	L1	38	eg	339	246	154	134	17.437	0.501	NA	-	NA	NA	NA	M	举例元话语（e.g.），与组 1 的 for instance 构成对照
+2	Generic vs L1	Generic	L1	39	people	608	485	216	195	17.362	0.364	NA	-	NA	NA	NA	M	疑似议题内容残留（LOCNESS 主题）；people reading your essay 读法待核
+2	Generic vs L1	Generic	L1	40	avoid	308	220	202	150	17.180	0.524	NA	-	A3	NA	NA	H	手册 A3 明示
+2	Generic vs L1	Generic	L1	41	strong	711	581	312	301	16.819	0.330	NA	-	PENDING	NA	NA	-	手册 v3 强制查询清单（A1/A3 争议），不得凭词形归类
+2	Generic vs L1	Generic	L1	42	may	404	308	194	161	15.676	0.430	NA	-	NA	M1	NA	H	手册 v3 M1 明示 hedge
+2	Generic vs L1	Generic	L1	43	final	414	317	274	237	15.633	0.423	PENDING	-	NA	NA	NA	-	"维度一待定：your final paragraph(G1-Structure)vs""Final thoughts:""小标题(NA)"
+2	Generic vs L1	Generic	L1	44	topic	602	487	298	270	15.441	0.344	PENDING	-	NA	NA	NA	-	维度一待定：the topic of your essay(G1-Ideas)vs topic sentence(G2/G1 边界)
+2	Generic vs L1	Generic	L1	45	example	1106	961	313	299	14.446	0.241	G1	Development	NA	NA	NA	H	Development 明示
+2	Generic vs L1	Generic	L1	46	very	173	113	132	97	14.331	0.653	NA	-	NA	NA	NA	M	强化词，非 hedge
+2	Generic vs L1	Generic	L1	47	past	73	36	46	30	13.816	1.058	G2	Grammar	NA	NA	NA	M	past tense
+2	Generic vs L1	Generic	L1	48	here	250	180	181	139	13.390	0.512	NA	-	NA	NA	NA	M	指示元话语
+2	Generic vs L1	Generic	L1	49	informal	190	131	138	109	12.535	0.575	PENDING	-	A2	NA	NA	-	维度一待定（register）；学术语境下标记偏离=负向（同组 1 casual 口径）
+2	Generic vs L1	Generic	L1	50	recurring	77	41	76	41	12.139	0.948	NA	-	NA	NA	NA	M	"recurring errors/patterns，层级由宾语决定；构成""错误模式化""框架"
+2	Generic vs L1	Generic	L1	51	easy	70	36	65	35	12.024	0.998	NA	-	A1	NA	NA	M	easy to follow/read，正向评价；目标态框架风险
+2	Generic vs L1	Generic	L1	52	society	248	183	109	98	11.650	0.477	NA	-	NA	NA	NA	H	议题内容残留
+2	Generic vs L1	Generic	L1	53	form	106	64	89	56	11.633	0.766	G2	Grammar	NA	NA	NA	M	verb form / the correct form
+2	Generic vs L1	Generic	L1	54	below	163	111	159	107	11.362	0.593	NA	-	NA	NA	NA	M	指示元话语（see below）
+2	Generic vs L1	Generic	L1	55	she	70	37	39	24	11.242	0.958	NA	-	NA	NA	NA	M	疑似议题内容残留（引述作文内容），待核
+2	Generic vs L1	Generic	L1	56	correct	152	103	118	87	10.825	0.600	G2	Correctness	PENDING	NA	NA	-	act 层待定：correct these errors(A3)vs the correct form(NA)
+2	Generic vs L1	Generic	L1	57	luck	36	14	36	12	10.613	1.401	NA	-	NA	NA	NA	M	人际礼貌（good luck）
+2	Generic vs L1	Generic	L1	58	your	5416	5226	348	348	10.514	0.090	NA	-	NA	NA	NA	M	人称代词，无固定层级所指
+2	Generic vs L1	Generic	L1	59	introduction	579	488	303	282	10.393	0.285	G1	Global Structure	NA	NA	NA	H	大单位，Global Structure 明示
+2	Generic vs L1	Generic	L1	60	PHRASE	320	251	≥184	≥161	10.301	0.389	G2	Wording	NA	NA	NA	H	Wording 明示
+2	Generic vs L1	Generic	L1	61	patterns	56	28	51	27	10.274	1.038	PENDING	-	NA	NA	NA	-	维度一待定：error patterns(G2)vs sentence patterns(G2-Local)vs 论证模式(G1)
+2	Generic vs L1	Generic	L1	62	briefly	119	77	103	69	10.223	0.666	NA	-	NA	PENDING	NA	-	hedge 层待定：briefly explain 削减要求强度（M1）vs 单纯方式副词（NA）
+2	Generic vs L1	Generic	L1	63	please	55	28	44	26	9.677	1.012	NA	-	NA	NA	NA	M	礼貌标记；手册 M1 限于 hedges，礼貌标记不入 M1
+2	Generic vs L1	Generic	L1	64	helps	95	59	89	57	9.479	0.725	NA	-	NA	NA	NA	M	描述性动词（this helps the reader）
+2	Generic vs L1	Generic	L1	65	adding	128	87	99	79	8.996	0.595	NA	-	A3	NA	NA	H	手册 A3 明示（add）
+2	Generic vs L1	Generic	L1	66	consistency	105	68	79	58	8.990	0.665	PENDING	-	NA	NA	NA	-	维度一待定：consistency of tense(G2)vs of argument(G1)
+2	Generic vs L1	Generic	L1	67	background	105	68	66	51	8.990	0.665	PENDING	-	NA	NA	PENDING	-	维度三待定：your language background(C1)vs background information(G1-Development)
+2	Generic vs L1	Generic	L1	68	can	680	591	281	262	8.843	0.241	NA	-	PENDING	PENDING	NA	-	与 could/might/would 同类共享项：you can add(A3)vs this can be confusing(M1)；两层分别判
+2	Generic vs L1	Generic	L1	69	check	144	101	116	79	8.774	0.550	PENDING	-	A3	NA	NA	-	维度一待定：check your spelling(G2)vs check your logic(G1)；手册 A3 明示
+2	Generic vs L1	Generic	L1	70	students	151	107	40	34	8.758	0.535	NA	-	NA	NA	NA	H	议题内容残留
+2	Generic vs L1	Generic	L1	71	balanced	87	54	69	48	8.698	0.726	G1	Ideas	A1	NA	NA	M	a balanced argument/view，域固定于论断；正向评价
+2	Generic vs L1	Generic	L1	72	mention	130	90	107	77	8.417	0.569	NA	-	PENDING	NA	NA	-	act 层待定：you mention X（描述 NA）vs consider mentioning（A3）
+2	Generic vs L1	Generic	L1	73	accuracy	112	75	85	58	8.387	0.617	G2	Correctness	NA	NA	NA	H	Correctness 明示
+2	Generic vs L1	Generic	L1	74	subject	181	134	138	106	8.346	0.472	PENDING	-	NA	NA	NA	-	维度一待定：subject-verb agreement(G2-Grammar)vs the subject of your essay(G1)
+2	Generic vs L1	Generic	L1	75	agreement	182	135	150	111	8.302	0.469	G2	Grammar	NA	NA	NA	H	subject-verb agreement
+2	Generic vs L1	Generic	L1	76	complex	76	46	63	40	8.273	0.763	PENDING	-	NA	NA	NA	-	维度一待定：complex sentences(G2-Local)vs complex ideas(G1)
+2	Generic vs L1	Generic	L1	77	suggested	86	54	84	53	8.255	0.710	NA	-	PENDING	NA	NA	-	act 层待定：the suggested revision（NA）vs I suggested（A3）
+2	Generic vs L1	Generic	L1	78	long	248	194	154	124	8.131	0.393	G2	Local Structure	NA	NA	NA	M	long sentences，句级冗长；评价由 too 承担
+2	Generic vs L1	Generic	L1	79	modern	117	80	61	41	8.010	0.587	NA	-	NA	NA	NA	H	议题内容残留
+2	Generic vs L1	Generic	L1	80	meaningful	41	20	39	20	7.948	1.074	NA	-	A1	NA	NA	M	正向评价；目标态框架风险
+2	Generic vs L1	Generic	L1	81	i	431	363	195	180	7.786	0.286	NA	-	NA	NA	NA	M	反馈者自称（I suggest/I noticed）＝人称归因，属手册排除的缓和策略，不入 M1
+2	Generic vs L1	Generic	L1	82	write	264	210	187	165	7.688	0.368	NA	-	PENDING	NA	NA	-	act 层待定：when you write（描述 NA）vs write this as…（A3）
+2	Generic vs L1	Generic	L1	83	he	110	75	66	51	7.625	0.591	NA	-	NA	NA	NA	M	疑似议题内容残留，待核
+2	Generic vs L1	Generic	L1	84	today	54	30	43	26	7.606	0.886	NA	-	NA	NA	NA	H	议题内容残留
+2	Generic vs L1	Generic	L1	85	spelling	294	238	166	144	7.492	0.343	G2	Mechanics	NA	NA	NA	H	Mechanics 明示
+2	Generic vs L1	Generic	L1	86	only	333	275	182	176	7.195	0.314	NA	-	NA	PENDING	NA	-	hedge 层待定：最小化降调（only a few errors=M1）vs 限定（NA）；同组 1 just
+2	Generic vs L1	Generic	L1	87	complete	99	67	78	56	7.088	0.602	PENDING	-	NA	NA	NA	-	维度一待定：complete sentence（句子残缺，G2-Grammar）vs complete your argument(G1)
+2	Generic vs L1	Generic	L1	88	slightly	58	34	53	33	6.988	0.809	NA	-	NA	M1	NA	H	手册 v3 M1 明示 hedge
+2	Generic vs L1	Generic	L1	89	must	121	86	94	77	6.914	0.531	NA	-	A3	NA	NA	H	手册 A3 明示
+2	Generic vs L1	Generic	L1	90	makes	216	170	162	140	6.788	0.384	NA	-	NA	NA	NA	M	轻动词
+2	Generic vs L1	Generic	L1	91	possible	192	149	129	114	6.642	0.404	NA	-	NA	PENDING	NA	-	hedge 层待定：it is possible that（M1）vs possible improvements（NA）
+2	Generic vs L1	Generic	L1	92	areas	267	218	235	189	6.350	0.331	NA	-	NA	NA	NA	M	元话语（areas for improvement，反馈小标题）
+2	Generic vs L1	Generic	L1	93	probably	59	36	51	33	6.252	0.751	NA	-	NA	M1	NA	H	认识型 hedge，与手册 possibly/maybe 同类
+2	Generic vs L1	Generic	L1	94	become	293	243	204	173	6.098	0.308	NA	-	NA	NA	NA	M	疑似议题内容残留（has become），待核
+2	Generic vs L1	Generic	L1	95	natural	49	29	42	25	5.731	0.795	PENDING	-	PENDING	NA	PENDING	-	三层皆待定：sounds natural 是否以母语者语感为隐含标准（C1）；若判 C1 则维度一二依规则归 NA
+2	Generic vs L1	Generic	L1	96	statement	156	120	112	88	5.716	0.417	G1	Ideas	NA	NA	NA	M	thesis statement
+2	Generic vs L1	Generic	L1	97	live	55	34	40	31	5.576	0.732	NA	-	NA	NA	NA	H	议题内容残留
+2	Generic vs L1	Generic	L1	98	facts	103	74	73	62	5.575	0.515	G1	Development	NA	NA	NA	M	facts vs opinion，证据类型
+2	Generic vs L1	Generic	L1	99	content	107	78	77	49	5.369	0.494	G1	Ideas	NA	NA	NA	M	内容层，与 organization 对举
+2	Generic vs L1	Generic	L1	100	common	107	78	90	68	5.369	0.494	NA	-	NA	NA	NA	M	常见性标记（a common error）＝正常化框架；属手册排除的缓和策略，不入 M1
+2	Generic vs L1	Generic	L1	101	contain	80	55	75	53	5.345	0.579	NA	-	NA	NA	NA	M	描述性动词
+2	Generic vs L1	Generic	L1	102	effective	170	134	125	108	5.285	0.382	NA	-	A1	NA	NA	M	手册 A1 明示；目标态框架风险
+2	Generic vs L1	Generic	L1	103	details	49	30	43	27	5.133	0.746	G1	Development	NA	NA	NA	H	Development 明示
+2	Generic vs L1	Generic	L1	104	sometimes	148	115	114	86	5.076	0.402	NA	-	NA	M1	NA	H	手册 v3 M1 明示 hedge
+2	Generic vs L1	Generic	L1	105	relevant	114	85	98	72	5.048	0.462	G1	Development	NA	NA	NA	M	relevant evidence/examples
+2	Generic vs L1	Generic	L1	106	view	99	72	75	61	5.029	0.498	G1	Ideas	NA	NA	NA	M	your view / opposing views
+2	Generic vs L1	Generic	L1	107	powerful	61	40	55	36	4.974	0.647	NA	-	A1	NA	NA	M	手册 A1 明示
+2	Generic vs L1	Generic	L1	108	restate	134	103	129	97	4.933	0.418	G1	Global Structure	A3	NA	NA	M	restate your thesis in the conclusion，大单位安排
+2	Generic vs L1	Generic	L1	109	focus	466	412	255	251	4.919	0.216	PENDING	-	PENDING	NA	NA	-	维度一待定：your focus(G1)vs focus on this sentence(G2)；act 层待定：focus on X(A3)vs 描述(NA)
+2	Generic vs L1	Generic	L1	110	essays	46	28	43	28	4.914	0.754	NA	-	NA	NA	NA	M	文体指称（academic essays），常见于规范陈述框架
+2	Generic vs L1	Generic	L1	111	end	243	203	160	147	4.736	0.298	G1	Global Structure	NA	NA	NA	M	the end of your essay/paragraph
+2	Generic vs L1	Generic	L1	112	organization	396	347	253	241	4.671	0.229	G1	Global Structure	NA	NA	NA	H	Global Structure 明示
+2	Generic vs L1	Generic	L1	113	shorter	59	39	54	34	4.659	0.636	G2	Local Structure	NA	NA	NA	M	shorter sentences；比较级，评价由框架承担
+2	Generic vs L1	Generic	L1	114	government	117	89	53	51	4.599	0.433	NA	-	NA	NA	NA	H	议题内容残留
+2	Generic vs L1	Generic	L1	115	thinking	57	38	47	34	4.347	0.623	G1	Ideas	NA	NA	NA	M	your thinking / critical thinking，论述能力
+2	Generic vs L1	Generic	L1	116	accurate	63	43	49	34	4.346	0.589	PENDING	-	A1	NA	NA	-	维度一待定：accurate facts(G1-Dev)vs accurate grammar(G2)；正向评价
+2	Generic vs L1	Generic	L1	117	her	91	67	41	35	4.326	0.480	NA	-	NA	NA	NA	M	疑似议题内容残留，待核
+2	Generic vs L1	Generic	L1	118	could	499	448	245	232	4.275	0.194	NA	-	PENDING	PENDING	NA	-	手册指定共享项，抽 50 行分别判 act 层与 hedge 层
+2	Generic vs L1	Generic	L1	119	effort	71	50	42	32	4.243	0.544	NA	-	NA	NA	NA	L	低信度：归功对象为写作者努力而非文本属性；若与 GOOD/great 共现构成归功则应改判 A1
+2	Generic vs L1	Generic	L1	120	women	316	274	54	54	4.215	0.244	NA	-	NA	NA	NA	H	议题内容残留
+2	Generic vs L1	Generic	L1	121	reduce	139	110	91	80	4.200	0.376	PENDING	-	A3	NA	NA	-	维度一待定：reduce wordiness(G2)vs reduce scope(G1)
+2	Generic vs L1	Generic	L1	122	choose	102	77	83	69	4.199	0.444	NA	-	A3	NA	NA	M	choose more precise words，层级由宾语决定
+2	Generic vs L1	Generic	L1	123	difficult	94	70	82	58	4.192	0.464	NA	-	A2	NA	NA	M	difficult to follow，负向评价
+2	Generic vs L1	Generic	L1	124	shows	255	217	186	143	4.158	0.271	NA	-	NA	NA	NA	M	描述性框架动词
+2	Generic vs L1	Generic	L1	125	proper	73	52	63	45	4.125	0.528	G2	Correctness	NA	NA	NA	M	proper grammar/punctuation；规范性框架词
+2	Generic vs L1	Generic	L1	126	unclear	153	123	114	106	4.114	0.353	PENDING	-	A2	NA	NA	-	维度一待定（手册 clear 系）；负向评价
+2	Generic vs L1	Generic	L1	127	emotional	217	182	123	93	4.076	0.292	PENDING	-	NA	NA	NA	-	维度一待定：emotional language(G2-Wording/register)vs emotional appeal(G1-Ideas)；亦可能为议题残留
+2	Generic vs L1	Generic	L1	128	especially	204	170	154	136	4.066	0.301	NA	-	NA	NA	NA	M	焦点副词
+2	Generic vs L1	Generic	L1	129	neutral	62	43	52	25	3.980	0.566	PENDING	-	NA	NA	NA	-	维度一待定（tone/register）；客观性规范框架词
+2	Generic vs L1	Generic	L1	130	discuss	110	85	90	71	3.913	0.410	G1	Ideas	PENDING	NA	NA	-	act 层待定：you discuss X（描述 NA）vs discuss counterarguments（A3）
+2	Generic vs L1	Generic	L1	131	we	152	123	79	76	3.884	0.344	NA	-	NA	NA	NA	M	包容性人称，团结策略；不入 M1
+3	Chinese vs Generic	Chinese	Generic	1	chinese	61	1	49	1	77.135	5.965	NA	-	NA	NA	C1	H	"Identity marking 明示（写作者语言身份）；亦可能为 Transfer framing（""in Chinese, articles…""），子类待 concordance 区分，但 C1 归属不待定。依手册规则 C1 词族维度一、二均标 NA"
+3	Chinese vs Generic	Chinese	Generic	2	ARTICLE	272	167	≥106	≥77	27.904	0.738	PENDING	-	NA	NA	NA	-	维度一待定：英语冠词(G2-Grammar)vs 引用的文章(G1-Development)；本组与 nouns/singular/verb 构成语法簇，判为冠词的先验概率高于组 2，但仍须查
+3	Chinese vs Generic	Chinese	Generic	3	english	138	74	113	58	21.164	0.933	NA	-	NA	NA	PENDING	-	手册明列：指语言系统（correct English）→C1；作文体修饰（English essay）→NA。两读法维度一均为 NA
+3	Chinese vs Generic	Chinese	Generic	4	happy	46	16	46	16	15.857	1.557	NA	-	NA	NA	NA	M	人际礼貌（happy to help / I'd be happy to…）；属手册排除的 paired acts 类，不入 M1
+3	Chinese vs Generic	Chinese	Generic	5	safety	99	58	44	28	11.819	0.805	NA	-	NA	NA	NA	H	议题内容残留
+3	Chinese vs Generic	Chinese	Generic	6	check	200	144	145	116	10.524	0.508	PENDING	-	A3	NA	NA	-	维度一待定：check your spelling(G2)vs check your logic(G1)；手册 A3 明示
+3	Chinese vs Generic	Chinese	Generic	7	patterns	93	56	87	51	10.176	0.766	PENDING	-	NA	NA	NA	-	维度一待定：error patterns(G2)vs sentence patterns(G2-Local)vs 论证模式(G1)
+3	Chinese vs Generic	Chinese	Generic	8	eg	417	339	160	154	10.009	0.333	NA	-	NA	NA	NA	M	举例元话语（e.g.）
+3	Chinese vs Generic	Chinese	Generic	9	issues	374	301	264	233	9.727	0.347	NA	-	A2	NA	NA	M	问题标记，内在负向（同手册 problem 口径）；层级由宾语决定
+3	Chinese vs Generic	Chinese	Generic	10	please	90	55	66	44	9.375	0.744	NA	-	NA	NA	NA	M	礼貌标记；手册 M1 限于 hedges，礼貌标记不入 M1
+3	Chinese vs Generic	Chinese	Generic	11	hours	64	35	48	22	9.316	0.905	NA	-	NA	NA	NA	H	议题内容残留
+3	Chinese vs Generic	Chinese	Generic	12	word	519	439	294	273	8.712	0.275	G2	Wording	NA	NA	NA	H	Wording 明示。注：本组为单数 word 独立入选（组 2 为归并 WORD），系 R1 先行的口径效应
+3	Chinese vs Generic	Chinese	Generic	13	suggestion	126	86	76	52	8.563	0.585	NA	-	PENDING	NA	NA	-	act 层待定：反馈小标题（NA）vs 名词化建议行为（A3）
+3	Chinese vs Generic	Chinese	Generic	14	should	1241	1132	327	328	7.926	0.166	NA	-	A3	NA	NA	H	Hyland&Hyland 明示建议套语
+3	Chinese vs Generic	Chinese	Generic	15	further	67	40	59	38	7.537	0.778	NA	-	NA	NA	NA	M	程度/延续副词（further develop），非 hedge
+3	Chinese vs Generic	Chinese	Generic	16	problems	174	132	120	101	6.814	0.432	NA	-	A2	NA	NA	H	手册 A2 明示（problem）
+3	Chinese vs Generic	Chinese	Generic	17	returns	40	21	36	19	6.472	0.963	NA	-	NA	NA	NA	H	议题内容残留
+3	Chinese vs Generic	Chinese	Generic	18	RUN-ON	175	134	140	110	6.464	0.419	G2	Local Structure	NA	NA	NA	H	手册 Local Structure 词族例明列 run-on；语义为流水句
+3	Chinese vs Generic	Chinese	Generic	19	office	48	27	40	19	6.463	0.864	NA	-	NA	NA	NA	H	议题内容残留
+3	Chinese vs Generic	Chinese	Generic	20	choice	457	395	271	260	6.096	0.244	G2	Wording	NA	NA	NA	M	word choice
+3	Chinese vs Generic	Chinese	Generic	21	sentences	667	596	293	286	5.846	0.196	G2	Local Structure	NA	NA	NA	H	Local Structure 明示
+3	Chinese vs Generic	Chinese	Generic	22	splices	112	81	94	74	5.756	0.501	G2	Local Structure	NA	NA	NA	H	comma splice 与 run-on 同属句界错误，依手册 run-on 口径归 Local Structure
+3	Chinese vs Generic	Chinese	Generic	23	i	492	431	202	195	5.601	0.225	NA	-	NA	NA	NA	M	反馈者自称（I suggest/I noticed）＝人称归因，属手册排除的缓和策略，不入 M1
+3	Chinese vs Generic	Chinese	Generic	24	language	712	642	309	290	5.462	0.183	PENDING	-	NA	NA	PENDING	-	维度三待定：your language background/first language(C1)vs academic language(G2 Wording)
+3	Chinese vs Generic	Chinese	Generic	25	nouns	42	24	38	24	5.404	0.841	G2	Grammar	NA	NA	NA	H	Correctness/Grammar 明示
+3	Chinese vs Generic	Chinese	Generic	26	insert	73	50	56	37	4.884	0.580	PENDING	-	A3	NA	NA	-	维度一待定：insert a comma(G2-Mechanics)vs insert a transition(G1)；建议动词
+3	Chinese vs Generic	Chinese	Generic	27	inaccurate	46	28	38	24	4.856	0.750	PENDING	-	A2	NA	NA	-	维度一待定：inaccurate wording(G2)vs inaccurate facts(G1-Development)；负向评价
+3	Chinese vs Generic	Chinese	Generic	28	comma	200	163	132	119	4.699	0.329	G2	Mechanics	NA	NA	NA	H	Mechanics 明示
+3	Chinese vs Generic	Chinese	Generic	29	paragraphs	605	547	294	290	4.449	0.179	PENDING	-	NA	NA	NA	-	维度一待定：手册明示段落内部组织→G2、段落间安排→G1
+3	Chinese vs Generic	Chinese	Generic	30	our	129	100	60	53	4.396	0.401	NA	-	NA	NA	NA	M	疑似议题内容残留（our society）vs 包容性人称，待核
+3	Chinese vs Generic	Chinese	Generic	31	verb	261	221	170	158	4.331	0.274	G2	Grammar	NA	NA	NA	H	Correctness/Grammar 明示
+3	Chinese vs Generic	Chinese	Generic	32	shorter	82	59	72	54	4.328	0.509	G2	Local Structure	NA	NA	NA	M	shorter sentences；比较级，评价由框架承担
+3	Chinese vs Generic	Chinese	Generic	33	register	41	25	37	22	4.302	0.748	PENDING	-	NA	NA	NA	-	维度一待定（手册列 tone/formal/register 为 PENDING）；元语言学术语，显性命名语域规范
+3	Chinese vs Generic	Chinese	Generic	34	logically	54	36	50	34	4.060	0.619	G1	Ideas	NA	NA	NA	M	手册 Ideas 词族例含 logic；若主导搭配为 organize…logically 则应改判 Global Structure
+3	Chinese vs Generic	Chinese	Generic	35	singular	49	32	44	29	4.005	0.649	G2	Grammar	NA	NA	NA	H	单复数，Correctness/Grammar 明示
+3	Chinese vs Generic	Chinese	Generic	36	just	214	179	144	121	3.999	0.291	NA	-	NA	PENDING	NA	-	"hedge 层待定：最小化降调（M1）vs""仅仅是""强化批评（NA）；同组 1 口径"
+3	Chinese vs Generic	Chinese	Generic	37	usually	115	89	90	78	3.962	0.404	NA	-	NA	M1	NA	H	手册 v3 M1 明示 hedge
+4	Generic vs Chinese	Generic	Chinese	1	emotionally	63	28	52	27	13.009	1.136	PENDING	-	NA	NA	NA	-	维度一待定：emotionally charged language(G2-Wording/register)vs emotional appeal(G1-Ideas)；同组 2 emotional 口径
+4	Generic vs Chinese	Generic	Chinese	2	luck	36	14	36	14	9.511	1.329	NA	-	NA	NA	NA	M	人际礼貌（good luck）；属手册排除的 paired acts 类，不入 M1
+4	Generic vs Chinese	Generic	Chinese	3	could	499	402	245	215	8.327	0.278	NA	-	PENDING	PENDING	NA	-	手册指定共享项，抽 50 行分别判 act 层与 hedge 层
+4	Generic vs Chinese	Generic	Chinese	4	question	128	84	83	62	8.199	0.574	G1	Ideas	NA	NA	NA	M	the question your essay raises／questions worth addressing，属论断层
+4	Generic vs Chinese	Generic	Chinese	5	raises	47	23	43	20	7.846	0.997	G1	Ideas	PENDING	NA	NA	-	act 层待定：raises an important question 属开场归功套语(A1)vs 单纯描述(NA)；与组 1 tackles 同构，须并案处理
+4	Generic vs Chinese	Generic	Chinese	6	arguments	163	114	102	67	7.607	0.482	G1	Ideas	NA	NA	NA	H	Ideas 明示
+4	Generic vs Chinese	Generic	Chinese	7	essential	59	32	46	25	7.514	0.849	NA	-	PENDING	NA	NA	-	act 层待定：an essential point(A1)vs it is essential to…(A3 框架)；同组 2 important 口径
+4	Generic vs Chinese	Generic	Chinese	8	comment	57	31	57	31	7.201	0.845	NA	-	NA	NA	NA	M	元话语（a comment on… / 小标题）
+4	Generic vs Chinese	Generic	Chinese	9	choose	102	66	83	56	6.956	0.594	NA	-	A3	NA	NA	M	choose more precise words，层级由宾语决定
+4	Generic vs Chinese	Generic	Chinese	10	your	5416	5029	348	348	6.839	0.073	NA	-	NA	NA	NA	M	人称代词，无固定层级所指
+4	Generic vs Chinese	Generic	Chinese	11	feels	110	73	94	68	6.693	0.558	NA	-	NA	M1	NA	M	this feels abrupt/rushed：与手册 M1 词族例 seem/appear 同类；删除后批评仍在且更强
+4	Generic vs Chinese	Generic	Chinese	12	errors	317	249	208	169	6.680	0.315	G2	Correctness	A2	NA	NA	H	手册边界规则明示：error/mistake 归 G2-Correctness 且同时得批评标签
+4	Generic vs Chinese	Generic	Chinese	13	impact	102	67	67	49	6.506	0.573	G1	Ideas	NA	NA	NA	M	the impact of your argument on the reader；受众/效果，依窄口径归 G1
+4	Generic vs Chinese	Generic	Chinese	14	makes	216	163	162	127	6.250	0.372	NA	-	NA	NA	NA	M	轻动词
+4	Generic vs Chinese	Generic	Chinese	15	find	52	29	43	26	6.094	0.809	NA	-	NA	NA	NA	M	I find… / readers may find…＝人称归因，属手册排除的缓和策略，不入 M1
+4	Generic vs Chinese	Generic	Chinese	16	experience	105	71	56	45	5.839	0.531	G1	Development	NA	NA	NA	M	personal experience 作为证据类型，与组 1 anecdote 同位
+4	Generic vs Chinese	Generic	Chinese	17	thought	73	46	63	42	5.564	0.632	G1	Ideas	NA	NA	NA	M	your thought process／well-thought-out
+4	Generic vs Chinese	Generic	Chinese	18	paper	100	68	68	49	5.407	0.523	NA	-	NA	NA	NA	H	文本指称语，不指示层级
+4	Generic vs Chinese	Generic	Chinese	19	describing	41	22	36	19	5.384	0.864	G1	Ideas	NA	NA	NA	M	describing rather than analysing，描述—分析对举，属论述方式
+4	Generic vs Chinese	Generic	Chinese	20	final	414	343	274	255	5.116	0.238	PENDING	-	NA	NA	NA	-	"维度一待定：your final paragraph(G1-Structure)vs""Final thoughts:""小标题(NA)"
+4	Generic vs Chinese	Generic	Chinese	21	punctuation	238	187	152	121	5.001	0.314	G2	Mechanics	NA	NA	NA	H	Mechanics 明示
+4	Generic vs Chinese	Generic	Chinese	22	her	91	63	41	36	4.485	0.497	NA	-	NA	NA	NA	M	疑似议题内容残留（引述作文内容），待核
+4	Generic vs Chinese	Generic	Chinese	23	strongest	122	89	94	75	4.439	0.421	NA	-	PENDING	NA	NA	-	手册 v3 强制查询清单（strong 系 A1/A3 争议），不得凭词形归类
+4	Generic vs Chinese	Generic	Chinese	24	strength	92	64	73	51	4.419	0.490	NA	-	PENDING	NA	NA	-	"act 层待定：反馈小标题""Strengths:""（元话语 NA）vs 归功（A1）；且属 strong 词族，按 v3 强制查询规则不得凭词形定"
+4	Generic vs Chinese	Generic	Chinese	25	key	88	61	79	57	4.308	0.495	NA	-	NA	NA	NA	M	重要性前置修饰语（your key claim），少见于 it is key to… 框架，故与 essential/important 不同判
+4	Generic vs Chinese	Generic	Chinese	26	point	431	364	252	223	4.198	0.210	G1	Ideas	NA	NA	NA	H	手册 Ideas 词族例明列 point
+4	Generic vs Chinese	Generic	Chinese	27	moves	79	54	69	50	4.160	0.515	PENDING	-	NA	NA	NA	-	维度一待定：the essay moves from X to Y(G1-Structure)vs move this paragraph(元话语/G1)；同组 1 move 口径
+4	Generic vs Chinese	Generic	Chinese	28	claims	554	478	259	244	3.970	0.179	G1	Ideas	NA	NA	NA	H	Ideas 明示。注：本组为复数 claims 独立入选（组 1 为归并 CLAIM），系 R1 先行的口径效应
+4	Generic vs Chinese	Generic	Chinese	29	several	487	417	284	262	3.915	0.190	NA	-	NA	NA	NA	M	量词
+4	Generic vs Chinese	Generic	Chinese	30	section	114	84	67	51	3.888	0.407	G1	Global Structure	NA	NA	NA	M	大于段落的单位
+5	Chinese vs German	Chinese	German	1	chinese	61	1	49	1	77.281	5.968	NA	-	NA	NA	C1	H	Identity marking 明示；子类（身份标记 vs 迁移框架）待 concordance，范畴不待定。依手册规则维度一、二均标 NA
+5	Chinese vs German	Chinese	German	2	organization	417	287	264	210	27.659	0.576	G1	Global Structure	NA	NA	NA	H	Global Structure 明示
+5	Chinese vs German	Chinese	German	3	readers	285	182	181	125	25.669	0.684	G1	Ideas	NA	NA	NA	M	受众；依窄口径 C1 规定归 G1
+5	Chinese vs German	Chinese	German	4	explain	565	441	240	222	18.733	0.395	NA	-	PENDING	NA	NA	-	"act 层待定：you explain X well（描述 NA）vs explain this further（A3）。属""内容动词""类，见报告 §5"
+5	Chinese vs German	Chinese	German	5	body	595	482	229	196	15.010	0.341	G1	Global Structure	NA	NA	NA	H	body paragraphs，大单位
+5	Chinese vs German	Chinese	German	6	grammar	680	561	295	267	14.747	0.315	G2	Grammar	NA	NA	NA	H	Correctness/Grammar 明示
+5	Chinese vs German	Chinese	German	7	schools	109	63	38	28	13.676	0.828	NA	-	NA	NA	NA	H	议题内容残留
+5	Chinese vs German	Chinese	German	8	suggestion	126	77	76	53	13.251	0.748	NA	-	PENDING	NA	NA	-	act 层待定：反馈小标题（NA）vs 名词化建议行为（A3）
+5	Chinese vs German	Chinese	German	9	revise	378	296	245	203	12.249	0.390	NA	-	A3	NA	NA	H	手册 A3 明示
+5	Chinese vs German	Chinese	German	10	using	188	130	147	110	12.198	0.570	PENDING	-	PENDING	NA	NA	-	维度一待定：use of evidence(G1)/word use(G2)/use of tenses(G2)；act 层待定，属内容动词类
+5	Chinese vs German	Chinese	German	11	mechanics	99	58	82	50	11.922	0.809	G2	Mechanics	NA	NA	NA	H	Mechanics 明示
+5	Chinese vs German	Chinese	German	12	level	177	122	137	109	11.653	0.574	PENDING	-	NA	NA	NA	-	维度一待定：sentence-level(G2)/paragraph-level(G1)/level of detail(G1)；同组 1 口径
+5	Chinese vs German	Chinese	German	13	specific	502	421	244	220	9.382	0.291	PENDING	-	NA	NA	NA	-	手册明列 specific 为 PENDING：细节不足(G1-Dev)vs 用词不准(G2)
+5	Chinese vs German	Chinese	German	14	should	1241	1125	327	319	9.125	0.179	NA	-	A3	NA	NA	H	Hyland&Hyland 明示建议套语
+5	Chinese vs German	Chinese	German	15	discuss	132	90	109	77	9.121	0.590	G1	Ideas	PENDING	NA	NA	-	act 层待定：you discuss X（描述）vs discuss counterarguments（A3）；内容动词类
+5	Chinese vs German	Chinese	German	16	restate	134	92	122	91	8.978	0.580	G1	Global Structure	A3	NA	NA	M	restate your thesis in the conclusion，大单位安排
+5	Chinese vs German	Chinese	German	17	office	48	24	40	18	8.789	1.037	NA	-	NA	NA	NA	H	议题内容残留
+5	Chinese vs German	Chinese	German	18	your	5029	4870	348	348	8.478	0.084	NA	-	NA	NA	NA	M	人称代词
+5	Chinese vs German	Chinese	German	19	can	735	649	276	279	7.822	0.217	NA	-	PENDING	PENDING	NA	-	与 could/might/would 同类共享项，两层分别判
+5	Chinese vs German	Chinese	German	20	organizing	54	30	53	29	7.589	0.885	G1	Global Structure	NA	NA	NA	H	Global Structure 明示
+5	Chinese vs German	Chinese	German	21	hours	64	38	48	22	7.392	0.789	NA	-	NA	NA	NA	H	议题内容残留
+5	Chinese vs German	Chinese	German	22	confusing	55	32	52	31	6.764	0.819	PENDING	-	A2	NA	NA	-	维度一待定（clear 系）；手册 A2 词族例明列 confusing
+5	Chinese vs German	Chinese	German	23	details	47	26	40	24	6.683	0.891	G1	Development	NA	NA	NA	H	Development 明示
+5	Chinese vs German	Chinese	German	24	recommend	56	33	55	33	6.622	0.800	NA	-	A3	NA	NA	H	手册 A3 明示
+5	Chinese vs German	Chinese	German	25	safety	99	68	44	32	6.619	0.579	NA	-	NA	NA	NA	H	议题内容残留
+5	Chinese vs German	Chinese	German	26	tool	57	34	48	30	6.488	0.783	NA	-	NA	NA	NA	M	"疑似议题内容残留 vs ""a useful tool""元话语，待核"
+5	Chinese vs German	Chinese	German	27	clarity	228	182	179	147	6.435	0.362	PENDING	-	NA	NA	NA	-	维度一待定（手册 clear 系）
+5	Chinese vs German	Chinese	German	28	paragraphs	605	535	294	278	6.315	0.215	PENDING	-	NA	NA	NA	-	维度一待定：手册明示段落内部组织→G2、段落间安排→G1
+5	Chinese vs German	Chinese	German	29	ideas	441	380	242	208	6.260	0.252	G1	Ideas	NA	NA	NA	H	Ideas 明示
+5	Chinese vs German	Chinese	German	30	help	210	167	157	130	6.094	0.368	NA	-	NA	NA	NA	M	描述性动词（this helps the reader）
+5	Chinese vs German	Chinese	German	31	current	86	59	74	52	5.781	0.581	NA	-	NA	NA	NA	M	元话语现状框架（your current draft），同组 1 currently
+5	Chinese vs German	Chinese	German	32	places	69	45	61	43	5.731	0.654	NA	-	NA	NA	NA	M	指示元话语（places where…）
+5	Chinese vs German	Chinese	German	33	errors	249	204	169	148	5.722	0.325	G2	Correctness	A2	NA	NA	H	手册边界规则明示：error/mistake 归 G2-Correctness 且同时得批评标签
+5	Chinese vs German	Chinese	German	34	debatable	54	33	47	31	5.678	0.748	G1	Ideas	A1	NA	NA	M	a debatable claim，域固定于论断；同组 1 arguable/defensible 口径，目标态框架风险
+5	Chinese vs German	Chinese	German	35	effects	140	107	70	69	5.319	0.425	NA	-	NA	NA	NA	M	疑似议题内容残留（effects of X）vs 对读者的效果，待核
+5	Chinese vs German	Chinese	German	36	some	987	912	313	298	5.238	0.151	NA	-	NA	M1	NA	H	手册 v3 M1 明示 hedge
+5	Chinese vs German	Chinese	German	37	problems	174	138	120	98	5.149	0.372	NA	-	A2	NA	NA	H	手册 A2 明示（problem）
+5	Chinese vs German	Chinese	German	38	logic	128	97	97	81	5.126	0.437	G1	Ideas	NA	NA	NA	H	手册 Ideas 词族例明列 logic
+5	Chinese vs German	Chinese	German	39	awkward	138	106	125	94	5.079	0.418	PENDING	-	A2	NA	NA	-	维度一待定：awkward phrasing(G2-Wording)vs awkward transition(G1)；手册 A2 词族例明列 awkward
+5	Chinese vs German	Chinese	German	40	adding	131	100	104	83	5.015	0.427	NA	-	A3	NA	NA	H	手册 A3 明示（add）
+5	Chinese vs German	Chinese	German	41	data	72	49	53	42	5.015	0.593	G1	Development	NA	NA	NA	M	证据类型；疑似议题内容残留，待核
+5	Chinese vs German	Chinese	German	42	far	46	28	41	23	4.901	0.754	NA	-	NA	NA	NA	M	so far / far from
+5	Chinese vs German	Chinese	German	43	summary	120	91	107	81	4.785	0.436	PENDING	-	NA	NA	NA	-	"维度一待定：your summary 段落(G1-Structure)vs ""in summary""元话语(NA)"
+5	Chinese vs German	Chinese	German	44	social	253	212	125	110	4.762	0.292	NA	-	NA	NA	NA	H	议题内容残留
+5	Chinese vs German	Chinese	German	45	shows	248	208	172	164	4.628	0.291	NA	-	NA	NA	NA	M	描述性框架动词
+5	Chinese vs German	Chinese	German	46	conclusion	710	649	319	311	4.555	0.167	G1	Global Structure	NA	NA	NA	H	大单位，Global Structure 明示
+5	Chinese vs German	Chinese	German	47	effort	73	51	55	34	4.514	0.555	NA	-	NA	NA	NA	L	低信度：归功对象为写作者努力而非文本属性；若与评价词共现构成归功则应改判 A1。同组 2
+5	Chinese vs German	Chinese	German	48	further	67	46	59	40	4.488	0.580	NA	-	NA	NA	NA	M	程度/延续副词，非 hedge
+5	Chinese vs German	Chinese	German	49	inaccurate	46	29	38	28	4.340	0.703	PENDING	-	A2	NA	NA	-	维度一待定：inaccurate wording(G2)vs inaccurate facts(G1-Development)
+5	Chinese vs German	Chinese	German	50	say	145	115	116	95	4.290	0.372	NA	-	PENDING	NA	NA	-	act 层待定：you say X（描述）vs say more about（A3）；内容动词类
+5	Chinese vs German	Chinese	German	51	thesis	1534	1460	342	343	4.267	0.109	G1	Ideas	NA	NA	NA	H	Ideas 明示
+5	Chinese vs German	Chinese	German	52	forward	48	31	40	29	4.140	0.668	NA	-	NA	NA	NA	M	going forward / put forward
+5	Chinese vs German	Chinese	German	53	significant	95	71	76	54	4.132	0.457	NA	-	NA	NA	NA	M	程度形容词，极性依宾语
+5	Chinese vs German	Chinese	German	54	choice	457	409	271	263	4.054	0.197	G2	Wording	NA	NA	NA	M	word choice
+5	Chinese vs German	Chinese	German	55	action	70	50	40	29	3.887	0.523	NA	-	NA	NA	NA	M	疑似议题内容残留 vs call to action（结论段套语），待核
+5	Chinese vs German	Chinese	German	56	RUN-ON	175	144	140	118	3.874	0.319	G2	Local Structure	NA	NA	NA	H	手册 Local Structure 词族例明列 run-on
+6	German vs Chinese	German	Chinese	1	german	491	0	279	0	668.504	9.902	NA	-	NA	NA	C1	H	Identity marking 明示。Freq_Ref = 0（组内唯一 +0.5 平滑例），LR 9.902 为全研究最高
+6	German vs Chinese	German	Chinese	2	english	508	138	255	113	216.155	1.843	NA	-	NA	NA	PENDING	-	手册明列：指语言系统（correct English）→C1；作文体修饰→NA。本组共现语境使 C1 先验极高，但仍依规则待查
+6	German vs Chinese	German	Chinese	3	SPEAKER	113	25	≥71	≥14	58.482	2.139	NA	-	NA	NA	C1	H	手册 Identity marking 词族例明列 speaker；German speakers / native speakers 两读法均属 C1
+6	German vs Chinese	German	Chinese	4	ARTICLE	479	272	≥179	≥106	52.649	0.779	PENDING	-	NA	NA	NA	-	维度一待定：英语冠词(G2-Grammar)vs 引用的文章(G1-Development)
+6	German vs Chinese	German	Chinese	5	order	118	36	91	27	43.921	1.675	PENDING	-	NA	NA	NA	-	"维度一待定：word order（G2-Grammar，德语语序迁移的典型项）vs ""in order to""（NA）"
+6	German vs Chinese	German	Chinese	6	transfer	43	6	39	6	30.549	2.804	NA	-	NA	NA	C1	H	手册 Transfer framing 词族例明列 transfer
+6	German vs Chinese	German	Chinese	7	false	49	9	42	9	29.321	2.407	NA	-	NA	NA	PENDING	-	维度三待定：false friends（跨语言词汇概念，C1）vs false dichotomy（逻辑谬误，G1-Ideas）。与 friends 的 Freq/Range 近乎同步，见报告 §3.2
+6	German vs Chinese	German	Chinese	8	style	410	262	261	182	29.187	0.609	PENDING	-	NA	NA	NA	-	维度一待定（手册列 tone/register 为 PENDING）
+6	German vs Chinese	German	Chinese	9	moment	107	43	99	36	26.580	1.278	NA	-	NA	NA	NA	M	元话语现状框架（at the moment），与组 1 currently、组 5 current 同构
+6	German vs Chinese	German	Chinese	10	common	223	131	166	118	21.881	0.730	NA	-	NA	NA	NA	M	常见性标记（a common error）＝正常化框架；属手册排除的 paired acts 类，不入 M1
+6	German vs Chinese	German	Chinese	11	argumentation	112	52	94	46	20.952	1.070	G1	Ideas	NA	NA	NA	H	Ideas 明示
+6	German vs Chinese	German	Chinese	12	patterns	170	93	143	87	20.941	0.833	PENDING	-	NA	NA	NA	-	维度一待定：error patterns(G2)vs sentence patterns(G2-Local)vs 论证模式(G1)
+6	German vs Chinese	German	Chinese	13	speaking	61	21	57	20	19.353	1.501	NA	-	NA	NA	PENDING	-	维度三待定：German-speaking / German speakers（C1）vs generally speaking（NA）
+6	German vs Chinese	German	Chinese	14	INFLUENCE	103	50	≥44	≥29	17.406	1.005	PENDING	-	NA	NA	PENDING	-	维度三待定：the influence of German on your English（Transfer framing，C1）vs influence the reader（G1）
+6	German vs Chinese	German	Chinese	15	basis	44	13	39	13	17.018	1.722	PENDING	-	NA	NA	NA	-	维度一待定：the basis of your claim(G1-Ideas)vs on a …basis（NA）
+6	German vs Chinese	German	Chinese	16	watch	252	166	197	143	15.680	0.565	NA	-	A3	NA	NA	M	watch for / watch out for＝注意指令，属建议行为
+6	German vs Chinese	German	Chinese	17	usage	122	66	97	61	15.526	0.849	G2	Correctness	NA	NA	NA	M	article usage / comma usage，语言使用规范层
+6	German vs Chinese	German	Chinese	18	likely	166	100	128	86	14.894	0.694	NA	-	NA	M1	NA	H	认识型 hedge，与手册 probably/possibly 同类
+6	German vs Chinese	German	Chinese	19	REQUIRE	109	58	≥63	≥35	14.540	0.873	NA	-	PENDING	NA	NA	-	act 层待定：this requires a comma（补救指令 A3）vs German requires…（描述，且可能属 C1 共现语境）
+6	German vs Chinese	German	Chinese	20	natural	113	62	79	45	13.796	0.829	PENDING	-	PENDING	NA	PENDING	-	三层皆待定：sounds natural 是否以母语者语感为隐含标准（C1）；同组 2 口径
+6	German vs Chinese	German	Chinese	21	commas	108	59	84	55	13.356	0.835	G2	Mechanics	NA	NA	NA	H	Mechanics 明示
+6	German vs Chinese	German	Chinese	22	structure	795	639	339	316	13.247	0.278	G1	Global Structure	NA	NA	NA	H	手册边界规则明示：structure 主导义为篇章结构，归 G1
+6	German vs Chinese	German	Chinese	23	often	320	228	205	159	13.245	0.452	NA	-	NA	M1	NA	H	手册 v3 M1 明示 hedge
+6	German vs Chinese	German	Chinese	24	clauses	73	35	66	33	12.699	1.023	G2	Local Structure	NA	NA	NA	H	手册 Local Structure 词族例明列 clause
+6	German vs Chinese	German	Chinese	25	few	173	110	143	101	12.568	0.616	NA	-	NA	PENDING	NA	-	hedge 层待定：a few errors 最小化降调（M1）vs 单纯量词（NA）；同组 1 just、组 2 only
+6	German vs Chinese	German	Chinese	26	writer	65	31	56	27	11.446	1.031	NA	-	NA	NA	NA	M	第三人称指称写作者（the writer），与 your 的第二人称形成对照，值得单独记录
+6	German vs Chinese	German	Chinese	27	direct	164	107	122	94	10.656	0.579	PENDING	-	NA	NA	PENDING	-	维度三待定（先验较低）：German writing is direct（文化—语用框架，C1）vs be more direct(G2)/direct quotation(NA)
+6	German vs Chinese	German	Chinese	28	noun	53	24	47	24	10.461	1.106	G2	Grammar	NA	NA	NA	H	Correctness/Grammar 明示；德语名词大写为典型迁移项
+6	German vs Chinese	German	Chinese	29	friends	46	20	43	14	9.865	1.164	NA	-	NA	NA	PENDING	-	维度三待定：false friends（C1）vs 议题内容残留（friends and family）。参照侧 Freq 20 提示存在非 C1 基线用法
+6	German vs Chinese	German	Chinese	30	steps	73	39	70	36	9.628	0.867	NA	-	NA	NA	NA	M	元话语（next steps）
+6	German vs Chinese	German	Chinese	31	phrasing	188	130	137	105	9.197	0.495	G2	Wording	NA	NA	NA	H	Wording 明示
+6	German vs Chinese	German	Chinese	32	rhetorical	192	135	116	83	8.573	0.471	PENDING	-	NA	NA	NA	-	维度一待定：rhetorical question（局部修辞手段）vs rhetorical strategy/situation（G1）
+6	German vs Chinese	German	Chinese	33	very	236	172	163	125	8.501	0.419	NA	-	NA	NA	NA	M	强化词，非 hedge
+6	German vs Chinese	German	Chinese	34	rewrite	97	59	88	58	8.396	0.680	PENDING	-	A3	NA	NA	-	维度一待定：rewrite this sentence(G2)vs rewrite this paragraph(G1)；建议动词
+6	German vs Chinese	German	Chinese	35	register	73	41	55	37	8.298	0.795	PENDING	-	NA	NA	NA	-	维度一待定（手册列 register 为 PENDING）；元语言学术语，显性命名语域规范
+6	German vs Chinese	German	Chinese	36	could	499	402	240	215	8.120	0.275	NA	-	PENDING	PENDING	NA	-	手册指定共享项，抽 50 行分别判两层
+6	German vs Chinese	German	Chinese	37	notes	46	22	43	20	8.048	1.027	NA	-	NA	NA	NA	M	元话语（a few notes on…）
+6	German vs Chinese	German	Chinese	38	question	127	84	89	62	7.751	0.559	G1	Ideas	NA	NA	NA	M	the question your essay raises；同组 4 口径
+6	German vs Chinese	German	Chinese	39	cut	42	20	38	19	7.422	1.033	G2	Local Structure	A3	NA	NA	M	删削冗余，句内/句间；同组 1 口径
+6	German vs Chinese	German	Chinese	40	capitalization	136	95	96	76	6.297	0.480	G2	Mechanics	NA	NA	NA	H	Mechanics 明示；德语名词首字母大写为典型迁移项
+6	German vs Chinese	German	Chinese	41	argumentative	673	569	306	275	6.252	0.205	NA	-	NA	NA	NA	M	文体标签（argumentative essay/writing），不指示层级
+6	German vs Chinese	German	Chinese	42	punctuation	244	187	140	121	6.164	0.347	G2	Mechanics	NA	NA	NA	H	Mechanics 明示
+6	German vs Chinese	German	Chinese	43	new	219	166	129	109	6.018	0.362	NA	-	NA	NA	NA	M	a new paragraph / new ideas，层级由宾语决定
+6	German vs Chinese	German	Chinese	44	would	628	530	272	239	5.977	0.207	NA	-	PENDING	PENDING	NA	-	手册指定共享项，抽 50 行分别判两层
+6	German vs Chinese	German	Chinese	45	academic	997	871	300	280	5.580	0.158	PENDING	-	NA	NA	NA	-	维度一待定（register）；同组 2 口径
+6	German vs Chinese	German	Chinese	46	find	50	29	44	26	5.121	0.749	NA	-	NA	NA	NA	M	I find… / readers may find…＝人称归因，属手册排除的缓和策略
+6	German vs Chinese	German	Chinese	47	always	117	83	77	59	4.964	0.458	NA	-	NA	NA	NA	M	最大化副词，非 hedge（区别于手册 often/usually/sometimes）
+6	German vs Chinese	German	Chinese	48	precise	294	237	181	157	4.750	0.274	PENDING	-	NA	NA	NA	-	维度一待定：precise wording(G2)vs precise claims(G1)；同组 1 precision 口径
+6	German vs Chinese	German	Chinese	49	raise	37	20	35	19	4.719	0.850	G1	Ideas	PENDING	NA	NA	-	act 层待定：raises an important question 属开场归功套语(A1)vs 描述(NA)；与组 1 tackles、组 4 raises 并案
+6	German vs Chinese	German	Chinese	50	above	51	31	45	30	4.425	0.681	NA	-	NA	NA	NA	M	指示元话语（see above）
+6	German vs Chinese	German	Chinese	51	emotionally	47	28	42	27	4.388	0.710	PENDING	-	NA	NA	NA	-	维度一待定：emotionally charged language(G2)vs emotional appeal(G1)；同组 4 口径
+6	German vs Chinese	German	Chinese	52	quite	56	35	51	32	4.363	0.641	NA	-	NA	M1	NA	H	手册 v3 M1 明示 hedge
+6	German vs Chinese	German	Chinese	53	properly	61	39	49	31	4.329	0.608	G2	Correctness	NA	NA	NA	M	规范性副词（used properly）；同组 2 proper 口径
+6	German vs Chinese	German	Chinese	54	place	67	44	54	40	4.225	0.569	NA	-	NA	NA	NA	M	in place of / places where，指示元话语
+6	German vs Chinese	German	Chinese	55	placeholder	53	33	45	31	4.192	0.646	G2	Wording	A2	NA	NA	M	placeholder phrases/language，空泛措辞；同组 1 口径
+6	German vs Chinese	German	Chinese	56	second	127	94	97	80	4.132	0.397	NA	-	NA	NA	NA	M	序数词，反馈条目枚举
+6	German vs Chinese	German	Chinese	57	create	87	61	74	53	3.945	0.475	NA	-	PENDING	NA	NA	-	act 层待定：create a clearer transition（A3）vs 描述（NA）；内容动词类
+6	German vs Chinese	German	Chinese	58	read	93	66	82	57	3.937	0.457	NA	-	PENDING	NA	NA	-	act 层待定：read your essay aloud（A3）vs 描述（NA）；内容动词类
+6	German vs Chinese	German	Chinese	59	used	146	111	101	77	3.921	0.358	PENDING	-	NA	NA	NA	-	维度一待定：同 USE/using 口径
+7	German vs Generic	German	Generic	1	german	491	3	279	2	647.497	7.351	NA	-	NA	NA	C1	H	Identity marking 明示；Range 279/348＝80.2%
+7	German vs Generic	German	Generic	2	english	508	74	255	58	362.732	2.776	NA	-	NA	NA	PENDING	-	手册明列：指语言系统（correct English）→C1；作文体修饰→NA。本组 Range 255/348，C1 先验极高，仍依规则待查
+7	German vs Generic	German	Generic	3	ARTICLE	479	167	≥179	≥77	156.605	1.517	PENDING	-	NA	NA	NA	-	维度一待定：英语冠词(G2-Grammar)vs 引用的文章(G1-Development)
+7	German vs Generic	German	Generic	4	SPEAKER	113	17	≥71	≥13	79.165	2.729	NA	-	NA	NA	C1	H	手册 Identity marking 词族例明列 speaker
+7	German vs Generic	German	Generic	5	PATTERN	241	105	≥143	≥51	54.634	1.195	PENDING	-	NA	NA	NA	-	维度一待定：error patterns(G2)vs sentence patterns(G2-Local)vs 论证模式(G1)
+7	German vs Generic	German	Generic	6	order	118	38	91	35	42.865	1.631	PENDING	-	NA	NA	NA	-	"维度一待定：word order（G2-Grammar，德语语序迁移典型项）vs ""in order to""（NA）"
+7	German vs Generic	German	Generic	7	common	223	107	166	90	41.407	1.056	NA	-	NA	NA	NA	M	常见性标记（a common error）＝正常化框架；属手册排除的 paired acts 类
+7	German vs Generic	German	Generic	8	transfer	43	4	39	4	37.705	3.423	NA	-	NA	NA	C1	H	手册 Transfer framing 词族例明列 transfer
+7	German vs Generic	German	Generic	9	NOUN	107	39	≥47	≥24	32.774	1.453	G2	Grammar	NA	NA	NA	H	Correctness/Grammar 明示；德语名词首字母大写为典型迁移项
+7	German vs Generic	German	Generic	10	watch	252	140	197	121	32.205	0.845	NA	-	A3	NA	NA	M	watch for / watch out for＝注意指令
+7	German vs Generic	German	Generic	11	usage	122	49	97	44	32.022	1.313	G2	Correctness	NA	NA	NA	M	article usage / comma usage，语言使用规范层
+7	German vs Generic	German	Generic	12	moment	107	43	99	37	28.056	1.312	NA	-	NA	NA	NA	M	元话语现状框架（at the moment），与组 1 currently 同构
+7	German vs Generic	German	Generic	13	writer	65	19	56	19	26.524	1.771	NA	-	NA	NA	NA	M	第三人称指称写作者（the writer），与 your 的第二人称形成对照
+7	German vs Generic	German	Generic	14	natural	113	49	79	42	25.840	1.202	PENDING	-	PENDING	NA	PENDING	-	三层皆待定：sounds natural 是否以母语者语感为隐含标准（C1）；同组 2、组 6 口径
+7	German vs Generic	German	Generic	15	check	243	144	160	116	25.390	0.751	PENDING	-	A3	NA	NA	-	维度一待定：check your spelling(G2)vs check your logic(G1)
+7	German vs Generic	German	Generic	16	style	410	278	261	191	25.199	0.557	PENDING	-	NA	NA	NA	-	维度一待定（手册列 tone/register 为 PENDING）
+7	German vs Generic	German	Generic	17	REQUIRE	109	47	≥63	≥31	25.193	1.210	NA	-	PENDING	NA	NA	-	act 层待定：this requires a comma（A3）vs German requires…（描述，且可能属 C1 共现语境）
+7	German vs Generic	German	Generic	18	register	73	25	55	22	24.443	1.542	PENDING	-	NA	NA	NA	-	维度一待定（手册列 register 为 PENDING）；元语言学术语
+7	German vs Generic	German	Generic	19	influenced	47	12	43	10	22.112	1.966	PENDING	-	NA	NA	PENDING	-	维度三待定：influenced by German（Transfer framing，C1）vs influence the reader（G1）；与组 6 INFLUENCE 同族
+7	German vs Generic	German	Generic	20	argumentation	112	54	94	47	20.566	1.049	G1	Ideas	NA	NA	NA	H	Ideas 明示
+7	German vs Generic	German	Generic	21	false	49	14	42	10	20.512	1.804	NA	-	NA	NA	PENDING	-	维度三待定：false friends（C1）vs false dichotomy（G1-Ideas）；与 friends 的 Freq/Range 近乎同步
+7	German vs Generic	German	Generic	22	COMMA	330	227	≥149	≥119	18.930	0.536	G2	Mechanics	NA	NA	NA	H	Mechanics 明示
+7	German vs Generic	German	Generic	23	often	320	219	205	151	18.815	0.544	NA	-	NA	M1	NA	H	手册 v3 M1 明示 hedge
+7	German vs Generic	German	Generic	24	eg	456	339	160	154	17.027	0.424	NA	-	NA	NA	NA	M	举例元话语（e.g.）
+7	German vs Generic	German	Generic	25	structure	795	639	339	318	16.676	0.312	G1	Global Structure	NA	NA	NA	H	手册边界规则明示：structure 主导义为篇章结构
+7	German vs Generic	German	Generic	26	clauses	73	32	66	32	16.348	1.186	G2	Local Structure	NA	NA	NA	H	手册 Local Structure 词族例明列 clause
+7	German vs Generic	German	Generic	27	language	795	642	330	290	15.998	0.305	PENDING	-	NA	NA	PENDING	-	维度三待定：your language background(C1)vs academic language(G2 Wording)
+7	German vs Generic	German	Generic	28	likely	166	103	128	88	14.749	0.685	NA	-	NA	M1	NA	H	认识型 hedge
+7	German vs Generic	German	Generic	29	speaking	61	26	57	24	14.405	1.227	NA	-	NA	NA	PENDING	-	维度三待定：German-speaking / German speakers（C1）vs generally speaking（NA）
+7	German vs Generic	German	Generic	30	SHORT	174	111	≥82	≥54	13.898	0.645	G2	Local Structure	NA	NA	NA	M	short/shorter sentences；比较级，评价由框架承担
+7	German vs Generic	German	Generic	31	fine	71	34	65	34	13.236	1.059	NA	-	A1	NA	NA	L	低信度：this is fine 属低门槛褒扬，与 A1「归功于正面价值特征」的定义是否相符须查；同组 2 understandable
+7	German vs Generic	German	Generic	32	academic	997	841	300	262	12.928	0.242	PENDING	-	NA	NA	NA	-	维度一待定（register）
+7	German vs Generic	German	Generic	33	prepositions	40	15	35	14	11.733	1.412	G2	Grammar	NA	NA	NA	H	Correctness/Grammar 明示
+7	German vs Generic	German	Generic	34	splices	130	81	108	74	11.371	0.679	G2	Local Structure	NA	NA	NA	H	comma splice 与 run-on 同属句界错误，依手册 run-on 口径归 Local Structure
+7	German vs Generic	German	Generic	35	usually	139	89	115	78	10.939	0.640	NA	-	NA	M1	NA	H	手册 v3 M1 明示 hedge
+7	German vs Generic	German	Generic	36	forms	86	48	67	40	10.837	0.838	G2	Grammar	NA	NA	NA	M	verb forms / plural forms
+7	German vs Generic	German	Generic	37	unnatural	39	16	39	16	9.866	1.282	PENDING	-	PENDING	NA	PENDING	-	三层皆待定：与 natural 同族，是否以母语者语感为隐含标准（C1）；若非 C1 则 act 为 A2
+7	German vs Generic	German	Generic	38	very	236	173	163	132	9.599	0.445	NA	-	NA	NA	NA	M	强化词，非 hedge
+7	German vs Generic	German	Generic	39	MEAN	206	149	≥102	≥87	9.061	0.464	PENDING	-	NA	NA	NA	-	维度一待定：what you mean（G1 表意清晰）vs by means of（NA）
+7	German vs Generic	German	Generic	40	phrasing	188	135	137	112	8.614	0.474	G2	Wording	NA	NA	NA	H	Wording 明示
+7	German vs Generic	German	Generic	41	second	127	85	97	72	8.279	0.576	NA	-	NA	NA	NA	M	序数词，反馈条目枚举
+7	German vs Generic	German	Generic	42	abstract	52	27	43	24	7.990	0.942	PENDING	-	A2	NA	NA	-	维度一待定：too abstract＝缺具体支撑(G1-Dev)vs abstract language(G2)；同组 1 口径
+7	German vs Generic	German	Generic	43	friends	46	23	43	15	7.761	0.997	NA	-	NA	NA	PENDING	-	维度三待定：false friends（C1）vs 议题内容残留；参照侧 Freq 23 提示存在非 C1 基线用法
+7	German vs Generic	German	Generic	44	generally	84	52	76	50	7.526	0.688	NA	-	NA	M1	NA	H	手册 v3 M1 明示 hedge
+7	German vs Generic	German	Generic	45	precision	85	53	76	46	7.413	0.678	PENDING	-	NA	NA	NA	-	维度一待定：precision of language(G2)vs of claims(G1)；同组 1 口径
+7	German vs Generic	German	Generic	46	sentences	694	596	292	286	7.236	0.216	G2	Local Structure	NA	NA	NA	H	Local Structure 明示
+7	German vs Generic	German	Generic	47	word	522	439	301	273	6.992	0.246	G2	Wording	NA	NA	NA	H	Wording 明示
+7	German vs Generic	German	Generic	48	double	73	45	58	33	6.642	0.695	PENDING	-	PENDING	NA	NA	-	维度一与 act 层皆待定：double-check（A3）vs double negative（G2-Grammar）
+7	German vs Generic	German	Generic	49	confusion	53	30	44	28	6.403	0.818	PENDING	-	A2	NA	NA	-	维度一待定（clear 系）；负向评价
+7	German vs Generic	German	Generic	50	notes	46	25	43	23	6.256	0.876	NA	-	NA	NA	NA	M	元话语（a few notes on…）
+7	German vs Generic	German	Generic	51	therefore	63	38	56	37	6.194	0.726	NA	-	NA	NA	NA	M	连接副词；亦可能为被建议使用的衔接词，待核
+7	German vs Generic	German	Generic	52	singular	55	32	51	29	6.099	0.778	G2	Grammar	NA	NA	NA	H	单复数，Correctness/Grammar 明示
+7	German vs Generic	German	Generic	53	come	74	47	59	38	6.012	0.651	NA	-	NA	NA	NA	M	comes across / comes from
+7	German vs Generic	German	Generic	54	vary	65	40	49	38	5.951	0.697	PENDING	-	PENDING	NA	NA	-	维度一与 act 层皆待定：vary your sentence length(G2＋A3)vs 描述；内容动词类
+7	German vs Generic	German	Generic	55	independent	44	24	43	22	5.923	0.871	G2	Local Structure	NA	NA	NA	M	independent clause，与 clauses 共现
+7	German vs Generic	German	Generic	56	basis	44	24	39	23	5.923	0.871	PENDING	-	NA	NA	NA	-	维度一待定：the basis of your claim(G1-Ideas)vs on a …basis（NA）
+7	German vs Generic	German	Generic	57	contains	44	24	42	23	5.923	0.871	NA	-	NA	NA	NA	H	描述性动词
+7	German vs Generic	German	Generic	58	once	108	75	86	68	5.906	0.523	NA	-	NA	NA	NA	M	时间/条件连接词
+7	German vs Generic	German	Generic	59	only	398	333	221	182	5.640	0.254	NA	-	NA	PENDING	NA	-	hedge 层待定：最小化降调（only a few errors）vs 限定；同组 2
+7	German vs Generic	German	Generic	60	understandable	91	62	80	60	5.462	0.550	PENDING	-	A1	NA	NA	L	维度一待定（clear 系）；act 低信度：低门槛褒扬与 A1 定义是否相符须查；同组 2
+7	German vs Generic	German	Generic	61	phrases	289	235	217	184	5.451	0.295	G2	Wording	NA	NA	NA	H	Wording 明示
+7	German vs Generic	German	Generic	62	pay	125	91	73	49	5.295	0.455	NA	-	A3	NA	NA	M	pay attention to＝注意指令
+7	German vs Generic	German	Generic	63	always	117	85	77	66	5.016	0.458	NA	-	NA	NA	NA	M	最大化副词，非 hedge
+7	German vs Generic	German	Generic	64	few	173	134	143	106	4.877	0.365	NA	-	NA	PENDING	NA	-	hedge 层待定：a few errors 最小化降调 vs 单纯量词；同组 6
+7	German vs Generic	German	Generic	65	rhetorical	192	151	116	94	4.818	0.343	PENDING	-	NA	NA	NA	-	维度一待定：rhetorical question（局部修辞手段）vs rhetorical strategy（G1）
+7	German vs Generic	German	Generic	66	given	43	25	36	21	4.779	0.779	NA	-	NA	NA	NA	M	given that / given the topic
+7	German vs Generic	German	Generic	67	beginning	73	49	70	47	4.696	0.572	G1	Global Structure	NA	NA	NA	M	the beginning of your essay，大单位位置
+7	German vs Generic	German	Generic	68	number	58	37	48	35	4.631	0.645	PENDING	-	NA	NA	NA	-	维度一待定：singular/plural number(G2-Grammar)vs a number of（NA）
+7	German vs Generic	German	Generic	69	similarly	59	38	56	33	4.533	0.631	NA	-	NA	NA	NA	H	连接副词
+7	German vs Generic	German	Generic	70	raise	37	21	35	18	4.434	0.814	G1	Ideas	PENDING	NA	NA	-	act 层待定：raises an important question 属开场归功套语(A1)vs 描述(NA)；与组 1 tackles、组 4 raises 并案
+7	German vs Generic	German	Generic	71	quite	56	36	51	32	4.336	0.634	NA	-	NA	M1	NA	H	手册 v3 M1 明示 hedge
+7	German vs Generic	German	Generic	72	appropriate	52	33	48	28	4.238	0.653	PENDING	-	NA	NA	NA	-	维度一待定：appropriate tone(register)vs appropriate word choice(G2)；规范性框架词
+7	German vs Generic	German	Generic	73	plural	68	46	60	41	4.221	0.560	G2	Grammar	NA	NA	NA	H	单复数，Correctness/Grammar 明示
+7	German vs Generic	German	Generic	74	argumentative	673	599	306	282	4.141	0.165	NA	-	NA	NA	NA	M	文体标签（argumentative essay），不指示层级
+7	German vs Generic	German	Generic	75	direct	164	129	122	106	4.109	0.343	PENDING	-	NA	NA	PENDING	-	维度三待定（先验较低）：German writing is direct（文化—语用框架）vs be more direct(G2)
+7	German vs Generic	German	Generic	76	sounds	156	122	117	96	4.089	0.351	NA	-	NA	NA	NA	M	听感评价框架动词（sounds awkward/natural）；与 natural/unnatural 共现，其 C1 权重由后者承担
+7	German vs Generic	German	Generic	77	introduces	72	50	68	48	3.937	0.523	NA	-	NA	NA	NA	M	描述性动词（your introduction introduces…）
+8	Generic vs German	Generic	German	1	your	5416	4870	348	348	30.919	0.157	NA	-	NA	NA	NA	M	人称代词
+8	Generic vs German	Generic	German	2	mechanics	131	58	103	50	29.128	1.179	G2	Mechanics	NA	NA	NA	H	Mechanics 明示
+8	Generic vs German	Generic	German	3	errors	317	204	208	148	25.001	0.639	G2	Correctness	A2	NA	NA	H	手册边界规则明示：error/mistake 归 G2-Correctness 且同时得批评标签
+8	Generic vs German	Generic	German	4	clarity	271	182	195	147	17.830	0.578	PENDING	-	NA	NA	NA	-	维度一待定（手册 clear 系）
+8	Generic vs German	Generic	German	5	organization	396	287	253	210	17.756	0.468	G1	Global Structure	NA	NA	NA	H	Global Structure 明示
+8	Generic vs German	Generic	German	6	specific	546	421	241	220	16.535	0.379	PENDING	-	NA	NA	NA	-	手册明列 specific 为 PENDING：细节不足(G1-Dev)vs 用词不准(G2)
+8	Generic vs German	Generic	German	7	EXPLAIN	603	472	≥248	≥222	16.353	0.357	NA	-	PENDING	NA	NA	-	act 层待定：you explain X well（描述）vs explain this further（A3）；内容动词类
+8	Generic vs German	Generic	German	8	SECTION	177	110	≥67	≥58	15.956	0.690	G1	Global Structure	NA	NA	NA	M	大于段落的单位
+8	Generic vs German	Generic	German	9	readers	263	182	161	125	15.034	0.535	G1	Ideas	NA	NA	NA	M	受众；依窄口径 C1 规定归 G1
+8	Generic vs German	Generic	German	10	say	171	115	123	95	11.177	0.576	NA	-	PENDING	NA	NA	-	act 层待定：you say X（描述）vs say more about（A3）；内容动词类
+8	Generic vs German	Generic	German	11	level	179	122	145	109	11.003	0.557	PENDING	-	NA	NA	NA	-	维度一待定：sentence-level(G2)/paragraph-level(G1)/level of detail(G1)
+8	Generic vs German	Generic	German	12	body	588	482	227	196	10.796	0.290	G1	Global Structure	NA	NA	NA	H	body paragraphs，大单位
+8	Generic vs German	Generic	German	13	revise	378	296	237	203	10.212	0.356	NA	-	A3	NA	NA	H	手册 A3 明示
+8	Generic vs German	Generic	German	14	data	85	49	60	42	9.881	0.798	G1	Development	NA	NA	NA	M	证据类型；疑似议题内容残留，待核
+8	Generic vs German	Generic	German	15	strengthen	346	272	246	207	9.071	0.351	G1	Ideas	A3	NA	NA	M	strengthen your argument/thesis；同组 1 STRENGTHEN 口径。注：属 strong 词族，若 v3 强制查询清单覆盖则须改判 PENDING
+8	Generic vs German	Generic	German	16	impact	102	64	67	44	8.871	0.676	G1	Ideas	NA	NA	NA	M	the impact of your argument on the reader；同组 4 口径
+8	Generic vs German	Generic	German	17	HELP	302	234	≥153	≥130	8.823	0.372	NA	-	NA	NA	NA	M	描述性动词（this helps the reader）
+8	Generic vs German	Generic	German	18	FOCUS	579	484	≥255	≥255	8.749	0.262	PENDING	-	PENDING	NA	NA	-	维度一待定：your focus(G1)vs focus on this sentence(G2)；act 层待定，内容动词类
+8	Generic vs German	Generic	German	19	policy	99	62	59	43	8.671	0.679	NA	-	NA	NA	NA	H	议题内容残留
+8	Generic vs German	Generic	German	20	SUPPORT	626	530	≥280	≥258	8.232	0.244	G1	Development	NA	NA	NA	H	手册边界规则明示：support 归 G1 Development
+8	Generic vs German	Generic	German	21	significant	109	71	83	54	8.177	0.622	NA	-	NA	NA	NA	M	程度形容词，极性依宾语
+8	Generic vs German	Generic	German	22	organizing	56	30	51	29	8.049	0.904	G1	Global Structure	NA	NA	NA	H	Global Structure 明示
+8	Generic vs German	Generic	German	23	grammar	658	561	298	267	7.980	0.234	G2	Grammar	NA	NA	NA	H	Correctness/Grammar 明示
+8	Generic vs German	Generic	German	24	restate	134	92	129	91	7.956	0.546	G1	Global Structure	A3	NA	NA	M	restate your thesis in the conclusion，大单位安排
+8	Generic vs German	Generic	German	25	luck	36	16	36	15	7.943	1.173	NA	-	NA	NA	NA	M	人际礼貌（good luck）；属手册排除的 paired acts 类
+8	Generic vs German	Generic	German	26	stronger	477	395	242	221	7.934	0.276	NA	-	PENDING	NA	NA	-	手册 v3 强制查询清单（strong 系 A1/A3 争议），不得凭词形归类
+8	Generic vs German	Generic	German	27	recommend	59	33	55	33	7.513	0.842	NA	-	A3	NA	NA	H	手册 A3 明示
+8	Generic vs German	Generic	German	28	reasons	149	106	92	72	7.393	0.495	G1	Ideas	NA	NA	NA	H	手册 Ideas 词族例明列 reason
+8	Generic vs German	Generic	German	29	briefly	119	81	103	78	7.358	0.558	NA	-	NA	PENDING	NA	-	hedge 层待定：briefly explain 削减要求强度（M1）vs 单纯方式副词（NA）；同组 2
+8	Generic vs German	Generic	German	30	details	49	26	43	24	7.225	0.918	G1	Development	NA	NA	NA	H	Development 明示
+8	Generic vs German	Generic	German	31	lack	85	54	64	40	7.049	0.658	NA	-	A2	NA	NA	H	手册 A2 词族例明列 lack
+8	Generic vs German	Generic	German	32	confusing	56	32	51	31	6.688	0.811	PENDING	-	A2	NA	NA	-	维度一待定（clear 系）；手册 A2 词族例明列 confusing
+8	Generic vs German	Generic	German	33	good	509	431	260	241	6.680	0.243	NA	-	PENDING	NA	NA	-	act 层待定：评价（A1）vs 目标态框架；同组 2 GOOD 口径
+8	Generic vs German	Generic	German	34	now	484	408	273	249	6.678	0.250	NA	-	NA	NA	NA	M	时间/话语副词
+8	Generic vs German	Generic	German	35	clarify	153	112	129	96	6.471	0.454	PENDING	-	A3	NA	NA	-	维度一待定（手册 clear 系）；建议动词
+8	Generic vs German	Generic	German	36	paper	100	68	68	52	6.212	0.560	NA	-	NA	NA	NA	H	文本指称语，不指示层级
+8	Generic vs German	Generic	German	37	address	190	145	135	106	6.176	0.393	PENDING	-	PENDING	NA	NA	-	手册 v3 强制查询清单（G1/A3 争议），不得凭词形归类
+8	Generic vs German	Generic	German	38	ideas	450	380	231	208	6.090	0.247	G1	Ideas	NA	NA	NA	H	Ideas 明示
+8	Generic vs German	Generic	German	39	areas	267	214	235	199	5.985	0.323	NA	-	NA	NA	NA	M	元话语（areas for improvement，反馈小标题）
+8	Generic vs German	Generic	German	40	using	171	130	132	110	5.704	0.399	PENDING	-	PENDING	NA	NA	-	维度一与 act 层皆待定；内容动词类
+8	Generic vs German	Generic	German	41	conclusion	734	649	322	311	5.448	0.181	G1	Global Structure	NA	NA	NA	H	大单位，Global Structure 明示
+8	Generic vs German	Generic	German	42	awkward	142	106	117	94	5.334	0.425	PENDING	-	A2	NA	NA	-	维度一待定：awkward phrasing(G2)vs awkward transition(G1)；手册 A2 词族例明列 awkward
+8	Generic vs German	Generic	German	43	effects	143	107	82	69	5.291	0.422	NA	-	NA	NA	NA	M	疑似议题内容残留（effects of X）vs 对读者的效果，待核
+8	Generic vs German	Generic	German	44	point	431	368	252	222	5.133	0.231	G1	Ideas	NA	NA	NA	H	手册 Ideas 词族例明列 point
+8	Generic vs German	Generic	German	45	consider	578	505	208	199	5.112	0.198	NA	-	A3	NA	NA	H	手册 A3 明示
+8	Generic vs German	Generic	German	46	fix	82	56	70	49	4.992	0.554	PENDING	-	A3	NA	NA	-	维度一待定：fix these errors(G2)vs fix the structure(G1)；建议动词
+8	Generic vs German	Generic	German	47	powerful	61	39	55	36	4.934	0.649	NA	-	A1	NA	NA	M	手册 A1 明示；目标态框架风险
+8	Generic vs German	Generic	German	48	shows	255	208	186	164	4.897	0.297	NA	-	NA	NA	NA	M	描述性框架动词
+8	Generic vs German	Generic	German	49	clearly	502	437	269	266	4.669	0.204	PENDING	-	NA	NA	NA	-	维度一待定（clear 系）；方式副词，act 层不赋值
+8	Generic vs German	Generic	German	50	meaningful	41	24	39	20	4.540	0.776	NA	-	A1	NA	NA	M	正向评价；目标态框架风险
+8	Generic vs German	Generic	German	51	right	442	382	263	243	4.525	0.214	PENDING	-	NA	NA	NA	-	维度一待定：the right word(G2)vs right now(NA)；同组 1 口径
+8	Generic vs German	Generic	German	52	all	375	320	200	200	4.496	0.232	NA	-	NA	NA	NA	M	量词
+8	Generic vs German	Generic	German	53	original	135	103	92	73	4.395	0.394	NA	-	NA	NA	NA	M	"与 revised 配对的""原句/改后句""对照格式，元话语；同组 2"
+8	Generic vs German	Generic	German	54	sure	152	118	124	97	4.377	0.369	NA	-	A3	NA	NA	M	主导用法为 make sure，手册 A3 明示
+8	Generic vs German	Generic	German	55	story	86	61	45	32	4.334	0.499	NA	-	NA	NA	NA	M	疑似议题内容残留，待核
+8	Generic vs German	Generic	German	56	serious	86	61	69	50	4.334	0.499	NA	-	NA	NA	NA	M	严重性强化词，极性依宾语（serious errors / no serious issues）
+8	Generic vs German	Generic	German	57	connection	93	67	75	60	4.308	0.477	G1	Ideas	NA	NA	NA	M	the connection between your points，论点关联
+8	Generic vs German	Generic	German	58	research	155	121	101	81	4.283	0.361	G1	Development	NA	NA	NA	M	来源使用，证据层
+8	Generic vs German	Generic	German	59	comparison	103	76	64	56	4.155	0.442	G1	Ideas	NA	NA	NA	M	论证方式
+8	Generic vs German	Generic	German	60	state	279	234	186	165	4.065	0.257	NA	-	PENDING	NA	NA	-	act 层待定：state your thesis clearly（A3）vs 描述；内容动词类
+8	Generic vs German	Generic	German	61	evidence	1223	1129	295	292	4.005	0.119	G1	Development	NA	NA	NA	H	Development 核心
+8	Generic vs German	Generic	German	62	health	114	86	55	43	4.002	0.410	NA	-	NA	NA	NA	H	议题内容残留
+8	Generic vs German	Generic	German	63	opposing	130	100	89	72	3.998	0.382	G1	Ideas	NA	NA	NA	H	opposing views，反驳层
+8	Generic vs German	Generic	German	64	argument	1761	1650	347	346	3.910	0.097	G1	Ideas	NA	NA	NA	H	Ideas 明示
+8	Generic vs German	Generic	German	65	frequent	37	22	37	21	3.892	0.753	NA	-	NA	NA	NA	M	频率标记（frequent errors）；与 recurring/common 同簇
+9	Baseline vs Generic	Baseline	Generic	1	paper	265	100	130	68	74.303	1.379	NA	-	NA	NA	NA	H	文本指称语，不指示层级〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	2	CLAIM	1689	1211	≥330	≥287	70.689	0.453	G1	Ideas	NA	NA	NA	H	论断/主张名词，Ideas 明示；本身中性，act 层不赋值〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	3	SHARPEN	143	52	≥82	≥37	42.460	1.432	G1	Ideas	A3	NA	NA	M	主导搭配 sharpen your claim/thesis/argument〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	4	rather	784	545	299	243	38.880	0.497	NA	-	NA	PENDING	NA	-	"M1待定：手册列为 hedge，但""rather than""（建议对比框架）可能占主导〔沿用组 1〕"
+9	Baseline vs Generic	Baseline	Generic	5	correctness	49	6	46	6	37.529	3.002	G2	Correctness	NA	NA	NA	H	直接命名 Correctness 焦点〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	6	evidence	1543	1223	334	295	31.423	0.308	G1	Development	NA	NA	NA	H	Development 核心〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	7	COUNTERARGUMENT	409	269	≥148	≥109	26.547	0.577	G1	Ideas	NA	NA	NA	H	Ideas 明示（counterargument）
+9	Baseline vs Generic	Baseline	Generic	8	RELY	132	61	≥68	≥32	25.417	1.086	G1	Development	NA	NA	NA	M	rely on evidence/sources〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	9	distract	66	20	64	18	25.073	1.695	PENDING	-	A2	NA	NA	-	维度一待定：typos distract(G2)vs digression distracts(G1)〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	10	prose	52	13	44	13	24.323	1.973	G2	Wording	NA	NA	NA	M	主导搭配 tighten/clarify your prose，句级文风〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	11	instance	185	100	165	98	24.161	0.860	NA	-	NA	NA	NA	M	"主导为""for instance""元话语（反馈自身举例，非要求学生举例）〔沿用组 1〕"
+9	Baseline vs Generic	Baseline	Generic	12	concerns	110	48	78	42	23.836	1.169	NA	-	A2	NA	NA	M	my main concerns are…，批评标记语〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	13	address	302	190	202	135	23.654	0.641	PENDING	-	PENDING	NA	NA	-	"手册 v3 强制查询清单（G1/A3 争议），不得凭词形归类：address counterarguments(G1+A3) vs 元话语""address the points below""(NA)〔沿用组 1〕"
+9	Baseline vs Generic	Baseline	Generic	14	STRENGTHEN	525	373	≥296	≥246	23.078	0.466	G1	Ideas	A3	NA	NA	M	strengthen your argument/thesis；Ideas/Development 子类边界待核〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	15	PROOFREAD	340	224	≥178	≥145	21.894	0.575	G2	Correctness	A3	NA	NA	H	校对行动，Correctness+建议〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	16	credible	130	64	103	55	21.677	0.995	G1	Development	A1	NA	NA	M	credible sources/evidence〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	17	arguable	96	42	85	37	20.695	1.165	G1	Ideas	A1	NA	NA	M	an arguable thesis，域固定于论断〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	18	NEED	1043	830	≥285	≥241	20.460	0.302	NA	-	A3	NA	NA	H	need to = Hyland&Hyland 明示建议套语〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	19	reasoning	267	169	165	116	20.407	0.632	G1	Ideas	NA	NA	NA	H	Ideas 定义明示 lines of thought and reasoning〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	20	aim	67	24	66	24	20.345	1.454	G1	Ideas	PENDING	NA	NA	-	"act 层待定：""aim to/for""（A3）vs ""your aim""（名词，NA）〔沿用组 1〕"
+9	Baseline vs Generic	Baseline	Generic	21	anecdote	111	54	64	35	19.038	1.012	G1	Development	NA	NA	NA	H	证据类型〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	22	gives	287	188	185	151	18.960	0.583	NA	-	NA	NA	NA	M	无固定层级所指。注：组 1 为归并 GIVE（gives+given），本组为 gives 单独入选，系 R1 先行的口径效应
+9	Baseline vs Generic	Baseline	Generic	23	fairly	84	36	67	32	18.849	1.195	NA	-	NA	M1	NA	H	手册 v3 M1 明示 hedge〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	24	mechanical	60	21	53	20	18.848	1.487	G2	Mechanics	NA	NA	NA	H	mechanical errors〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	25	even	241	152	163	119	18.686	0.637	NA	-	NA	NA	NA	H	焦点副词，非 hedge〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	26	reads	188	112	163	98	18.055	0.720	PENDING	-	NA	NA	NA	-	维度一待定：the essay reads(整体)vs this sentence reads(句级)〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	27	actual	206	126	140	89	17.986	0.682	NA	-	NA	NA	NA	M	对比性强调词〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	28	credibility	251	162	191	128	17.687	0.604	G1	Development	NA	NA	NA	M	与 credible 同域〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	29	just	271	179	176	121	17.246	0.571	NA	-	NA	PENDING	NA	-	"M1待定：最小化降调(M1)vs""仅仅是""强化批评(NA)；竞争读法全在 hedge 层，与 act 层无关〔沿用组 1〕"
+9	Baseline vs Generic	Baseline	Generic	30	might	189	115	149	85	16.823	0.689	NA	-	PENDING	PENDING	NA	-	手册指定共享项〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	31	BUILD	126	68	≥75	≥42	16.527	0.862	G1	Ideas	NA	NA	NA	M	building on/building your argument；沿用组 1 building 口径
+9	Baseline vs Generic	Baseline	Generic	32	complexity	61	24	54	22	15.963	1.318	G1	Ideas	NA	NA	NA	M	acknowledge the complexity of the issue〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	33	would	739	582	277	255	15.873	0.317	NA	-	PENDING	PENDING	NA	-	手册指定共享项，concordance 抽 50 行判 A3/M1〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	34	arguing	102	52	86	47	15.598	0.945	G1	Ideas	NA	NA	NA	H	Ideas 明示 arguments〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	35	ASSERTION	99	50	≥49	≥25	15.503	0.958	G1	Ideas	NA	NA	NA	H	Ideas 明示；沿用组 1 assertion 口径
+9	Baseline vs Generic	Baseline	Generic	36	analysis	322	227	160	105	14.778	0.477	G1	Ideas	NA	NA	NA	H	Ideas 明示 analysis〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	37	tackles	82	40	82	39	13.974	1.008	NA	-	PENDING	NA	NA	-	act 层待定：your essay tackles a difficult question 属开场归功套语(A1)vs 描述(NA)。与组 4 raises 并案；组 1 的 A1 编码不追溯改动，留待跨组一致性检查统一回填
+9	Baseline vs Generic	Baseline	Generic	38	EDIT	164	101	≥83	≥53	13.953	0.672	PENDING	-	A3	NA	NA	-	维度一待定：表层编辑(G2)vs 全局修改(G1)；沿用组 1 edit 口径
+9	Baseline vs Generic	Baseline	Generic	39	matters	168	106	133	87	13.002	0.637	G1	Ideas	NA	NA	NA	M	why this matters，论点意义；沿用组 1 MATTER 口径
+9	Baseline vs Generic	Baseline	Generic	40	authority	58	25	44	19	12.871	1.187	G1	Ideas	NA	NA	NA	L	写作者论述权威/立场，归修辞语境→G1〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	41	BROAD	288	205	≥136	≥109	12.516	0.463	G1	Ideas	NA	NA	NA	M	broad/broader context 与 implications；沿用组 1 broader 口径
+9	Baseline vs Generic	Baseline	Generic	42	promising	51	21	49	21	12.326	1.253	NA	-	A1	NA	NA	M	a promising start，正向评价；目标态框架风险
+9	Baseline vs Generic	Baseline	Generic	43	sweeping	46	18	45	18	12.148	1.326	G1	Ideas	A2	NA	NA	H	sweeping generalization，域固定于论断〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	44	effectively	120	71	105	60	11.801	0.730	NA	-	A1	NA	NA	M	effectively argues／effectively supports，方式副词但携正向评价；与组 2 effective 同族，目标态框架风险
+9	Baseline vs Generic	Baseline	Generic	45	phrasing	198	135	155	112	10.828	0.525	G2	Wording	NA	NA	NA	H	Wording 明示〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	46	takes	44	18	43	17	10.759	1.262	NA	-	NA	NA	NA	M	轻动词〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	47	distinct	83	45	65	34	10.744	0.856	G1	Ideas	NA	NA	NA	M	distinct points/ideas〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	48	should	1313	1132	333	328	10.233	0.187	NA	-	A3	NA	NA	H	Hyland&Hyland 明示建议套语〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	49	kind	90	51	80	40	10.202	0.792	NA	-	NA	NA	NA	M	the kind of evidence／this kind of claim，类指名词
+9	Baseline vs Generic	Baseline	Generic	50	opening	198	137	137	104	10.045	0.504	G1	Global Structure	NA	NA	NA	H	引言段，大单位〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	51	currently	246	177	181	122	10.038	0.447	NA	-	NA	NA	NA	M	元话语对比框架（现状→建议），本身非行为〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	52	level	248	179	199	145	9.932	0.443	PENDING	-	NA	NA	NA	-	维度一待定：sentence-level(G2)/paragraph-level(G1)/level of detail(G1-Dev)〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	53	revise	477	378	265	237	9.697	0.308	NA	-	A3	NA	NA	H	手册 A3 明示〔沿用组 5〕
+9	Baseline vs Generic	Baseline	Generic	54	asserted	57	28	53	27	9.553	0.998	G1	Ideas	NA	NA	NA	H	Ideas 明示；沿用组 1 ASSERT 口径
+9	Baseline vs Generic	Baseline	Generic	55	narrow	54	26	46	23	9.486	1.027	G1	Ideas	PENDING	NA	NA	-	与本组 BROAD 构成论断范围对举，域固定于论断；act 层待定：narrow your claim(A3)vs too narrow(A2)
+9	Baseline vs Generic	Baseline	Generic	56	tension	59	30	47	25	9.082	0.948	G1	Ideas	NA	NA	NA	M	a tension in your argument，论证内部张力
+9	Baseline vs Generic	Baseline	Generic	57	improving	70	38	67	32	9.028	0.854	NA	-	A3	NA	NA	M	改进指向，层级由宾语决定〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	58	public	281	210	109	89	9.004	0.393	NA	-	NA	NA	NA	H	议题内容残留（LOCNESS 主题词）〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	59	contains	50	24	46	23	8.846	1.031	NA	-	NA	NA	NA	H	描述性动词〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	60	strongest	176	122	142	94	8.843	0.501	NA	-	PENDING	NA	NA	-	手册 v3 强制查询清单（strong 系 A1/A3 争议），不得凭词形归类：your strongest evidence(A1) vs 目标态框架(A3)〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	61	observations	41	18	35	17	8.777	1.160	NA	-	NA	NA	NA	M	元话语（a few observations），与组 6/7 notes 同簇
+9	Baseline vs Generic	Baseline	Generic	62	mechanics	186	131	152	103	8.578	0.478	G2	Mechanics	NA	NA	NA	H	Mechanics 明示〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	63	clarify	212	153	190	129	8.494	0.443	PENDING	-	A3	NA	NA	-	维度一待定（手册 clear 系）；建议动词〔沿用组 8〕
+9	Baseline vs Generic	Baseline	Generic	64	heavily	55	28	53	28	8.440	0.947	NA	-	NA	NA	NA	M	强化词（rely heavily），非 hedge〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	65	entirely	52	26	50	24	8.348	0.973	NA	-	NA	NA	NA	M	"强化词；""not entirely""否定缓和待观察〔沿用组 1〕"
+9	Baseline vs Generic	Baseline	Generic	66	engage	44	21	40	20	7.886	1.040	G1	Ideas	A3	NA	NA	M	engage with counterarguments/the reader〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	67	readers	337	263	207	161	7.804	0.330	G1	Ideas	NA	NA	NA	M	受众；按窄口径 C1 规定归 G1〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	68	making	152	105	125	94	7.776	0.506	NA	-	NA	NA	NA	H	轻动词〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	69	argument	1966	1761	348	347	7.770	0.131	G1	Ideas	NA	NA	NA	H	Ideas 明示〔沿用组 8〕
+9	Baseline vs Generic	Baseline	Generic	70	framing	55	29	44	26	7.695	0.896	G1	Ideas	NA	NA	NA	M	论点呈现方式〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	71	right	538	442	322	263	7.694	0.256	PENDING	-	NA	NA	NA	-	维度一待定：the right word(G2)vs right now(NA)〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	72	policy	144	99	76	59	7.550	0.513	NA	-	NA	NA	NA	H	议题内容残留〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	73	economic	93	58	59	39	7.536	0.654	NA	-	NA	NA	NA	H	议题内容残留
+9	Baseline vs Generic	Baseline	Generic	74	organizing	90	56	81	51	7.359	0.657	G1	Global Structure	NA	NA	NA	H	Global Structure 明示〔沿用组 5〕
+9	Baseline vs Generic	Baseline	Generic	75	reorganize	101	65	100	64	7.201	0.608	G1	Global Structure	A3	NA	NA	H	大单位重排，Global Structure 明示〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	76	treatment	70	41	49	27	7.125	0.744	PENDING	-	NA	NA	NA	-	维度一待定：your treatment of the topic(G1-Ideas)vs 议题内容残留，待核
+9	Baseline vs Generic	Baseline	Generic	77	precisely	41	20	39	19	6.986	1.008	NA	-	NA	NA	NA	M	方式副词〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	78	sharper	59	33	56	32	6.963	0.811	NA	-	PENDING	NA	NA	-	act 层待定：比较级多嵌于目标态框架（make it sharper=A3）而非评价（A1）〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	79	replace	167	120	126	98	6.866	0.449	PENDING	-	A3	NA	NA	-	维度一待定：replace this word(G2)vs replace this paragraph(G1)〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	80	material	126	86	98	68	6.853	0.524	G1	Development	NA	NA	NA	M	source material，属支撑材料〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	81	inconsistent	72	43	64	36	6.852	0.716	PENDING	-	A2	NA	NA	-	维度一待定：inconsistent tense(G2)vs inconsistent argument(G1)〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	82	numerous	42	21	39	18	6.742	0.973	NA	-	NA	NA	NA	M	量词
+9	Baseline vs Generic	Baseline	Generic	83	risk	65	38	50	31	6.658	0.747	NA	-	NA	M1	NA	M	M1：risks sounding X，删除后批评仍在且更强〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	84	weakness	57	32	48	22	6.651	0.805	NA	-	PENDING	NA	NA	-	"act 层待定：反馈小标题""Weaknesses:""（元话语 NA）vs 负向评价（A2）；与 STRENGTH 同构处理"
+9	Baseline vs Generic	Baseline	Generic	85	analytical	148	105	103	78	6.551	0.468	G1	Ideas	NA	NA	NA	M	analytical depth/analytical claim；描述论述方式而非归功〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	86	overly	43	22	42	22	6.515	0.939	NA	-	A2	NA	NA	M	标记过度=内在负向〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	87	once	111	75	87	68	6.345	0.538	NA	-	NA	NA	NA	M	时间/条件连接词〔沿用组 7〕
+9	Baseline vs Generic	Baseline	Generic	88	something	134	94	111	85	6.316	0.484	NA	-	NA	NA	NA	H	不定指代〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	89	studies	112	76	76	58	6.270	0.532	G1	Development	NA	NA	NA	M	来源/证据类型（studies show）；疑似议题内容残留，待核
+9	Baseline vs Generic	Baseline	Generic	90	views	77	48	63	45	6.250	0.654	G1	Ideas	NA	NA	NA	M	opposing views，反驳层；同组 8 opposing 口径
+9	Baseline vs Generic	Baseline	Generic	91	similarly	64	38	61	33	6.217	0.725	NA	-	NA	NA	NA	H	连接副词〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	92	offer	38	19	35	17	6.100	0.973	NA	-	PENDING	NA	NA	-	act 层待定：offer more evidence（A3）vs you offer（描述）；内容动词类
+9	Baseline vs Generic	Baseline	Generic	93	move	146	105	123	87	5.972	0.448	PENDING	-	PENDING	NA	NA	-	维度一待定：move this paragraph(G1)vs move on to(NA)；act 层随之待定〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	94	vague	96	64	82	52	5.850	0.557	PENDING	-	A2	NA	NA	-	维度一待定：与 unclear 同族，可指论证或用词〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	95	additionally	36	18	35	18	5.779	0.973	NA	-	NA	NA	NA	M	连接副词
+9	Baseline vs Generic	Baseline	Generic	96	early	115	80	95	65	5.670	0.496	PENDING	-	NA	NA	NA	-	维度一待定：early in your essay（G1-Structure 位置）vs early on（NA）
+9	Baseline vs Generic	Baseline	Generic	97	acknowledge	104	71	87	64	5.650	0.523	G1	Ideas	A3	NA	NA	M	acknowledge counterarguments〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	98	personal	463	386	161	150	5.613	0.235	PENDING	-	NA	NA	NA	-	维度一待定：personal experience/anecdote(G1-Development)vs personal opinion(G1-Ideas)vs too personal(register)
+9	Baseline vs Generic	Baseline	Generic	99	section	155	114	90	67	5.520	0.416	G1	Global Structure	NA	NA	NA	M	大于段落的单位〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	100	typos	66	41	54	34	5.430	0.659	G2	Mechanics	NA	NA	NA	H	Mechanics 明示〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	101	loosely	38	20	38	19	5.343	0.899	PENDING	-	A2	NA	NA	-	维度一待定：loosely connected(G1 连贯)vs loosely worded(G2)〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	102	actually	154	114	114	88	5.258	0.406	NA	-	NA	NA	NA	M	强化/对比副词〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	103	somewhat	94	64	86	55	5.176	0.527	NA	-	NA	M1	NA	H	手册 v3 M1 明示 hedge
+9	Baseline vs Generic	Baseline	Generic	104	reflection	55	33	43	30	5.149	0.709	PENDING	-	NA	NA	NA	-	维度一待定：your reflection on the topic(G1-Ideas)vs a reflection of（NA）
+9	Baseline vs Generic	Baseline	Generic	105	weaken	101	70	95	66	5.078	0.501	NA	-	A2	NA	NA	M	weakens your argument，层级由宾语决定〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	106	seriously	60	37	52	31	5.078	0.670	NA	-	NA	NA	NA	M	强化副词（take seriously），非 hedge
+9	Baseline vs Generic	Baseline	Generic	107	precision	80	53	65	46	5.019	0.567	PENDING	-	NA	NA	NA	-	维度一待定：precision of language(G2)vs of claims(G1)〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	108	significance	75	49	68	39	5.010	0.587	G1	Ideas	NA	NA	NA	M	the significance of your claim，论点意义
+9	Baseline vs Generic	Baseline	Generic	109	historical	280	225	129	105	5.005	0.288	NA	-	NA	NA	NA	H	议题内容残留
+9	Baseline vs Generic	Baseline	Generic	110	deserves	57	35	48	30	4.902	0.676	NA	-	PENDING	NA	NA	-	act 层待定：this point deserves more attention＝隐性建议（A3）vs 正向评价（A1）
+9	Baseline vs Generic	Baseline	Generic	111	repeated	72	47	62	42	4.827	0.588	PENDING	-	NA	NA	NA	-	维度一待定：repeated errors(G2)vs repeated ideas(G2-Local，手册 repetitive 口径)vs 论点重复(G1)
+9	Baseline vs Generic	Baseline	Generic	112	cut	58	36	48	27	4.787	0.661	G2	Local Structure	A3	NA	NA	M	删削冗余，句内/句间〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	113	discussion	83	56	65	48	4.778	0.540	G1	Ideas	NA	NA	NA	M	your discussion of X；子类 Ideas 与 Global Structure 边界待核
+9	Baseline vs Generic	Baseline	Generic	114	specifically	90	62	77	52	4.669	0.510	NA	-	NA	NA	NA	M	元话语副词（区别于手册中 PENDING 的 specific）〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	115	saying	110	79	82	56	4.536	0.450	NA	-	PENDING	NA	NA	-	act 层待定：you say X（描述）vs say more about（A3）；内容动词类
+9	Baseline vs Generic	Baseline	Generic	116	specific	630	546	264	241	4.522	0.179	PENDING	-	NA	NA	NA	-	手册明列 specific 为 PENDING：细节不足(G1-Dev)vs 用词不准(G2)〔沿用组 5〕
+9	Baseline vs Generic	Baseline	Generic	117	define	87	60	55	39	4.488	0.509	PENDING	-	A3	NA	NA	-	维度一待定：define your terms 属 Wording(G2)还是概念澄清(G1)〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	118	serve	39	22	35	22	4.483	0.799	NA	-	NA	NA	NA	M	描述性动词〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	119	rebuttal	66	43	49	34	4.463	0.591	G1	Ideas	NA	NA	NA	H	反驳层，与 COUNTERARGUMENT 同域
+9	Baseline vs Generic	Baseline	Generic	120	single	94	66	71	51	4.408	0.483	NA	-	NA	NA	NA	H	数量词〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	121	logically	57	36	50	34	4.392	0.635	G1	Ideas	NA	NA	NA	M	手册 Ideas 词族例含 logic；若主导搭配为 organize…logically 则应改判 Global Structure〔沿用组 3〕
+9	Baseline vs Generic	Baseline	Generic	122	dates	44	26	37	23	4.345	0.732	NA	-	NA	NA	NA	M	疑似议题内容残留（与 historical 共现）vs 引证信息，待核
+9	Baseline vs Generic	Baseline	Generic	123	line	74	50	61	39	4.230	0.538	PENDING	-	NA	NA	NA	-	维度一待定：line of reasoning(G1)vs this line(G2)〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	124	showing	41	24	37	21	4.181	0.745	NA	-	NA	NA	NA	M	描述性框架动词
+9	Baseline vs Generic	Baseline	Generic	125	distinguish	37	21	35	20	4.173	0.790	G1	Ideas	A3	NA	NA	M	distinguish between claims〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	126	fully	253	205	179	155	4.171	0.276	NA	-	NA	NA	NA	M	强化词，非 hedge
+9	Baseline vs Generic	Baseline	Generic	127	ask	118	87	111	82	4.136	0.412	PENDING	-	NA	NA	NA	-	维度一待定：a reader will ask（G1-Ideas 预设反驳）vs ask yourself（元话语）
+9	Baseline vs Generic	Baseline	Generic	128	thesis	1673	1528	344	344	4.124	0.103	G1	Ideas	NA	NA	NA	H	Ideas 明示〔沿用组 5〕
+9	Baseline vs Generic	Baseline	Generic	129	now	559	484	320	273	4.072	0.180	NA	-	NA	NA	NA	H	时间/话语副词〔沿用组 1〕
+9	Baseline vs Generic	Baseline	Generic	130	likely	136	103	112	88	3.966	0.373	NA	-	NA	M1	NA	H	认识型 hedge，与手册 probably/possibly 同类〔沿用组 6〕
+9	Baseline vs Generic	Baseline	Generic	131	undermines	39	23	38	22	3.878	0.734	NA	-	A2	NA	NA	M	undermines your credibility，层级由宾语决定；同组 1 weaken 口径
+10	Generic vs Baseline	Generic	Baseline	1	GOOD	949	457	≥260	≥178	185.834	1.082	NA	-	PENDING	NA	NA	-	act 层待定：good+better 归并，comparative 多嵌于目标态框架（make it better=A3）vs 评价（A1）；LL 全组最高，须查〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	2	language	642	290	290	189	143.329	1.174	PENDING	-	NA	NA	PENDING	-	维度三待定：your language background/first language(C1) vs academic language(G2 Wording)；本组理论枢纽词〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	3	corrections	90	6	85	6	89.818	3.934	G2	Correctness	NA	NA	NA	M	命名 Correctness 焦点的元话语标签；中性焦点名词，act 层不赋值〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	4	main	716	461	255	214	60.781	0.663	G1	Ideas	NA	NA	NA	M	main point/argument/idea；子类 Ideas 与 Global Structure 边界待核〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	5	writing	439	244	257	168	60.306	0.875	NA	-	NA	NA	NA	M	文本指称/写作过程，不指示层级〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	6	word	439	246	273	191	58.932	0.863	G2	Wording	NA	NA	NA	H	Wording 明示。注：本组为单数 word 独立入选（组 2 为归并 WORD），系 R1 先行的口径效应〔沿用组 3〕
+10	Generic vs Baseline	Generic	Baseline	7	academic	841	576	262	254	55.170	0.574	PENDING	-	NA	NA	NA	-	维度一待定：属 register，手册列 tone/formal/register 为 PENDING〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	8	grammar	658	425	298	253	55.167	0.658	G2	Grammar	NA	NA	NA	H	Correctness/Grammar 明示；中性焦点名词〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	9	strengths	165	63	158	58	49.273	1.417	NA	-	PENDING	NA	NA	-	"act 层待定：反馈小标题""Strengths:""（元话语 NA）vs 归功（A1）；且属 strong 词族，按 v3 强制查询规则不得凭词形定。注：组 2 为归并 STRENGTH，本组为 strengths 单独入选，系口径效应"
+10	Generic vs Baseline	Generic	Baseline	10	english	74	13	58	6	48.406	2.536	NA	-	NA	NA	PENDING	-	手册明列：指语言系统（correct English）→C1；作文体修饰（English essay）→NA。两读法维度一均为 NA〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	11	IDEA	830	591	≥231	≥187	45.188	0.517	G1	Ideas	NA	NA	NA	H	Ideas 明示〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	12	SENTENCE	1590	1265	≥330	≥317	43.755	0.357	G2	Local Structure	NA	NA	NA	H	Local Structure 明示。注：组 2 为 sentences 单独入选，本组为归并 SENTENCE，系口径效应
+10	Generic vs Baseline	Generic	Baseline	13	verb	221	108	158	91	41.820	1.060	G2	Grammar	NA	NA	NA	H	Correctness/Grammar 明示〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	14	ARTICLE	167	71	≥77	≥31	41.715	1.261	PENDING	-	NA	NA	NA	-	维度一待定：英语冠词(G2-Grammar)vs 引用的文章(G1-Development)；L2 语法标记的关键判别点〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	15	use	897	665	295	273	39.259	0.459	PENDING	-	PENDING	NA	NA	-	维度一与 act 层皆待定；内容动词类。注：组 2 为归并 USE（use+using），本组为 use 单独入选——交接文档 §三 预告的口径效应实例
+10	Generic vs Baseline	Generic	Baseline	16	slightly	58	11	53	10	36.018	2.426	NA	-	NA	M1	NA	H	手册 v3 M1 明示 hedge〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	17	recurring	77	21	76	20	35.100	1.902	NA	-	NA	NA	NA	M	"recurring errors/patterns，层级由宾语决定；构成""错误模式化""框架〔沿用组 2〕"
+10	Generic vs Baseline	Generic	Baseline	18	choice	395	258	260	188	31.663	0.642	G2	Wording	NA	NA	NA	M	word choice；your choice of topic 读法待观察〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	19	suggestions	160	79	144	75	29.580	1.046	NA	-	PENDING	NA	NA	-	"act 层待定：反馈小标题""Suggestions:""（元话语 NA）vs 名词化建议行为（A3）〔沿用组 2〕"
+10	Generic vs Baseline	Generic	Baseline	20	check	144	68	116	59	29.339	1.110	PENDING	-	A3	NA	NA	-	维度一待定：check your spelling(G2)vs check your logic(G1)；手册 A3 明示〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	21	some	939	735	300	275	29.048	0.381	NA	-	NA	M1	NA	H	手册 v3 M1 明示 hedge〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	22	here	250	149	181	122	27.826	0.774	NA	-	NA	NA	NA	M	指示元话语〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	23	patterns	56	14	51	14	27.794	2.027	PENDING	-	NA	NA	NA	-	维度一待定：error patterns(G2)vs sentence patterns(G2-Local)vs 论证模式(G1)〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	24	formal	364	241	181	145	27.609	0.622	PENDING	-	NA	NA	NA	-	维度一待定（register）；命名目标态而非评价，act 层不赋值〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	25	comment	57	15	57	15	26.932	1.953	NA	-	NA	NA	NA	M	元话语（a comment on… / 小标题）〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	26	too	529	383	218	215	26.381	0.493	NA	-	A2	NA	NA	M	标记过度=内在负向（同组 1 overly 口径）；polysemy 高于 overly，信度中等〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	27	tense	99	41	46	26	25.892	1.299	G2	Grammar	NA	NA	NA	H	Correctness/Grammar 明示〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	28	expressions	49	12	45	12	24.786	2.057	G2	Wording	NA	NA	NA	H	Wording 明示〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	29	original	135	67	92	50	24.666	1.038	NA	-	NA	NA	NA	M	"与 revised 配对的""原句/改后句""对照格式，元话语〔沿用组 2〕"
+10	Generic vs Baseline	Generic	Baseline	30	form	106	47	89	44	24.496	1.201	G2	Grammar	NA	NA	NA	M	verb form / the correct form〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	31	probably	59	18	51	16	23.792	1.740	NA	-	NA	M1	NA	H	认识型 hedge，与手册 possibly/maybe 同类〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	32	OPINION	215	132	≥121	≥83	21.672	0.731	G1	Ideas	NA	NA	NA	M	your opinion / opinion vs fact，属论断层〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	33	strong	711	560	312	278	21.022	0.372	NA	-	PENDING	NA	NA	-	手册 v3 强制查询清单（A1/A3 争议），不得凭词形归类〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	34	understandable	62	22	60	22	20.614	1.522	PENDING	-	A1	NA	NA	L	"维度一待定（clear 系）；act 低信度：作为""低门槛褒扬""（your English is understandable）与 A1 定义是否相符须查〔沿用组 2〕"
+10	Generic vs Baseline	Generic	Baseline	35	vocabulary	42	11	38	11	19.937	1.960	G2	Wording	NA	NA	NA	H	Wording 明示〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	36	advice	128	68	115	65	19.833	0.940	NA	-	PENDING	NA	NA	-	act 层待定：反馈小标题（NA）vs my advice is to…（A3）〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	37	example	1106	927	313	298	19.447	0.282	G1	Development	NA	NA	NA	H	Development 明示〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	38	subject	181	110	138	98	18.887	0.746	PENDING	-	NA	NA	NA	-	维度一待定：subject-verb agreement(G2-Grammar)vs the subject of your essay(G1)〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	39	avoid	308	215	202	163	18.462	0.546	NA	-	A3	NA	NA	H	手册 A3 明示〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	40	try	431	324	228	191	17.345	0.439	NA	-	A3	NA	NA	H	Hyland&Hyland 明示建议套语（the verb try）〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	41	write	264	181	187	144	17.207	0.572	NA	-	PENDING	NA	NA	-	act 层待定：when you write（描述 NA）vs write this as…（A3）〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	42	plural	46	15	41	14	17.111	1.644	G2	Grammar	NA	NA	NA	H	单复数，Correctness/Grammar 明示〔沿用组 7〕
+10	Generic vs Baseline	Generic	Baseline	43	below	163	100	159	100	16.470	0.732	NA	-	NA	NA	NA	M	指示元话语（see below）〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	44	thank	50	18	50	16	16.288	1.501	NA	-	NA	NA	NA	M	人际礼貌行为（thank you for sharing），未归功于文本属性，不构成 A1；属手册排除的 paired acts 类〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	45	luck	36	10	36	10	16.100	1.875	NA	-	NA	NA	NA	M	人际礼貌（good luck）〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	46	i	431	328	195	166	16.073	0.421	NA	-	NA	NA	NA	M	反馈者自称（I suggest/I noticed）＝人称归因，属手册排除的缓和策略，不入 M1〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	47	agreement	182	117	150	105	15.517	0.665	G2	Grammar	NA	NA	NA	H	subject-verb agreement〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	48	CLEAR	1289	1121	≥328	≥328	15.206	0.229	PENDING	-	PENDING	NA	NA	-	维度一待定（手册 clear 系）；act 层待定：clear(A1)vs clearer 目标态框架(A3)〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	49	natural	49	19	42	18	14.281	1.394	PENDING	-	PENDING	NA	PENDING	-	三层皆待定：sounds natural 是否以母语者语感为隐含标准（C1）；若判 C1 则维度一二依规则归 NA〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	50	people	608	495	216	197	13.877	0.324	NA	-	NA	NA	NA	M	疑似议题内容残留（LOCNESS 主题）；people reading your essay 读法待核〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	51	long	248	179	154	118	12.561	0.498	G2	Local Structure	NA	NA	NA	M	long sentences，句级冗长；评价由 too 承担〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	52	only	333	254	182	175	12.235	0.418	NA	-	NA	PENDING	NA	-	hedge 层待定：最小化降调（only a few errors=M1）vs 限定（NA）；同组 1 just〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	53	consistent	129	81	116	70	12.007	0.699	PENDING	-	NA	NA	NA	-	维度一待定：consistent tense(G2)vs consistent argument(G1)；同组 2 consistency 口径
+10	Generic vs Baseline	Generic	Baseline	54	past	73	38	46	30	11.905	0.969	G2	Grammar	NA	NA	NA	M	past tense〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	55	meaning	59	28	53	27	11.892	1.103	PENDING	-	NA	NA	NA	-	维度一待定：the meaning is unclear（G1 表意）vs 词义(G2-Wording)
+10	Generic vs Baseline	Generic	Baseline	56	think	89	50	72	40	11.849	0.859	NA	-	NA	NA	NA	M	I think…＝人称归因，属手册排除的缓和策略，不入 M1
+10	Generic vs Baseline	Generic	Baseline	57	her	91	52	41	29	11.531	0.835	NA	-	NA	NA	NA	M	疑似议题内容残留，待核〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	58	many	557	459	239	238	11.447	0.307	NA	-	NA	NA	NA	M	量词〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	59	improved	48	21	39	14	11.375	1.220	NA	-	A3	NA	NA	M	改进指向，层级由宾语决定；同组 2 IMPROVE 口径
+10	Generic vs Baseline	Generic	Baseline	60	sharing	37	14	37	14	11.200	1.430	NA	-	NA	NA	NA	M	人际礼貌（thank you for sharing）〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	61	sounds	122	77	96	64	11.143	0.691	NA	-	NA	NA	NA	M	听感评价框架动词（sounds awkward/natural）；与 natural/unnatural 共现，其 C1 权重由后者承担〔沿用组 7〕
+10	Generic vs Baseline	Generic	Baseline	62	eg	339	263	154	138	11.134	0.394	NA	-	NA	NA	NA	M	举例元话语（e.g.），与组 1 的 for instance 构成对照〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	63	paragraph	1699	1541	340	334	11.077	0.168	PENDING	-	NA	NA	NA	-	维度一待定：手册明示段落内部组织→G2、段落间安排→G1
+10	Generic vs Baseline	Generic	Baseline	64	informal	190	134	138	111	10.830	0.531	PENDING	-	A2	NA	NA	-	维度一待定（register）；学术语境下标记偏离=负向（同组 1 casual 口径）〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	65	contain	80	45	75	43	10.612	0.858	NA	-	NA	NA	NA	M	描述性动词〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	66	ONE	1118	989	≥325	≥312	10.591	0.204	NA	-	NA	NA	NA	M	数量词/指代词
+10	Generic vs Baseline	Generic	Baseline	67	please	55	27	44	22	10.298	1.054	NA	-	NA	NA	NA	M	礼貌标记；手册 M1 限于 hedges，礼貌标记不入 M1〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	68	introduction	579	485	303	291	10.222	0.283	G1	Global Structure	NA	NA	NA	H	大单位，Global Structure 明示〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	69	correct	152	104	118	88	9.995	0.575	G2	Correctness	PENDING	NA	NA	-	act 层待定：correct these errors(A3)vs the correct form(NA)〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	70	important	323	253	198	186	9.924	0.380	NA	-	PENDING	NA	NA	-	act 层待定：an important point(A1)vs it is important to…(A3 框架)〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	71	needed	50	24	47	23	9.836	1.086	NA	-	A3	NA	NA	M	more detail is needed，need 系建议套语的被动形式
+10	Generic vs Baseline	Generic	Baseline	72	easy	70	39	65	33	9.541	0.871	NA	-	A1	NA	NA	M	easy to follow/read，正向评价；目标态框架风险〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	73	worth	64	35	49	29	9.184	0.898	NA	-	PENDING	NA	NA	-	act 层待定：it's worth adding X＝隐性建议（A3）vs 价值评价（A1）；与组 9 deserves 同构
+10	Generic vs Baseline	Generic	Baseline	74	areas	267	206	235	183	9.101	0.402	NA	-	NA	NA	NA	M	元话语（areas for improvement，反馈小标题）〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	75	way	149	104	107	79	8.931	0.546	NA	-	NA	NA	NA	M	a way to／the way you，无固定层级所指
+10	Generic vs Baseline	Generic	Baseline	76	she	70	40	39	21	8.869	0.835	NA	-	NA	NA	NA	M	疑似议题内容残留（引述作文内容），待核〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	77	proper	73	43	63	41	8.431	0.791	G2	Correctness	NA	NA	NA	M	proper grammar/punctuation；规范性框架词〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	78	common	107	71	90	66	8.036	0.619	NA	-	NA	NA	NA	M	常见性标记（a common error）＝正常化框架；属手册排除的缓和策略，不入 M1〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	79	relevant	114	77	98	70	7.938	0.594	G1	Development	NA	NA	NA	M	relevant evidence/examples〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	80	usually	89	57	78	50	7.696	0.670	NA	-	NA	M1	NA	H	手册 v3 M1 明示 hedge〔沿用组 3〕
+10	Generic vs Baseline	Generic	Baseline	81	especially	204	155	154	124	7.680	0.424	NA	-	NA	NA	NA	M	焦点副词〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	82	above	42	21	41	21	7.542	1.027	NA	-	NA	NA	NA	M	指示元话语（see above）〔沿用组 6〕
+10	Generic vs Baseline	Generic	Baseline	83	spelling	294	236	166	148	7.520	0.344	G2	Mechanics	NA	NA	NA	H	Mechanics 明示〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	84	topic	602	521	298	283	7.507	0.236	PENDING	-	NA	NA	NA	-	维度一待定：the topic of your essay(G1-Ideas)vs topic sentence(G2/G1 边界)〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	85	work	245	192	154	129	7.499	0.379	NA	-	NA	NA	NA	M	文本指称语（your work）
+10	Generic vs Baseline	Generic	Baseline	86	commas	64	38	54	35	7.207	0.780	G2	Mechanics	NA	NA	NA	H	Mechanics 明示〔沿用组 6〕
+10	Generic vs Baseline	Generic	Baseline	87	very	173	130	132	93	6.973	0.440	NA	-	NA	NA	NA	M	强化词，非 hedge〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	88	emotional	217	170	123	106	6.657	0.380	PENDING	-	NA	NA	NA	-	维度一待定：emotional language(G2-Wording/register)vs emotional appeal(G1-Ideas)；亦可能为议题残留〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	89	must	121	86	94	76	6.634	0.520	NA	-	A3	NA	NA	H	手册 A3 明示〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	90	unclear	153	114	114	95	6.487	0.452	PENDING	-	A2	NA	NA	-	维度一待定（手册 clear 系）；负向评价〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	91	final	414	351	274	248	6.472	0.266	PENDING	-	NA	NA	NA	-	"维度一待定：your final paragraph(G1-Structure)vs""Final thoughts:""小标题(NA)〔沿用组 2〕"
+10	Generic vs Baseline	Generic	Baseline	92	shows	255	205	186	145	6.445	0.342	NA	-	NA	NA	NA	M	描述性框架动词〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	93	consistency	105	73	79	64	6.412	0.552	PENDING	-	NA	NA	NA	-	维度一待定：consistency of tense(G2)vs of argument(G1)〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	94	clearly	502	434	269	266	6.335	0.237	PENDING	-	NA	NA	NA	-	维度一待定（clear 系）；方式副词，act 层不赋值〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	95	statement	156	118	112	92	6.039	0.430	G1	Ideas	NA	NA	NA	M	thesis statement〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	96	their	357	301	192	174	5.905	0.274	NA	-	NA	NA	NA	M	人称代词
+10	Generic vs Baseline	Generic	Baseline	97	another	104	74	69	62	5.670	0.518	NA	-	NA	NA	NA	M	限定词
+10	Generic vs Baseline	Generic	Baseline	98	accuracy	112	81	85	64	5.611	0.495	G2	Correctness	NA	NA	NA	H	Correctness 明示〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	99	suggested	86	59	84	58	5.586	0.571	NA	-	PENDING	NA	NA	-	act 层待定：the suggested revision（NA）vs I suggested（A3）〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	100	recommend	59	37	55	35	5.515	0.701	NA	-	A3	NA	NA	H	手册 A3 明示〔沿用组 5〕
+10	Generic vs Baseline	Generic	Baseline	101	content	107	77	77	48	5.503	0.502	G1	Ideas	NA	NA	NA	M	内容层，与 organization 对举〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	102	possible	192	152	129	120	5.458	0.365	NA	-	NA	PENDING	NA	-	hedge 层待定：it is possible that（M1）vs possible improvements（NA）〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	103	he	110	80	66	47	5.347	0.487	NA	-	NA	NA	NA	M	疑似议题内容残留，待核〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	104	confusing	56	35	51	33	5.299	0.706	PENDING	-	A2	NA	NA	-	维度一待定（clear 系）；手册 A2 词族例明列 confusing〔沿用组 5〕
+10	Generic vs Baseline	Generic	Baseline	105	briefly	119	88	103	72	5.271	0.463	NA	-	NA	PENDING	NA	-	hedge 层待定：briefly explain 削减要求强度（M1）vs 单纯方式副词（NA）〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	106	we	152	117	79	76	5.260	0.405	NA	-	NA	NA	NA	M	包容性人称，团结策略；不入 M1〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	107	missing	283	236	150	146	5.209	0.289	NA	-	A2	NA	NA	H	手册 A2 词族例明列 missing
+10	Generic vs Baseline	Generic	Baseline	108	society	248	206	109	98	4.736	0.295	NA	-	NA	NA	NA	H	议题内容残留〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	109	direct	129	99	106	80	4.553	0.409	PENDING	-	NA	NA	PENDING	-	维度三待定（先验较低）：German writing is direct（文化—语用框架，C1）vs be more direct(G2)/direct quotation(NA)〔沿用组 6〕
+10	Generic vs Baseline	Generic	Baseline	110	third	48	30	42	28	4.542	0.706	NA	-	NA	NA	NA	M	序数词，反馈条目枚举
+10	Generic vs Baseline	Generic	Baseline	111	shorter	59	39	54	36	4.501	0.625	G2	Local Structure	NA	NA	NA	M	shorter sentences；比较级，评价由框架承担〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	112	story	86	62	45	35	4.381	0.500	NA	-	NA	NA	NA	M	疑似议题内容残留，待核〔沿用组 8〕
+10	Generic vs Baseline	Generic	Baseline	113	end	243	204	160	141	4.194	0.280	G1	Global Structure	NA	NA	NA	M	the end of your essay/paragraph〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	114	revised	107	81	81	74	4.121	0.429	NA	-	NA	NA	NA	M	与 original 配对的改写对照，元话语〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	115	women	316	273	54	54	4.019	0.238	NA	-	NA	NA	NA	H	议题内容残留〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	116	periods	38	23	35	21	4.018	0.752	G2	Mechanics	NA	NA	NA	H	句号，Mechanics 明示
+10	Generic vs Baseline	Generic	Baseline	117	adding	128	100	99	88	4.003	0.384	NA	-	A3	NA	NA	H	手册 A3 明示（add）〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	118	remove	102	77	88	56	3.997	0.433	PENDING	-	A3	NA	NA	-	维度一待定：remove this word(G2)vs remove this paragraph(G1)；建议动词
+10	Generic vs Baseline	Generic	Baseline	119	usage	49	32	44	30	3.926	0.642	G2	Correctness	NA	NA	NA	M	article usage / comma usage，语言使用规范层〔沿用组 6〕
+10	Generic vs Baseline	Generic	Baseline	120	students	151	121	40	40	3.913	0.347	NA	-	NA	NA	NA	H	议题内容残留〔沿用组 2〕
+10	Generic vs Baseline	Generic	Baseline	121	citation	132	104	72	73	3.886	0.371	PENDING	-	NA	NA	NA	-	维度一待定：引用来源的使用(G1-Development)vs 引用格式(G2-Mechanics)
+11	Baseline vs L1	Baseline	L1	1	your	5617	5226	348	348	17.533	0.115	NA	-	NA	NA	NA	M	人称代词，无固定层级所指〔沿用组 2〕
+11	Baseline vs L1	Baseline	L1	2	accurate	79	43	65	34	11.057	0.888	PENDING	-	A1	NA	NA	-	维度一待定：accurate facts(G1-Dev)vs accurate grammar(G2)；正向评价〔沿用组 2〕
+11	Baseline vs L1	Baseline	L1	3	evidence	1543	1389	334	321	9.338	0.163	G1	Development	NA	NA	NA	H	Development 核心〔沿用组 1〕
+11	Baseline vs L1	Baseline	L1	4	presents	51	27	47	26	7.688	0.928	NA	-	NA	NA	NA	M	描述性框架动词（your essay presents…）；同组 8 shows 口径
+11	Baseline vs L1	Baseline	L1	5	revised	81	50	74	45	7.642	0.707	NA	-	NA	NA	NA	M	与 original 配对的改写对照，元话语〔沿用组 2〕
+11	Baseline vs L1	Baseline	L1	6	expert	38	18	35	16	7.454	1.089	G1	Development	NA	NA	NA	M	expert sources/opinion，证据来源类型
+11	Baseline vs L1	Baseline	L1	7	editing	75	46	69	40	7.239	0.716	PENDING	-	A3	NA	NA	-	维度一待定：表层编辑(G2)vs 全局修改(G1)；沿用组 1 edit／组 9 EDIT 口径
+11	Baseline vs L1	Baseline	L1	8	effectively	120	84	105	80	6.661	0.525	NA	-	A1	NA	NA	M	effectively argues／effectively supports，方式副词但携正向评价；与组 2 effective 同族，目标态框架风险〔沿用组 9〕
+11	Baseline vs L1	Baseline	L1	9	helps	89	59	76	57	6.352	0.604	NA	-	NA	NA	NA	M	描述性动词（this helps the reader）〔沿用组 2〕
+11	Baseline vs L1	Baseline	L1	10	engaging	98	67	83	58	6.095	0.559	NA	-	A1	NA	NA	M	an engaging introduction，正向评价；目标态框架风险
+11	Baseline vs L1	Baseline	L1	11	views	77	50	63	43	5.990	0.634	G1	Ideas	NA	NA	NA	M	opposing views，反驳层；同组 8 opposing 口径〔沿用组 9〕
+11	Baseline vs L1	Baseline	L1	12	suggestion	101	70	52	44	5.888	0.540	NA	-	PENDING	NA	NA	-	act 层待定：反馈小标题（NA）vs 名词化建议行为（A3）〔沿用组 3〕
+11	Baseline vs L1	Baseline	L1	13	concerns	110	78	78	65	5.718	0.507	NA	-	A2	NA	NA	M	my main concerns are…，批评标记语〔沿用组 1〕
+11	Baseline vs L1	Baseline	L1	14	promising	51	30	49	30	5.666	0.776	NA	-	A1	NA	NA	M	a promising start，正向评价；目标态框架风险〔沿用组 9〕
+11	Baseline vs L1	Baseline	L1	15	paper	265	216	130	105	5.379	0.306	NA	-	NA	NA	NA	H	文本指称语，不指示层级〔沿用组 1〕
+11	Baseline vs L1	Baseline	L1	16	deserves	57	36	48	32	4.943	0.674	NA	-	PENDING	NA	NA	-	act 层待定：this point deserves more attention＝隐性建议（A3）vs 正向评价（A1）〔沿用组 9〕
+11	Baseline vs L1	Baseline	L1	17	additionally	36	20	35	18	4.757	0.859	NA	-	NA	NA	NA	M	连接副词〔沿用组 9〕
+11	Baseline vs L1	Baseline	L1	18	may	361	308	173	161	4.615	0.240	NA	-	NA	M1	NA	H	手册 v3 M1 明示 hedge〔沿用组 2〕
+11	Baseline vs L1	Baseline	L1	19	anecdote	111	82	64	52	4.596	0.448	G1	Development	NA	NA	NA	H	证据类型〔沿用组 1〕
+11	Baseline vs L1	Baseline	L1	20	fairly	84	59	67	50	4.584	0.520	NA	-	NA	M1	NA	H	手册 v3 M1 明示 hedge〔沿用组 1〕
+11	Baseline vs L1	Baseline	L1	21	clearly	434	377	266	245	4.455	0.214	PENDING	-	NA	NA	NA	-	维度一待定（clear 系）；方式副词，act 层不赋值〔沿用组 2〕
+11	Baseline vs L1	Baseline	L1	22	counterargument	263	219	148	133	4.362	0.275	G1	Ideas	NA	NA	NA	H	Ideas 明示。注：组 1 为 counterarguments、组 9 为归并 COUNTERARGUMENT，本组为单数单独入选，系口径效应
+11	Baseline vs L1	Baseline	L1	23	citations	159	125	94	85	4.341	0.358	PENDING	-	NA	NA	NA	-	维度一待定：引用来源的使用(G1-Development)vs 引用格式(G2-Mechanics)；同组 10 citation 口径
+11	Baseline vs L1	Baseline	L1	24	forward	44	27	37	23	4.239	0.715	NA	-	NA	NA	NA	M	going forward / put forward〔沿用组 5〕
+11	Baseline vs L1	Baseline	L1	25	explain	601	536	244	240	4.230	0.176	NA	-	PENDING	NA	NA	-	"act 层待定：you explain X well（描述 NA）vs explain this further（A3）。属""内容动词""类，见报告 §5〔沿用组 5〕"
+11	Baseline vs L1	Baseline	L1	26	repeated	72	50	62	45	4.156	0.537	PENDING	-	NA	NA	NA	-	维度一待定：repeated errors(G2)vs repeated ideas(G2-Local，手册 repetitive 口径)vs 论点重复(G1)〔沿用组 9〕
+11	Baseline vs L1	Baseline	L1	27	discussing	74	52	63	48	4.029	0.520	G1	Ideas	PENDING	NA	NA	-	act 层待定：you discuss X（描述）vs discuss counterarguments（A3）；内容动词类
+11	Baseline vs L1	Baseline	L1	28	opposing	152	120	102	86	4.019	0.352	G1	Ideas	NA	NA	NA	H	opposing views，反驳层〔沿用组 8〕
+11	Baseline vs L1	Baseline	L1	29	balanced	76	54	65	48	3.909	0.504	G1	Ideas	A1	NA	NA	M	a balanced argument/view，域固定于论断；正向评价〔沿用组 2〕
+11	Baseline vs L1	Baseline	L1	30	current	97	72	78	60	3.903	0.441	NA	-	NA	NA	NA	M	元话语现状框架（your current draft），同组 1 currently〔沿用组 5〕
+12	L1 vs Baseline	L1	Baseline	1	consistent	135	81	109	70	13.248	0.726	PENDING	-	NA	NA	NA	-	维度一待定：consistent tense(G2)vs consistent argument(G1)；同组 2 consistency 口径〔沿用组 10〕
+12	L1 vs Baseline	L1	Baseline	2	sentence	942	808	331	317	9.321	0.211	G2	Local Structure	NA	NA	NA	H	Local Structure 明示。注：组 2 为 sentences、组 10 为归并 SENTENCE，本组为单数单独入选，系口径效应
+12	L1 vs Baseline	L1	Baseline	3	think	84	50	68	40	8.471	0.738	NA	-	NA	NA	NA	M	I think…＝人称归因，属手册排除的缓和策略，不入 M1〔沿用组 10〕
+12	L1 vs Baseline	L1	Baseline	4	above	44	21	40	21	8.147	1.056	NA	-	NA	NA	NA	M	指示元话语（see above）〔沿用组 6〕
+12	L1 vs Baseline	L1	Baseline	5	cut	90	58	77	48	6.738	0.623	G2	Local Structure	A3	NA	NA	M	删削冗余，句内/句间〔沿用组 1〕
+12	L1 vs Baseline	L1	Baseline	6	recurring	41	21	41	20	6.420	0.954	NA	-	NA	NA	NA	M	"recurring errors/patterns，层级由宾语决定；构成""错误模式化""框架〔沿用组 2〕"
+12	L1 vs Baseline	L1	Baseline	7	underdeveloped	65	39	63	39	6.377	0.726	G1	Development	A2	NA	NA	H	Development 域固定，负向〔沿用组 1〕
+12	L1 vs Baseline	L1	Baseline	8	check	101	68	79	59	6.242	0.560	PENDING	-	A3	NA	NA	-	维度一待定：check your spelling(G2)vs check your logic(G1)；手册 A3 明示〔沿用组 2〕
+12	L1 vs Baseline	L1	Baseline	9	paragraph	1688	1541	337	334	5.672	0.121	PENDING	-	NA	NA	NA	-	维度一待定：手册明示段落内部组织→G2、段落间安排→G1〔沿用组 10〕
+12	L1 vs Baseline	L1	Baseline	10	then	382	318	225	196	5.397	0.254	NA	-	NA	NA	NA	H	连接副词〔沿用组 1〕
+12	L1 vs Baseline	L1	Baseline	11	third	51	30	45	28	5.352	0.755	NA	-	NA	NA	NA	M	序数词，反馈条目枚举〔沿用组 10〕
+12	L1 vs Baseline	L1	Baseline	12	material	166	126	118	98	5.204	0.387	G1	Development	NA	NA	NA	M	source material，属支撑材料〔沿用组 1〕
+12	L1 vs Baseline	L1	Baseline	13	ones	62	39	56	37	5.114	0.658	NA	-	NA	NA	NA	M	指代词。注：组 10 为归并 ONE（one+ones），本组为 ones 单独入选，系口径效应
+12	L1 vs Baseline	L1	Baseline	14	come	73	48	60	39	5.018	0.594	NA	-	NA	NA	NA	M	comes across/comes from〔沿用组 1〕
+12	L1 vs Baseline	L1	Baseline	15	sounds	108	77	89	64	4.991	0.477	NA	-	NA	NA	NA	M	听感评价框架动词（sounds awkward/natural）；与 natural/unnatural 共现，其 C1 权重由后者承担〔沿用组 7〕
+12	L1 vs Baseline	L1	Baseline	16	edit	122	89	109	83	4.940	0.444	PENDING	-	A3	NA	NA	-	维度一待定：表层编辑(G2)vs全局修改(G1)〔沿用组 1〕
+12	L1 vs Baseline	L1	Baseline	17	similar	59	37	52	35	4.924	0.662	NA	-	NA	NA	NA	M	a similar point／similar phrasing，层级由宾语决定
+12	L1 vs Baseline	L1	Baseline	18	needed	42	24	40	23	4.838	0.797	NA	-	A3	NA	NA	M	more detail is needed，need 系建议套语的被动形式〔沿用组 10〕
+12	L1 vs Baseline	L1	Baseline	19	way	139	104	103	79	4.802	0.408	NA	-	NA	NA	NA	M	a way to／the way you，无固定层级所指〔沿用组 10〕
+12	L1 vs Baseline	L1	Baseline	20	word	299	246	210	191	4.778	0.271	G2	Wording	NA	NA	NA	H	Wording 明示。注：本组为单数 word 独立入选（组 2 为归并 WORD），系 R1 先行的口径效应〔沿用组 3〕
+12	L1 vs Baseline	L1	Baseline	21	logic	144	109	109	87	4.601	0.391	G1	Ideas	NA	NA	NA	H	手册 Ideas 词族例明列 logic〔沿用组 5〕
+12	L1 vs Baseline	L1	Baseline	22	work	238	192	150	129	4.595	0.299	NA	-	NA	NA	NA	M	文本指称语（your work）〔沿用组 10〕
+12	L1 vs Baseline	L1	Baseline	23	punctuation	252	206	150	141	4.293	0.280	G2	Mechanics	NA	NA	NA	H	Mechanics 明示〔沿用组 4〕
+12	L1 vs Baseline	L1	Baseline	24	level	298	248	232	199	4.222	0.254	PENDING	-	NA	NA	NA	-	维度一待定：sentence-level(G2)/paragraph-level(G1)/level of detail(G1-Dev)〔沿用组 1〕
+12	L1 vs Baseline	L1	Baseline	25	defensible	53	34	43	31	4.043	0.630	G1	Ideas	A1	NA	NA	M	域固定于 claim/thesis；正向评价，但存在目标态框架风险〔沿用组 1〕
+12	L1 vs Baseline	L1	Baseline	26	vague	126	96	107	82	3.846	0.382	PENDING	-	A2	NA	NA	-	维度一待定：与 unclear 同族，可指论证或用词〔沿用组 1〕
