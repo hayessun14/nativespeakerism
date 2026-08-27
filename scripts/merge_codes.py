@@ -51,10 +51,15 @@ for g in range(1, 13):
         merged.append(row)
 
 assert len(merged) == 891, f"合并后 {len(merged)} 行，应为 891"
-with open(OUT, "w", encoding="utf-8", newline="") as f:
-    w = csv.DictWriter(f, fieldnames=OUT_FIELDS, delimiter="\t")
-    w.writeheader()
-    w.writerows(merged)
+# 字段内不含制表符或换行，故以 QUOTE_NONE 写出纯制表符分隔文件——
+# 否则 note 中的英文引号会触发整格加引号，给 Excel / R 的读取添麻烦。
+bad = [(r["group"], r["type"], k) for r in merged for k in OUT_FIELDS
+       if any(ch in str(r[k]) for ch in "\t\r\n")]
+assert not bad, f"字段含制表符或换行，无法以 QUOTE_NONE 写出: {bad}"
+with open(OUT, "w", encoding="utf-8", newline="\n") as f:
+    f.write("\t".join(OUT_FIELDS) + "\n")
+    for r in merged:
+        f.write("\t".join(str(r[k]) for k in OUT_FIELDS) + "\n")
 
 # 汇总核对
 from collections import Counter
