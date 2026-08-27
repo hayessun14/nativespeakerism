@@ -7,8 +7,10 @@
 import csv, statistics as st
 from collections import Counter
 
-SRC, CODES = "data_keyword_ALL_selected.md", "coding/group01_codes.tsv"
-HEAD, NEXT = "## 组 1：", "## 组 2："
+import sys
+G = sys.argv[1] if len(sys.argv) > 1 else "1"
+SRC, CODES = "data_keyword_ALL_selected.md", f"coding/group{int(G):02d}_codes.tsv"
+HEAD, NEXT = f"## 组 {G}：", f"## 组 {int(G)+1}："
 
 def parse_group(path, head, nxt):
     rows, on = [], False
@@ -24,14 +26,15 @@ def parse_group(path, head, nxt):
 
 rows  = parse_group(SRC, HEAD, NEXT)
 codes = {r["type"]: r for r in csv.DictReader(open(CODES, encoding="utf-8"), delimiter="\t")}
-assert len(rows) == 128, f"解析到 {len(rows)} 行，应为 128"
+N = {"1":128,"2":131,"3":37,"4":30,"5":56,"6":59,"7":77,"8":65,"9":131,"10":121,"11":30,"12":26}[G]
+assert len(rows) == N, f"解析到 {len(rows)} 行，应为 {N}"
 assert {r["type"] for r in rows} == set(codes), "编码表与主表不匹配"
 for r in rows: r.update(codes[r["type"]])
-print("[校验] 128 行全部匹配，无遗漏无冗余\n")
+print(f"[校验] {N} 行全部匹配，无遗漏无冗余\n")
 
 out = []; W = out.append
 
-W("## 附表 A：组 1 完整编码表（128 词位，按 LL 降序）\n")
+W(f"## 附表 A：组 {G} 完整编码表（{N} 词位，按 LL 降序）\n")
 W("| # | Type | Freq_Tar | LL | LR | 维度一 | 子类 | 维度二 act | 维度二 hedge | 维度三 | 信度 | 判定依据 |")
 W("|---:|---|---:|---:|---:|---|---|---|---|---|---|---|")
 for r in rows:
@@ -142,7 +145,7 @@ for r in sorted(rows, key=lambda x: -x["lr"]):
           f"{r['d1']}{'/' + r['d1sub'] if r['d1sub'] != '-' else ''} | {r['act']} | {r['hedge']} |")
 W("")
 
-open("coding/group01_tables.md", "w", encoding="utf-8").write("\n".join(out))
+open(f"coding/group{int(G):02d}_tables.md", "w", encoding="utf-8").write("\n".join(out))
 
 # --- 终端摘要 ---
 def summ(key):
@@ -154,4 +157,4 @@ for name, key in (("维度一", "d1"), ("act 层", "act"), ("hedge 层", "hedge"
     parts = [f"{k} {v}" + (f" ({v/n*100:.1f}%)" if n else "") for k, v in c.most_common() if k not in ("NA", "PENDING")]
     print(f"{name:<7} 已定 {n:>3} | " + "、".join(parts) if parts else f"{name:<7} 已定 {n:>3} | 无")
     print(f"        N/A {c['NA']}、PENDING {c['PENDING']}")
-print(f"\nconcordance 清单 {len(pend)} 项；写出 coding/group01_tables.md")
+print(f"\nconcordance 清单 {len(pend)} 项；写出 coding/group{int(G):02d}_tables.md")
