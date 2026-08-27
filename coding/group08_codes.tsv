@@ -1,0 +1,66 @@
+type	d1	d1sub	act	hedge	c	conf	note
+your	NA	-	NA	NA	NA	M	人称代词
+mechanics	G2	Mechanics	NA	NA	NA	H	Mechanics 明示
+errors	G2	Correctness	A2	NA	NA	H	手册边界规则明示：error/mistake 归 G2-Correctness 且同时得批评标签
+clarity	PENDING	-	NA	NA	NA	-	维度一待定（手册 clear 系）
+organization	G1	Global Structure	NA	NA	NA	H	Global Structure 明示
+specific	PENDING	-	NA	NA	NA	-	手册明列 specific 为 PENDING：细节不足(G1-Dev)vs 用词不准(G2)
+EXPLAIN	NA	-	PENDING	NA	NA	-	act 层待定：you explain X well（描述）vs explain this further（A3）；内容动词类
+SECTION	G1	Global Structure	NA	NA	NA	M	大于段落的单位
+readers	G1	Ideas	NA	NA	NA	M	受众；依窄口径 C1 规定归 G1
+say	NA	-	PENDING	NA	NA	-	act 层待定：you say X（描述）vs say more about（A3）；内容动词类
+level	PENDING	-	NA	NA	NA	-	维度一待定：sentence-level(G2)/paragraph-level(G1)/level of detail(G1)
+body	G1	Global Structure	NA	NA	NA	H	body paragraphs，大单位
+revise	NA	-	A3	NA	NA	H	手册 A3 明示
+data	G1	Development	NA	NA	NA	M	证据类型；疑似议题内容残留，待核
+strengthen	G1	Ideas	A3	NA	NA	M	strengthen your argument/thesis；同组 1 STRENGTHEN 口径。注：属 strong 词族，若 v3 强制查询清单覆盖则须改判 PENDING
+impact	G1	Ideas	NA	NA	NA	M	the impact of your argument on the reader；同组 4 口径
+HELP	NA	-	NA	NA	NA	M	描述性动词（this helps the reader）
+FOCUS	PENDING	-	PENDING	NA	NA	-	维度一待定：your focus(G1)vs focus on this sentence(G2)；act 层待定，内容动词类
+policy	NA	-	NA	NA	NA	H	议题内容残留
+SUPPORT	G1	Development	NA	NA	NA	H	手册边界规则明示：support 归 G1 Development
+significant	NA	-	NA	NA	NA	M	程度形容词，极性依宾语
+organizing	G1	Global Structure	NA	NA	NA	H	Global Structure 明示
+grammar	G2	Grammar	NA	NA	NA	H	Correctness/Grammar 明示
+restate	G1	Global Structure	A3	NA	NA	M	restate your thesis in the conclusion，大单位安排
+luck	NA	-	NA	NA	NA	M	人际礼貌（good luck）；属手册排除的 paired acts 类
+stronger	NA	-	PENDING	NA	NA	-	手册 v3 强制查询清单（strong 系 A1/A3 争议），不得凭词形归类
+recommend	NA	-	A3	NA	NA	H	手册 A3 明示
+reasons	G1	Ideas	NA	NA	NA	H	手册 Ideas 词族例明列 reason
+briefly	NA	-	NA	PENDING	NA	-	hedge 层待定：briefly explain 削减要求强度（M1）vs 单纯方式副词（NA）；同组 2
+details	G1	Development	NA	NA	NA	H	Development 明示
+lack	NA	-	A2	NA	NA	H	手册 A2 词族例明列 lack
+confusing	PENDING	-	A2	NA	NA	-	维度一待定（clear 系）；手册 A2 词族例明列 confusing
+good	NA	-	PENDING	NA	NA	-	act 层待定：评价（A1）vs 目标态框架；同组 2 GOOD 口径
+now	NA	-	NA	NA	NA	M	时间/话语副词
+clarify	PENDING	-	A3	NA	NA	-	维度一待定（手册 clear 系）；建议动词
+paper	NA	-	NA	NA	NA	H	文本指称语，不指示层级
+address	PENDING	-	PENDING	NA	NA	-	手册 v3 强制查询清单（G1/A3 争议），不得凭词形归类
+ideas	G1	Ideas	NA	NA	NA	H	Ideas 明示
+areas	NA	-	NA	NA	NA	M	元话语（areas for improvement，反馈小标题）
+using	PENDING	-	PENDING	NA	NA	-	维度一与 act 层皆待定；内容动词类
+conclusion	G1	Global Structure	NA	NA	NA	H	大单位，Global Structure 明示
+awkward	PENDING	-	A2	NA	NA	-	维度一待定：awkward phrasing(G2)vs awkward transition(G1)；手册 A2 词族例明列 awkward
+effects	NA	-	NA	NA	NA	M	疑似议题内容残留（effects of X）vs 对读者的效果，待核
+point	G1	Ideas	NA	NA	NA	H	手册 Ideas 词族例明列 point
+consider	NA	-	A3	NA	NA	H	手册 A3 明示
+fix	PENDING	-	A3	NA	NA	-	维度一待定：fix these errors(G2)vs fix the structure(G1)；建议动词
+powerful	NA	-	A1	NA	NA	M	手册 A1 明示；目标态框架风险
+shows	NA	-	NA	NA	NA	M	描述性框架动词
+clearly	PENDING	-	NA	NA	NA	-	维度一待定（clear 系）；方式副词，act 层不赋值
+meaningful	NA	-	A1	NA	NA	M	正向评价；目标态框架风险
+right	PENDING	-	NA	NA	NA	-	维度一待定：the right word(G2)vs right now(NA)；同组 1 口径
+all	NA	-	NA	NA	NA	M	量词
+original	NA	-	NA	NA	NA	M	与 revised 配对的"原句/改后句"对照格式，元话语；同组 2
+sure	NA	-	A3	NA	NA	M	主导用法为 make sure，手册 A3 明示
+story	NA	-	NA	NA	NA	M	疑似议题内容残留，待核
+serious	NA	-	NA	NA	NA	M	严重性强化词，极性依宾语（serious errors / no serious issues）
+connection	G1	Ideas	NA	NA	NA	M	the connection between your points，论点关联
+research	G1	Development	NA	NA	NA	M	来源使用，证据层
+comparison	G1	Ideas	NA	NA	NA	M	论证方式
+state	NA	-	PENDING	NA	NA	-	act 层待定：state your thesis clearly（A3）vs 描述；内容动词类
+evidence	G1	Development	NA	NA	NA	H	Development 核心
+health	NA	-	NA	NA	NA	H	议题内容残留
+opposing	G1	Ideas	NA	NA	NA	H	opposing views，反驳层
+argument	G1	Ideas	NA	NA	NA	H	Ideas 明示
+frequent	NA	-	NA	NA	NA	M	频率标记（frequent errors）；与 recurring/common 同簇

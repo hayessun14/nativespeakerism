@@ -116,7 +116,7 @@
 | 112 | want | 144 | 4.836 | 0.404 | NA | — | A3 | NA | NA | M | you'll want to = 建议套语（常与 may 叠加） |
 | 113 | serve | 40 | 4.836 | 0.824 | NA | — | NA | NA | NA | M | 描述性动词 |
 | 114 | broader | 103 | 4.730 | 0.478 | G1 | Ideas | NA | NA | NA | M | broader context/implications |
-| 115 | move | 142 | 4.627 | 0.397 | PENDING | PENDING | PENDING | NA | NA | — | 维度一待定：move this paragraph(G1)vs move on to(NA)；D2 随之待定 |
+| 115 | move | 142 | 4.627 | 0.397 | PENDING | — | PENDING | NA | NA | — | 维度一待定：move this paragraph(G1)vs move on to(NA)；act 层随之待定 |
 | 116 | genuine | 99 | 4.621 | 0.483 | NA | — | A1 | NA | NA | M | a genuine strength/insight |
 | 117 | casual | 63 | 4.588 | 0.617 | PENDING | — | A2 | NA | NA | — | 维度一待定：属 tone/register，手册列 PENDING |
 | 118 | single | 95 | 4.512 | 0.487 | NA | — | NA | NA | NA | H | 数量词 |
@@ -261,7 +261,7 @@ act ＋ hedge 双标签共现：**0** 项
 | `cultural` | 80 | 维度三 | C1待定：议题内容残留 vs 文化/语言背景框架（理论上关键） |
 | `abstract` | 48 | 维度一 | 维度一待定：too abstract=缺具体支撑(G1-Dev)vs abstract language(G2) |
 | `inconsistent` | 68 | 维度一 | 维度一待定：inconsistent tense(G2)vs inconsistent argument(G1) |
-| `move` | 142 | 维度一、act | 维度一待定：move this paragraph(G1)vs move on to(NA)；D2 随之待定 |
+| `move` | 142 | 维度一、act | 维度一待定：move this paragraph(G1)vs move on to(NA)；act 层随之待定 |
 | `casual` | 63 | 维度一 | 维度一待定：属 tone/register，手册列 PENDING |
 | `polished` | 61 | 维度一 | 维度一待定：手册明列 polished 为 PENDING |
 

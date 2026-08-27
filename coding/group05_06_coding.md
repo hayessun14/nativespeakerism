@@ -111,13 +111,15 @@
 
 ### 4.2 hedge 层：中文条件是目前最贫乏的一侧
 
-| 对比 | hedge 富集侧 |
-|---|---|
-| L1 ↔ Generic | Generic（5 项 1608 词次 vs 2 项 123 词次） |
-| Generic ↔ Chinese | Generic（`feels`；Chinese 侧 0） |
-| Chinese ↔ German | German（`likely`、`often`、`quite`；Chinese 侧仅 `some`） |
+> **⚠ 本节已于组 7／组 8 编码时更正。** 初版称「中文条件在它参与的两个对比中都是 hedge 更少的一侧」，该陈述有误：组 3（Chinese 侧）的 hedge 层有已定 M1 `usually`（115 词次），并非 0；且按词次口径，Chinese ↔ German 一对的方向与按词位口径相反。更正后的完整对照见组 7／组 8 报告 §4。
 
-中文条件在它参与的两个对比中都是 hedge 更少的一侧。这与 3.1 的 C1 结果方向一致（中文条件既少被点名语言身份，也少被缓和），但两者都受小分母限制，且组 6 的 hedge PENDING 有 3 项（`few`、`could`、`would`）。**待 concordance 后与组 7／组 8 一并复核。**
+| 对比 | 词位口径 | 词次口径 |
+|---|---|---|
+| L1 ↔ Generic | Generic 5 : 2 | Generic 1608 : 123 |
+| Chinese ↔ Generic | 各 1 项（`usually` : `feels`） | 115 : 110，基本持平 |
+| Chinese ↔ German | German 3 : 1 | **Chinese 987 : 542**（方向相反，由高频弱 hedge `some` 主导） |
+
+可稳健成立的只有两条：**Generic > L1**、**German > Generic**（后者见组 7／组 8）。Chinese 的位置在两种口径下不一致，**本研究现阶段不能判定**。组 6 的 hedge PENDING 有 3 项（`few`、`could`、`would`），须待 concordance 后复核。
 
 ---
 

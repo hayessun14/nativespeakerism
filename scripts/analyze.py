@@ -30,7 +30,19 @@ N = {"1":128,"2":131,"3":37,"4":30,"5":56,"6":59,"7":77,"8":65,"9":131,"10":121,
 assert len(rows) == N, f"解析到 {len(rows)} 行，应为 {N}"
 assert {r["type"] for r in rows} == set(codes), "编码表与主表不匹配"
 for r in rows: r.update(codes[r["type"]])
-print(f"[校验] {N} 行全部匹配，无遗漏无冗余\n")
+LEGAL = {"d1": {"G1","G2","NA","PENDING"},
+         "d1sub": {"Ideas","Development","Global Structure","Local Structure",
+                   "Wording","Correctness","Grammar","Mechanics","-"},
+         "act": {"A1","A2","A3","NA","PENDING"},
+         "hedge": {"M1","NA","PENDING"},
+         "c": {"C1","NA","PENDING"},
+         "conf": {"H","M","L","-"}}
+bad = [(r["type"], k, r[k]) for r in rows for k in LEGAL if r[k] not in LEGAL[k]]
+assert not bad, f"非法取值: {bad}"
+sub = [(r["type"], r["d1"], r["d1sub"]) for r in rows
+       if (r["d1"] in ("G1","G2")) != (r["d1sub"] != "-")]
+assert not sub, f"主类与子类不匹配: {sub}"
+print(f"[校验] {N} 行全部匹配，取值合法，主类/子类一致\n")
 
 out = []; W = out.append
 
