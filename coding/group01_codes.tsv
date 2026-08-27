@@ -1,0 +1,129 @@
+type	d1	d1sub	d2	d0	c	conf	note
+CLAIM	G1	Ideas	NA	0	NA	H	论断/主张名词，Ideas 明示；本身中性，D2 不赋值
+rather	NA	-	NA	PENDING	NA	-	D0待定：手册列为 hedge，但"rather than"（建议对比框架）可能占主导
+correctness	G2	Correctness	NA	0	NA	H	直接命名 Correctness 焦点
+aim	G1	Ideas	PENDING	0	NA	-	D2待定："aim to/for"（D3）vs "your aim"（名词，NA）
+paper	NA	-	NA	0	NA	H	文本指称语，不指示层级
+SHARPEN	G1	Ideas	D3	0	NA	M	主导搭配 sharpen your claim/thesis/argument
+mechanical	G2	Mechanics	NA	0	NA	H	mechanical errors
+instance	NA	-	NA	0	NA	M	主导为"for instance"元话语（反馈自身举例，非要求学生举例）
+level	PENDING	-	NA	0	NA	-	D1待定：sentence-level(G2)/paragraph-level(G1)/level of detail(G1-Dev)
+edit	PENDING	-	D3	0	NA	-	D1待定：表层编辑(G2)vs全局修改(G1)
+would	NA	-	PENDING	PENDING	NA	-	手册指定共享项，concordance 抽 50 行判 D3/D0
+reasoning	G1	Ideas	NA	0	NA	H	Ideas 定义明示 lines of thought and reasoning
+tighten	PENDING	-	D3	0	NA	-	D1待定：tighten prose/sentences(G2)vs tighten argument(G1)
+NEED	NA	-	D3	0	NA	H	need to = Hyland&Hyland 明示建议套语
+material	G1	Development	NA	0	NA	M	source material，属支撑材料
+CLARIFY	PENDING	-	D3	0	NA	-	D1待定：手册 clear/clarity 系列一律 PENDING
+defensible	G1	Ideas	D1	0	NA	M	域固定于 claim/thesis；正向评价，但存在目标态框架风险
+cut	G2	Local Structure	D3	0	NA	M	删削冗余，句内/句间
+phrasing	G2	Wording	NA	0	NA	H	Wording 明示
+RELY	G1	Development	NA	0	NA	M	rely on evidence/sources
+sweeping	G1	Ideas	D2	0	NA	H	sweeping generalization，域固定于论断
+vague	PENDING	-	D2	0	NA	-	D1待定：与 unclear 同族，可指论证或用词
+credible	G1	Development	D1	0	NA	M	credible sources/evidence
+distract	PENDING	-	D2	0	NA	-	D1待定：typos distract(G2)vs digression distracts(G1)
+authority	G1	Ideas	NA	0	NA	L	写作者论述权威/立场，归修辞语境→G1
+complexity	G1	Ideas	NA	0	NA	M	acknowledge the complexity of the issue
+might	NA	-	PENDING	PENDING	NA	-	手册指定共享项
+prose	G2	Wording	NA	0	NA	M	主导搭配 tighten/clarify your prose，句级文风
+even	NA	-	NA	0	NA	H	焦点副词，非 hedge
+something	NA	-	NA	0	NA	H	不定指代
+credibility	G1	Development	NA	0	NA	M	与 credible 同域
+reads	PENDING	-	NA	0	NA	-	D1待定：the essay reads(整体)vs this sentence reads(句级)
+just	NA	-	PENDING	0	NA	-	D0待定：最小化降调(D0)vs"仅仅是"强化批评(NA)
+PROOFREAD	G2	Correctness	D3	0	NA	H	校对行动，Correctness+建议
+currently	NA	-	NA	0	NA	M	元话语对比框架（现状→建议），本身非行为
+analysis	G1	Ideas	NA	0	NA	H	Ideas 明示 analysis
+precision	PENDING	-	NA	0	NA	-	D1待定：precision of language(G2)vs of claims(G1)
+ASSERT	G1	Ideas	NA	0	NA	H	assertions 属 Ideas
+MATTER	G1	Ideas	NA	0	NA	M	why this matters，论点意义
+shifts	PENDING	-	NA	0	NA	-	D1待定：tense shifts(G2-Grammar)vs shifts in focus(G1)
+case	G1	Ideas	NA	0	NA	M	make the case for，论证整体
+arguing	G1	Ideas	NA	0	NA	H	Ideas 明示 arguments
+GIVE	NA	-	NA	0	NA	M	gives/given 混合，无固定层级所指
+contains	NA	-	NA	0	NA	H	描述性动词
+address	G1	Ideas	D3	0	NA	M	主导 address counterarguments/objections
+reorganize	G1	Global Structure	D3	0	NA	H	大单位重排，Global Structure 明示
+distinct	G1	Ideas	NA	0	NA	M	distinct points/ideas
+STRENGTHEN	G1	Ideas	D3	0	NA	M	strengthen your argument/thesis；Ideas/Development 子类边界待核
+assertion	G1	Ideas	NA	0	NA	H	Ideas 明示
+strongest	NA	-	D1	0	NA	M	通用评价级差词，层级由宾语决定→D1 归属受目标态框架影响
+then	NA	-	NA	0	NA	H	连接副词
+measured	PENDING	-	D1	0	NA	L	D1待定：属 tone/register，手册列 PENDING；D2 判定信度低
+arguable	G1	Ideas	D1	0	NA	M	an arguable thesis，域固定于论断
+should	NA	-	D3	0	NA	H	Hyland&Hyland 明示建议套语
+right	PENDING	-	NA	0	NA	-	D1待定：the right word(G2)vs right now(NA)
+line	PENDING	-	NA	0	NA	-	D1待定：line of reasoning(G1)vs this line(G2)
+now	NA	-	NA	0	NA	H	时间/话语副词
+structural	G1	Global Structure	NA	0	NA	H	structural issues，大单位
+engage	G1	Ideas	D3	0	NA	M	engage with counterarguments/the reader
+piece	NA	-	NA	0	NA	H	文本指称语
+imprecise	PENDING	-	D2	0	NA	-	D1待定：同 precision
+detail	G1	Development	NA	0	NA	H	Development 明示 detail
+alone	NA	-	NA	0	NA	H	限定副词
+written	NA	-	NA	0	NA	M	被动分词，无固定层级所指
+section	G1	Global Structure	NA	0	NA	M	大于段落的单位
+analytical	G1	Ideas	NA	0	NA	M	analytical depth/analytical claim；描述论述方式而非归功
+building	G1	Ideas	NA	0	NA	M	building on/building your argument
+similarly	NA	-	NA	0	NA	H	连接副词
+typos	G2	Mechanics	NA	0	NA	H	Mechanics 明示
+public	NA	-	NA	0	NA	H	议题内容残留（LOCNESS 主题词）
+underdeveloped	G1	Development	D2	0	NA	H	Development 域固定，负向
+actual	NA	-	NA	0	NA	M	对比性强调词
+carefully	NA	-	NA	0	NA	M	方式副词，非 hedge 非行为
+precisely	NA	-	NA	0	NA	M	方式副词
+define	PENDING	-	D3	0	NA	-	D1待定：define your terms 属 Wording(G2)还是概念澄清(G1)
+evidence	G1	Development	NA	0	NA	H	Development 核心
+four	NA	-	NA	0	NA	M	数量词，多为反馈条目枚举
+specifically	NA	-	NA	0	NA	M	元话语副词（区别于手册中 PENDING 的 specific）
+concerns	NA	-	D2	0	NA	M	my main concerns are…，批评标记语
+placeholder	G2	Wording	D2	0	NA	M	placeholder phrases/language，空泛措辞
+loosely	PENDING	-	D2	0	NA	-	D1待定：loosely connected(G1 连贯)vs loosely worded(G2)
+replace	PENDING	-	D3	0	NA	-	D1待定：replace this word(G2)vs replace this paragraph(G1)
+takes	NA	-	NA	0	NA	M	轻动词
+core	G1	Ideas	NA	0	NA	H	core claim/argument
+acknowledge	G1	Ideas	D3	0	NA	M	acknowledge counterarguments
+distinguish	G1	Ideas	D3	0	NA	M	distinguish between claims
+improving	NA	-	D3	0	NA	M	改进指向，层级由宾语决定
+risk	NA	-	NA	1	NA	M	D0：risks sounding X，删除后批评仍在且更强
+making	NA	-	NA	0	NA	H	轻动词
+counterarguments	G1	Ideas	NA	0	NA	H	Ideas 明示 counterargument
+sharper	NA	-	PENDING	0	NA	-	D2待定：比较级多嵌于目标态框架（make it sharper=D3）而非评价（D1）
+terms	PENDING	-	NA	0	NA	-	D1待定：key terms(G2-Wording)vs in terms of(NA)
+tackles	NA	-	D1	0	NA	M	your essay tackles a difficult question，开场归功套语
+policy	NA	-	NA	0	NA	H	议题内容残留
+cultural	NA	-	NA	0	PENDING	-	C1待定：议题内容残留 vs 文化/语言背景框架（理论上关键）
+turn	NA	-	NA	0	NA	H	in turn / turn to
+framing	G1	Ideas	NA	0	NA	M	论点呈现方式
+weaken	NA	-	D2	0	NA	M	weakens your argument，层级由宾语决定
+wording	G2	Wording	NA	0	NA	H	Wording 明示
+abstract	PENDING	-	D2	0	NA	-	D1待定：too abstract=缺具体支撑(G1-Dev)vs abstract language(G2)
+readers	G1	Ideas	NA	0	NA	M	受众；按窄口径 C1 规定归 G1
+mechanics	G2	Mechanics	NA	0	NA	H	Mechanics 明示
+significant	NA	-	NA	0	NA	M	程度形容词，极性依宾语
+skeptical	G1	Ideas	NA	0	NA	M	a skeptical reader will ask…，预设反驳
+entirely	NA	-	NA	0	NA	M	强化词；"not entirely"否定缓和待观察
+anecdote	G1	Development	NA	0	NA	H	证据类型
+inconsistent	PENDING	-	D2	0	NA	-	D1待定：inconsistent tense(G2)vs inconsistent argument(G1)
+fairly	NA	-	NA	1	NA	H	手册 D0 明示 hedge
+integrate	G1	Development	D3	0	NA	M	integrate evidence/quotations
+come	NA	-	NA	0	NA	M	comes across/comes from
+actually	NA	-	NA	0	NA	M	强化/对比副词
+want	NA	-	D3	0	NA	M	you'll want to = 建议套语（常与 may 叠加）
+serve	NA	-	NA	0	NA	M	描述性动词
+broader	G1	Ideas	NA	0	NA	M	broader context/implications
+move	PENDING	PENDING	PENDING	0	NA	-	D1待定：move this paragraph(G1)vs move on to(NA)；D2 随之待定
+genuine	NA	-	D1	0	NA	M	a genuine strength/insight
+casual	PENDING	-	D2	0	NA	-	D1待定：属 tone/register，手册列 PENDING
+single	NA	-	NA	0	NA	H	数量词
+sense	NA	-	NA	0	NA	M	makes sense / a sense of
+overly	NA	-	D2	0	NA	M	标记过度=内在负向
+polished	PENDING	-	D1	0	NA	-	D1待定：手册明列 polished 为 PENDING
+biggest	NA	-	NA	0	NA	M	级差强化词
+power	NA	-	NA	0	NA	M	疑似议题内容残留（政治权力）；the power of your argument 待核
+draft	NA	-	NA	0	NA	H	文本指称/写作过程；窄口径下不设类
+heavily	NA	-	NA	0	NA	M	强化词（rely heavily），非 hedge
+financial	NA	-	NA	0	NA	H	议题内容残留
+opening	G1	Global Structure	NA	0	NA	H	引言段，大单位
+develop	G1	Development	D3	0	NA	H	Development 明示
