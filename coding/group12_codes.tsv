@@ -1,0 +1,27 @@
+type	d1	d1sub	act	hedge	c	conf	note
+consistent	PENDING	-	NA	NA	NA	-	维度一待定：consistent tense(G2)vs consistent argument(G1)；同组 2 consistency 口径〔沿用组 10〕
+sentence	G2	Local Structure	NA	NA	NA	H	Local Structure 明示。注：组 2 为 sentences、组 10 为归并 SENTENCE，本组为单数单独入选，系口径效应
+think	NA	-	NA	NA	NA	M	I think…＝人称归因，属手册排除的缓和策略，不入 M1〔沿用组 10〕
+above	NA	-	NA	NA	NA	M	指示元话语（see above）〔沿用组 6〕
+cut	G2	Local Structure	A3	NA	NA	M	删削冗余，句内/句间〔沿用组 1〕
+recurring	NA	-	NA	NA	NA	M	"recurring errors/patterns，层级由宾语决定；构成""错误模式化""框架〔沿用组 2〕"
+underdeveloped	G1	Development	A2	NA	NA	H	Development 域固定，负向〔沿用组 1〕
+check	PENDING	-	A3	NA	NA	-	维度一待定：check your spelling(G2)vs check your logic(G1)；手册 A3 明示〔沿用组 2〕
+paragraph	PENDING	-	NA	NA	NA	-	维度一待定：手册明示段落内部组织→G2、段落间安排→G1〔沿用组 10〕
+then	NA	-	NA	NA	NA	H	连接副词〔沿用组 1〕
+third	NA	-	NA	NA	NA	M	序数词，反馈条目枚举〔沿用组 10〕
+material	G1	Development	NA	NA	NA	M	source material，属支撑材料〔沿用组 1〕
+ones	NA	-	NA	NA	NA	M	指代词。注：组 10 为归并 ONE（one+ones），本组为 ones 单独入选，系口径效应
+come	NA	-	NA	NA	NA	M	comes across/comes from〔沿用组 1〕
+sounds	NA	-	NA	NA	NA	M	听感评价框架动词（sounds awkward/natural）；与 natural/unnatural 共现，其 C1 权重由后者承担〔沿用组 7〕
+edit	PENDING	-	A3	NA	NA	-	维度一待定：表层编辑(G2)vs全局修改(G1)〔沿用组 1〕
+similar	NA	-	NA	NA	NA	M	a similar point／similar phrasing，层级由宾语决定
+needed	NA	-	A3	NA	NA	M	more detail is needed，need 系建议套语的被动形式〔沿用组 10〕
+way	NA	-	NA	NA	NA	M	a way to／the way you，无固定层级所指〔沿用组 10〕
+word	G2	Wording	NA	NA	NA	H	Wording 明示。注：本组为单数 word 独立入选（组 2 为归并 WORD），系 R1 先行的口径效应〔沿用组 3〕
+logic	G1	Ideas	NA	NA	NA	H	手册 Ideas 词族例明列 logic〔沿用组 5〕
+work	NA	-	NA	NA	NA	M	文本指称语（your work）〔沿用组 10〕
+punctuation	G2	Mechanics	NA	NA	NA	H	Mechanics 明示〔沿用组 4〕
+level	PENDING	-	NA	NA	NA	-	维度一待定：sentence-level(G2)/paragraph-level(G1)/level of detail(G1-Dev)〔沿用组 1〕
+defensible	G1	Ideas	A1	NA	NA	M	域固定于 claim/thesis；正向评价，但存在目标态框架风险〔沿用组 1〕
+vague	PENDING	-	A2	NA	NA	-	维度一待定：与 unclear 同族，可指论证或用词〔沿用组 1〕
