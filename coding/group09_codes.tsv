@@ -1,0 +1,132 @@
+type	d1	d1sub	act	hedge	c	conf	note
+paper	NA	-	NA	NA	NA	H	文本指称语，不指示层级〔沿用组 1〕
+CLAIM	G1	Ideas	NA	NA	NA	H	论断/主张名词，Ideas 明示；本身中性，act 层不赋值〔沿用组 1〕
+SHARPEN	G1	Ideas	A3	NA	NA	M	主导搭配 sharpen your claim/thesis/argument〔沿用组 1〕
+rather	NA	-	NA	PENDING	NA	-	"M1待定：手册列为 hedge，但""rather than""（建议对比框架）可能占主导〔沿用组 1〕"
+correctness	G2	Correctness	NA	NA	NA	H	直接命名 Correctness 焦点〔沿用组 1〕
+evidence	G1	Development	NA	NA	NA	H	Development 核心〔沿用组 1〕
+COUNTERARGUMENT	G1	Ideas	NA	NA	NA	H	Ideas 明示（counterargument）
+RELY	G1	Development	NA	NA	NA	M	rely on evidence/sources〔沿用组 1〕
+distract	PENDING	-	A2	NA	NA	-	维度一待定：typos distract(G2)vs digression distracts(G1)〔沿用组 1〕
+prose	G2	Wording	NA	NA	NA	M	主导搭配 tighten/clarify your prose，句级文风〔沿用组 1〕
+instance	NA	-	NA	NA	NA	M	"主导为""for instance""元话语（反馈自身举例，非要求学生举例）〔沿用组 1〕"
+concerns	NA	-	A2	NA	NA	M	my main concerns are…，批评标记语〔沿用组 1〕
+address	PENDING	-	PENDING	NA	NA	-	"手册 v3 强制查询清单（G1/A3 争议），不得凭词形归类：address counterarguments(G1+A3) vs 元话语""address the points below""(NA)〔沿用组 1〕"
+STRENGTHEN	G1	Ideas	A3	NA	NA	M	strengthen your argument/thesis；Ideas/Development 子类边界待核〔沿用组 1〕
+PROOFREAD	G2	Correctness	A3	NA	NA	H	校对行动，Correctness+建议〔沿用组 1〕
+credible	G1	Development	A1	NA	NA	M	credible sources/evidence〔沿用组 1〕
+arguable	G1	Ideas	A1	NA	NA	M	an arguable thesis，域固定于论断〔沿用组 1〕
+NEED	NA	-	A3	NA	NA	H	need to = Hyland&Hyland 明示建议套语〔沿用组 1〕
+reasoning	G1	Ideas	NA	NA	NA	H	Ideas 定义明示 lines of thought and reasoning〔沿用组 1〕
+aim	G1	Ideas	PENDING	NA	NA	-	"act 层待定：""aim to/for""（A3）vs ""your aim""（名词，NA）〔沿用组 1〕"
+anecdote	G1	Development	NA	NA	NA	H	证据类型〔沿用组 1〕
+gives	NA	-	NA	NA	NA	M	无固定层级所指。注：组 1 为归并 GIVE（gives+given），本组为 gives 单独入选，系 R1 先行的口径效应
+fairly	NA	-	NA	M1	NA	H	手册 v3 M1 明示 hedge〔沿用组 1〕
+mechanical	G2	Mechanics	NA	NA	NA	H	mechanical errors〔沿用组 1〕
+even	NA	-	NA	NA	NA	H	焦点副词，非 hedge〔沿用组 1〕
+reads	PENDING	-	NA	NA	NA	-	维度一待定：the essay reads(整体)vs this sentence reads(句级)〔沿用组 1〕
+actual	NA	-	NA	NA	NA	M	对比性强调词〔沿用组 1〕
+credibility	G1	Development	NA	NA	NA	M	与 credible 同域〔沿用组 1〕
+just	NA	-	NA	PENDING	NA	-	"M1待定：最小化降调(M1)vs""仅仅是""强化批评(NA)；竞争读法全在 hedge 层，与 act 层无关〔沿用组 1〕"
+might	NA	-	PENDING	PENDING	NA	-	手册指定共享项〔沿用组 1〕
+BUILD	G1	Ideas	NA	NA	NA	M	building on/building your argument；沿用组 1 building 口径
+complexity	G1	Ideas	NA	NA	NA	M	acknowledge the complexity of the issue〔沿用组 1〕
+would	NA	-	PENDING	PENDING	NA	-	手册指定共享项，concordance 抽 50 行判 A3/M1〔沿用组 1〕
+arguing	G1	Ideas	NA	NA	NA	H	Ideas 明示 arguments〔沿用组 1〕
+ASSERTION	G1	Ideas	NA	NA	NA	H	Ideas 明示；沿用组 1 assertion 口径
+analysis	G1	Ideas	NA	NA	NA	H	Ideas 明示 analysis〔沿用组 1〕
+tackles	NA	-	PENDING	NA	NA	-	act 层待定：your essay tackles a difficult question 属开场归功套语(A1)vs 描述(NA)。与组 4 raises 并案；组 1 的 A1 编码不追溯改动，留待跨组一致性检查统一回填
+EDIT	PENDING	-	A3	NA	NA	-	维度一待定：表层编辑(G2)vs 全局修改(G1)；沿用组 1 edit 口径
+matters	G1	Ideas	NA	NA	NA	M	why this matters，论点意义；沿用组 1 MATTER 口径
+authority	G1	Ideas	NA	NA	NA	L	写作者论述权威/立场，归修辞语境→G1〔沿用组 1〕
+BROAD	G1	Ideas	NA	NA	NA	M	broad/broader context 与 implications；沿用组 1 broader 口径
+promising	NA	-	A1	NA	NA	M	a promising start，正向评价；目标态框架风险
+sweeping	G1	Ideas	A2	NA	NA	H	sweeping generalization，域固定于论断〔沿用组 1〕
+effectively	NA	-	A1	NA	NA	M	effectively argues／effectively supports，方式副词但携正向评价；与组 2 effective 同族，目标态框架风险
+phrasing	G2	Wording	NA	NA	NA	H	Wording 明示〔沿用组 1〕
+takes	NA	-	NA	NA	NA	M	轻动词〔沿用组 1〕
+distinct	G1	Ideas	NA	NA	NA	M	distinct points/ideas〔沿用组 1〕
+should	NA	-	A3	NA	NA	H	Hyland&Hyland 明示建议套语〔沿用组 1〕
+kind	NA	-	NA	NA	NA	M	the kind of evidence／this kind of claim，类指名词
+opening	G1	Global Structure	NA	NA	NA	H	引言段，大单位〔沿用组 1〕
+currently	NA	-	NA	NA	NA	M	元话语对比框架（现状→建议），本身非行为〔沿用组 1〕
+level	PENDING	-	NA	NA	NA	-	维度一待定：sentence-level(G2)/paragraph-level(G1)/level of detail(G1-Dev)〔沿用组 1〕
+revise	NA	-	A3	NA	NA	H	手册 A3 明示〔沿用组 5〕
+asserted	G1	Ideas	NA	NA	NA	H	Ideas 明示；沿用组 1 ASSERT 口径
+narrow	G1	Ideas	PENDING	NA	NA	-	与本组 BROAD 构成论断范围对举，域固定于论断；act 层待定：narrow your claim(A3)vs too narrow(A2)
+tension	G1	Ideas	NA	NA	NA	M	a tension in your argument，论证内部张力
+improving	NA	-	A3	NA	NA	M	改进指向，层级由宾语决定〔沿用组 1〕
+public	NA	-	NA	NA	NA	H	议题内容残留（LOCNESS 主题词）〔沿用组 1〕
+contains	NA	-	NA	NA	NA	H	描述性动词〔沿用组 1〕
+strongest	NA	-	PENDING	NA	NA	-	手册 v3 强制查询清单（strong 系 A1/A3 争议），不得凭词形归类：your strongest evidence(A1) vs 目标态框架(A3)〔沿用组 1〕
+observations	NA	-	NA	NA	NA	M	元话语（a few observations），与组 6/7 notes 同簇
+mechanics	G2	Mechanics	NA	NA	NA	H	Mechanics 明示〔沿用组 1〕
+clarify	PENDING	-	A3	NA	NA	-	维度一待定（手册 clear 系）；建议动词〔沿用组 8〕
+heavily	NA	-	NA	NA	NA	M	强化词（rely heavily），非 hedge〔沿用组 1〕
+entirely	NA	-	NA	NA	NA	M	"强化词；""not entirely""否定缓和待观察〔沿用组 1〕"
+engage	G1	Ideas	A3	NA	NA	M	engage with counterarguments/the reader〔沿用组 1〕
+readers	G1	Ideas	NA	NA	NA	M	受众；按窄口径 C1 规定归 G1〔沿用组 1〕
+making	NA	-	NA	NA	NA	H	轻动词〔沿用组 1〕
+argument	G1	Ideas	NA	NA	NA	H	Ideas 明示〔沿用组 8〕
+framing	G1	Ideas	NA	NA	NA	M	论点呈现方式〔沿用组 1〕
+right	PENDING	-	NA	NA	NA	-	维度一待定：the right word(G2)vs right now(NA)〔沿用组 1〕
+policy	NA	-	NA	NA	NA	H	议题内容残留〔沿用组 1〕
+economic	NA	-	NA	NA	NA	H	议题内容残留
+organizing	G1	Global Structure	NA	NA	NA	H	Global Structure 明示〔沿用组 5〕
+reorganize	G1	Global Structure	A3	NA	NA	H	大单位重排，Global Structure 明示〔沿用组 1〕
+treatment	PENDING	-	NA	NA	NA	-	维度一待定：your treatment of the topic(G1-Ideas)vs 议题内容残留，待核
+precisely	NA	-	NA	NA	NA	M	方式副词〔沿用组 1〕
+sharper	NA	-	PENDING	NA	NA	-	act 层待定：比较级多嵌于目标态框架（make it sharper=A3）而非评价（A1）〔沿用组 1〕
+replace	PENDING	-	A3	NA	NA	-	维度一待定：replace this word(G2)vs replace this paragraph(G1)〔沿用组 1〕
+material	G1	Development	NA	NA	NA	M	source material，属支撑材料〔沿用组 1〕
+inconsistent	PENDING	-	A2	NA	NA	-	维度一待定：inconsistent tense(G2)vs inconsistent argument(G1)〔沿用组 1〕
+numerous	NA	-	NA	NA	NA	M	量词
+risk	NA	-	NA	M1	NA	M	M1：risks sounding X，删除后批评仍在且更强〔沿用组 1〕
+weakness	NA	-	PENDING	NA	NA	-	"act 层待定：反馈小标题""Weaknesses:""（元话语 NA）vs 负向评价（A2）；与 STRENGTH 同构处理"
+analytical	G1	Ideas	NA	NA	NA	M	analytical depth/analytical claim；描述论述方式而非归功〔沿用组 1〕
+overly	NA	-	A2	NA	NA	M	标记过度=内在负向〔沿用组 1〕
+once	NA	-	NA	NA	NA	M	时间/条件连接词〔沿用组 7〕
+something	NA	-	NA	NA	NA	H	不定指代〔沿用组 1〕
+studies	G1	Development	NA	NA	NA	M	来源/证据类型（studies show）；疑似议题内容残留，待核
+views	G1	Ideas	NA	NA	NA	M	opposing views，反驳层；同组 8 opposing 口径
+similarly	NA	-	NA	NA	NA	H	连接副词〔沿用组 1〕
+offer	NA	-	PENDING	NA	NA	-	act 层待定：offer more evidence（A3）vs you offer（描述）；内容动词类
+move	PENDING	-	PENDING	NA	NA	-	维度一待定：move this paragraph(G1)vs move on to(NA)；act 层随之待定〔沿用组 1〕
+vague	PENDING	-	A2	NA	NA	-	维度一待定：与 unclear 同族，可指论证或用词〔沿用组 1〕
+additionally	NA	-	NA	NA	NA	M	连接副词
+early	PENDING	-	NA	NA	NA	-	维度一待定：early in your essay（G1-Structure 位置）vs early on（NA）
+acknowledge	G1	Ideas	A3	NA	NA	M	acknowledge counterarguments〔沿用组 1〕
+personal	PENDING	-	NA	NA	NA	-	维度一待定：personal experience/anecdote(G1-Development)vs personal opinion(G1-Ideas)vs too personal(register)
+section	G1	Global Structure	NA	NA	NA	M	大于段落的单位〔沿用组 1〕
+typos	G2	Mechanics	NA	NA	NA	H	Mechanics 明示〔沿用组 1〕
+loosely	PENDING	-	A2	NA	NA	-	维度一待定：loosely connected(G1 连贯)vs loosely worded(G2)〔沿用组 1〕
+actually	NA	-	NA	NA	NA	M	强化/对比副词〔沿用组 1〕
+somewhat	NA	-	NA	M1	NA	H	手册 v3 M1 明示 hedge
+reflection	PENDING	-	NA	NA	NA	-	维度一待定：your reflection on the topic(G1-Ideas)vs a reflection of（NA）
+weaken	NA	-	A2	NA	NA	M	weakens your argument，层级由宾语决定〔沿用组 1〕
+seriously	NA	-	NA	NA	NA	M	强化副词（take seriously），非 hedge
+precision	PENDING	-	NA	NA	NA	-	维度一待定：precision of language(G2)vs of claims(G1)〔沿用组 1〕
+significance	G1	Ideas	NA	NA	NA	M	the significance of your claim，论点意义
+historical	NA	-	NA	NA	NA	H	议题内容残留
+deserves	NA	-	PENDING	NA	NA	-	act 层待定：this point deserves more attention＝隐性建议（A3）vs 正向评价（A1）
+repeated	PENDING	-	NA	NA	NA	-	维度一待定：repeated errors(G2)vs repeated ideas(G2-Local，手册 repetitive 口径)vs 论点重复(G1)
+cut	G2	Local Structure	A3	NA	NA	M	删削冗余，句内/句间〔沿用组 1〕
+discussion	G1	Ideas	NA	NA	NA	M	your discussion of X；子类 Ideas 与 Global Structure 边界待核
+specifically	NA	-	NA	NA	NA	M	元话语副词（区别于手册中 PENDING 的 specific）〔沿用组 1〕
+saying	NA	-	PENDING	NA	NA	-	act 层待定：you say X（描述）vs say more about（A3）；内容动词类
+specific	PENDING	-	NA	NA	NA	-	手册明列 specific 为 PENDING：细节不足(G1-Dev)vs 用词不准(G2)〔沿用组 5〕
+define	PENDING	-	A3	NA	NA	-	维度一待定：define your terms 属 Wording(G2)还是概念澄清(G1)〔沿用组 1〕
+serve	NA	-	NA	NA	NA	M	描述性动词〔沿用组 1〕
+rebuttal	G1	Ideas	NA	NA	NA	H	反驳层，与 COUNTERARGUMENT 同域
+single	NA	-	NA	NA	NA	H	数量词〔沿用组 1〕
+logically	G1	Ideas	NA	NA	NA	M	手册 Ideas 词族例含 logic；若主导搭配为 organize…logically 则应改判 Global Structure〔沿用组 3〕
+dates	NA	-	NA	NA	NA	M	疑似议题内容残留（与 historical 共现）vs 引证信息，待核
+line	PENDING	-	NA	NA	NA	-	维度一待定：line of reasoning(G1)vs this line(G2)〔沿用组 1〕
+showing	NA	-	NA	NA	NA	M	描述性框架动词
+distinguish	G1	Ideas	A3	NA	NA	M	distinguish between claims〔沿用组 1〕
+fully	NA	-	NA	NA	NA	M	强化词，非 hedge
+ask	PENDING	-	NA	NA	NA	-	维度一待定：a reader will ask（G1-Ideas 预设反驳）vs ask yourself（元话语）
+thesis	G1	Ideas	NA	NA	NA	H	Ideas 明示〔沿用组 5〕
+now	NA	-	NA	NA	NA	H	时间/话语副词〔沿用组 1〕
+likely	NA	-	NA	M1	NA	H	认识型 hedge，与手册 probably/possibly 同类〔沿用组 6〕
+undermines	NA	-	A2	NA	NA	M	undermines your credibility，层级由宾语决定；同组 1 weaken 口径
