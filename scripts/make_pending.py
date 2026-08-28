@@ -16,7 +16,7 @@ ALL = "coding/all_codes.tsv"
 LAYER = {"d1": "维度一", "act": "act 层", "hedge": "hedge 层", "c": "维度三"}
 
 # v3 强制查询清单已知条目及其同族形式（清单全文尚未获得，见各组报告）
-MANDATORY = {"address", "strong", "strongest", "stronger", "strengths", "STRENGTH",
+MANDATORY = {"address", "strong", "strongest", "stronger", "strengths", "strength", "STRENGTH",
              "STRENGTHEN", "strengthen"}
 # 手册指定的共享情态项
 SHARED_MODAL = {"could", "would", "might", "can"}

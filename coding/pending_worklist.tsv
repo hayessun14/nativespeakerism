@@ -28,6 +28,7 @@ priority	type	layers	n_layers	groups	n_groups	max_freq_tar	freq_by_group	max_ll	
 2	might	act 层＋hedge 层	2	1/9	2	189	组1:187; 组9:189	16.823	0.689	手册指定共享项
 2	strongest	act 层	1	1/4/9	3	180	组1:180; 组4:122; 组9:176	9.728	0.523	手册 v3 强制查询清单（strong 系 A1/A3 争议），不得凭词形归类：your strongest evidence(A1) vs 目标态框架(A3)
 2	strengths	act 层	1	10	1	165	组10:165	49.273	1.417	act 层待定：反馈小标题"Strengths:"（元话语 NA）vs 归功（A1）；且属 strong 词族，按 v3 强制查询规则不得凭词形定。注：组 2 为归并 STRENGTH，本组为 strengths 单独入选，系口径效应
+2	strength	act 层	1	4	1	92	组4:92	4.419	0.490	act 层待定：反馈小标题"Strengths:"（元话语 NA）vs 归功（A1）；且属 strong 词族，按 v3 强制查询规则不得凭词形定
 3	paragraph	维度一	1	10/12	2	1699	组10:1699; 组12:1688	11.077	0.168	维度一待定：手册明示段落内部组织→G2、段落间安排→G1
 3	academic	维度一	1	2/6/7/10	4	997	组2:841; 组6:997; 组7:997; 组10:841	73.006	0.669	维度一待定：属 register，手册列 tone/formal/register 为 PENDING
 3	specific	维度一	1	5/8/9	3	630	组5:502; 组8:546; 组9:630	16.535	0.379	手册明列 specific 为 PENDING：细节不足(G1-Dev)vs 用词不准(G2)
@@ -127,7 +128,6 @@ priority	type	layers	n_layers	groups	n_groups	max_freq_tar	freq_by_group	max_ll	
 6	rewrite	维度一	1	6	1	97	组6:97	8.396	0.680	维度一待定：rewrite this sentence(G2)vs rewrite this paragraph(G1)；建议动词
 6	define	维度一	1	1/9	2	94	组1:94; 组9:87	6.696	0.609	维度一待定：define your terms 属 Wording(G2)还是概念澄清(G1)
 6	aim	act 层	1	1/9	2	92	组1:92; 组9:67	40.757	1.900	act 层待定："aim to/for"（A3）vs "your aim"（名词，NA）
-6	strength	act 层	1	4	1	92	组4:92	4.419	0.490	act 层待定：反馈小标题"Strengths:"（元话语 NA）vs 归功（A1）；且属 strong 词族，按 v3 强制查询规则不得凭词形定
 6	understandable	维度一＋低信度复核	2	2/7/10	3	91	组2:62; 组7:91; 组10:62	22.275	1.600	维度一待定（clear 系）；act 低信度：作为"低门槛褒扬"（your English is understandable）与 A1 定义是否相符须查
 6	line	维度一	1	1/9	2	86	组1:86; 组9:74	8.715	0.744	维度一待定：line of reasoning(G1)vs this line(G2)
 6	suggested	act 层	1	2/10	2	86	组2:86; 组10:86	8.255	0.710	act 层待定：the suggested revision（NA）vs I suggested（A3）
