@@ -1,0 +1,4 @@
+corpora/
+out/
+*.db
+__pycache__/
