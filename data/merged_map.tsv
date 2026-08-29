@@ -1,15 +1,43 @@
-# LABEL<TAB>form1,form2,...  (from keyword_ALL_merged_labels.md)
-ARTICLE	
-CLARIFY	
-CLEAR	
-EDIT	
-EXPLAIN	
-FOCUS	
-GOOD	
-INFLUENCE	
-MEAN	
-PATTERN	
-REQUIRE	
-STRENGTH	
-STRENGTHEN	
-USE	
+# R4 归并标签 -> 构成词形
+# 来源：keyword_ALL_merged_labels.md（40 个唯一标签，跨组构成一致性已核验无冲突）
+# 格式：LABEL<TAB>form1,form2,...
+ARTICLE	article,articles
+ASSERT	assert,asserted
+ASSERTION	assertion,assertions
+BROAD	broad,broader
+BUILD	build,building
+CLAIM	claim,claims
+CLARIFY	clarify,clarifying
+CLEAR	clear,clearer
+COMMA	comma,commas
+COUNTERARGUMENT	counterargument,counterarguments
+EDIT	edit,editing
+EXPLAIN	explain,explained
+FOCUS	focus,focused
+GIVE	gives,given
+GOOD	good,better
+HELP	help,helps
+IDEA	idea,ideas
+IMPROVE	improve,improved
+INFLUENCE	influence,influenced
+MATTER	matter,matters
+MEAN	mean,means
+NEED	need,needs
+NOUN	noun,nouns
+ONE	one,ones
+OPINION	opinion,opinions
+PATTERN	pattern,patterns
+PHRASE	phrase,phrases
+PROOFREAD	proofread,proofreading
+RELY	rely,relies
+REQUIRE	require,requires
+SECTION	section,sections
+SENTENCE	sentence,sentences
+SHARPEN	sharpen,sharpening
+SHORT	short,shorter
+SPEAKER	speaker,speakers
+STRENGTH	strength,strengths
+STRENGTHEN	strengthen,strengthening
+SUPPORT	support,supporting
+USE	use,using
+WORD	word,words
