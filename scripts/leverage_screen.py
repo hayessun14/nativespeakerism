@@ -205,7 +205,7 @@ for name, ga, gb, layer, cat in CROSS:
 print(f"[条款 3] 组内追加必查 {len(clause3_log)} 个；跨组检验 {len(CROSS)} 项")
 print(f"[合计] 必查单元格 {len(must)} 个 / 待筛查 {len(screen)} 个")
 must_types = {t for _, _, t in must}
-print(f"[词形口径] 必查词形 {len(must_types)} 个 / P4–P6 词形 131 个")
+print(f"[词形口径] 必查词形 {len(must_types)} 个 / P4–P6 词形 {N_SCREEN} 个")
 
 # ---------------- 输出 1：leverage_screen.tsv ----------------
 CLAUSE_CN = {"条款1": "条款1 杠杆≥3.0", "条款2": "条款2 改变排序",

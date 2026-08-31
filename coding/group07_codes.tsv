@@ -1,10 +1,10 @@
 type	d1	d1sub	act	hedge	c	conf	note
 german	NA	-	NA	NA	C1	H	Identity marking 明示；Range 279/348＝80.2%
-english	NA	-	NA	NA	PENDING	-	手册明列：指语言系统（correct English）→C1；作文体修饰→NA。本组 Range 255/348，C1 先验极高，仍依规则待查
-ARTICLE	PENDING	-	NA	NA	NA	-	维度一待定：英语冠词(G2-Grammar)vs 引用的文章(G1-Development)
+english	NA	-	NA	NA	C1	C	手册明列：指语言系统（correct English）→C1；作文体修饰→NA。本组 Range 255/348，C1 先验极高，仍依规则待查〔concordance 判定：c=C1〕
+ARTICLE	G2	Grammar	NA	NA	NA	C	维度一待定：英语冠词(G2-Grammar)vs 引用的文章(G1-Development)〔concordance 判定：d1=G2-Correctness-Grammar〕
 SPEAKER	NA	-	NA	NA	C1	H	手册 Identity marking 词族例明列 speaker
-PATTERN	PENDING	-	NA	NA	NA	-	维度一待定：error patterns(G2)vs sentence patterns(G2-Local)vs 论证模式(G1)
-order	PENDING	-	NA	NA	NA	-	维度一待定：word order（G2-Grammar，德语语序迁移典型项）vs "in order to"（NA）
+PATTERN	G2	Grammar	NA	NA	NA	C	维度一待定：error patterns(G2)vs sentence patterns(G2-Local)vs 论证模式(G1)〔concordance 判定：d1=G2-Correctness-Grammar〕
+order	G2	Local Structure	NA	NA	NA	C	维度一待定：word order（G2-Grammar，德语语序迁移典型项）vs "in order to"（NA）〔concordance 判定：d1=G2-Local Structure〕
 common	NA	-	NA	NA	NA	M	常见性标记（a common error）＝正常化框架；属手册排除的 paired acts 类
 transfer	NA	-	NA	NA	C1	H	手册 Transfer framing 词族例明列 transfer
 NOUN	G2	Grammar	NA	NA	NA	H	Correctness/Grammar 明示；德语名词首字母大写为典型迁移项
@@ -12,67 +12,67 @@ watch	NA	-	A3	NA	NA	M	watch for / watch out for＝注意指令
 usage	G2	Correctness	NA	NA	NA	M	article usage / comma usage，语言使用规范层
 moment	NA	-	NA	NA	NA	M	元话语现状框架（at the moment），与组 1 currently 同构
 writer	NA	-	NA	NA	NA	M	第三人称指称写作者（the writer），与 your 的第二人称形成对照
-natural	PENDING	-	PENDING	NA	PENDING	-	三层皆待定：sounds natural 是否以母语者语感为隐含标准（C1）；同组 2、组 6 口径
-check	PENDING	-	A3	NA	NA	-	维度一待定：check your spelling(G2)vs check your logic(G1)
-style	PENDING	-	NA	NA	NA	-	维度一待定（手册列 tone/register 为 PENDING）
-REQUIRE	NA	-	PENDING	NA	NA	-	act 层待定：this requires a comma（A3）vs German requires…（描述，且可能属 C1 共现语境）
-register	PENDING	-	NA	NA	NA	-	维度一待定（手册列 register 为 PENDING）；元语言学术语
-influenced	PENDING	-	NA	NA	PENDING	-	维度三待定：influenced by German（Transfer framing，C1）vs influence the reader（G1）；与组 6 INFLUENCE 同族
+natural	NA	-	NA	NA	NA	C	三层皆待定：sounds natural 是否以母语者语感为隐含标准（C1）；同组 2、组 6 口径〔concordance 判定：d1=NA，act=NA，c=NA〕
+check	G2	Wording	A3	NA	NA	C	维度一待定：check your spelling(G2)vs check your logic(G1)〔concordance 判定：d1=G2-Wording〕
+style	G2	Wording	NA	NA	NA	C	维度一待定（手册列 tone/register 为 PENDING）〔concordance 判定：d1=G2-Wording〕
+REQUIRE	NA	-	NA	NA	NA	C	act 层待定：this requires a comma（A3）vs German requires…（描述，且可能属 C1 共现语境）〔concordance 判定：act=NA〕
+register	G2	Wording	NA	NA	NA	C	维度一待定（手册列 register 为 PENDING）；元语言学术语〔concordance 判定：d1=G2-Wording(100%)〕
+influenced	NA	-	NA	NA	C1	C	维度三待定：influenced by German（Transfer framing，C1）vs influence the reader（G1）；与组 6 INFLUENCE 同族〔concordance 判定：d1=NA(74%)，c=C1(74%)〕
 argumentation	G1	Ideas	NA	NA	NA	H	Ideas 明示
-false	NA	-	NA	NA	PENDING	-	维度三待定：false friends（C1）vs false dichotomy（G1-Ideas）；与 friends 的 Freq/Range 近乎同步
+false	NA	-	NA	NA	C1	C	维度三待定：false friends（C1）vs false dichotomy（G1-Ideas）；与 friends 的 Freq/Range 近乎同步〔concordance 判定：c=C1〕
 COMMA	G2	Mechanics	NA	NA	NA	H	Mechanics 明示
 often	NA	-	NA	M1	NA	H	手册 v3 M1 明示 hedge
 eg	NA	-	NA	NA	NA	M	举例元话语（e.g.）
 structure	G1	Global Structure	NA	NA	NA	H	手册边界规则明示：structure 主导义为篇章结构
 clauses	G2	Local Structure	NA	NA	NA	H	手册 Local Structure 词族例明列 clause
-language	PENDING	-	NA	NA	PENDING	-	维度三待定：your language background(C1)vs academic language(G2 Wording)
+language	G2	Wording	NA	NA	NA	C	维度三待定：your language background(C1)vs academic language(G2 Wording)〔concordance 判定：d1=G2-Wording，c=NA〕
 likely	NA	-	NA	M1	NA	H	认识型 hedge
-speaking	NA	-	NA	NA	PENDING	-	维度三待定：German-speaking / German speakers（C1）vs generally speaking（NA）
+speaking	NA	-	NA	NA	C1	C	维度三待定：German-speaking / German speakers（C1）vs generally speaking（NA）〔concordance 判定：c=C1〕
 SHORT	G2	Local Structure	NA	NA	NA	M	short/shorter sentences；比较级，评价由框架承担
 fine	NA	-	A1	NA	NA	L	低信度：this is fine 属低门槛褒扬，与 A1「归功于正面价值特征」的定义是否相符须查；同组 2 understandable
-academic	PENDING	-	NA	NA	NA	-	维度一待定（register）
+academic	G2	Wording	NA	NA	NA	C	维度一待定（register）〔concordance 判定：d1=G2-Wording〕
 prepositions	G2	Grammar	NA	NA	NA	H	Correctness/Grammar 明示
 splices	G2	Local Structure	NA	NA	NA	H	comma splice 与 run-on 同属句界错误，依手册 run-on 口径归 Local Structure
 usually	NA	-	NA	M1	NA	H	手册 v3 M1 明示 hedge
 forms	G2	Grammar	NA	NA	NA	M	verb forms / plural forms
-unnatural	PENDING	-	PENDING	NA	PENDING	-	三层皆待定：与 natural 同族，是否以母语者语感为隐含标准（C1）；若非 C1 则 act 为 A2
+unnatural	G2	Wording	A2	NA	NA	C	三层皆待定：与 natural 同族，是否以母语者语感为隐含标准（C1）；若非 C1 则 act 为 A2〔concordance 判定：d1=G2-Wording，act=A2，c=NA〕
 very	NA	-	NA	NA	NA	M	强化词，非 hedge
 MEAN	PENDING	-	NA	NA	NA	-	维度一待定：what you mean（G1 表意清晰）vs by means of（NA）
 phrasing	G2	Wording	NA	NA	NA	H	Wording 明示
 second	NA	-	NA	NA	NA	M	序数词，反馈条目枚举
-abstract	PENDING	-	A2	NA	NA	-	维度一待定：too abstract＝缺具体支撑(G1-Dev)vs abstract language(G2)；同组 1 口径
-friends	NA	-	NA	NA	PENDING	-	维度三待定：false friends（C1）vs 议题内容残留；参照侧 Freq 23 提示存在非 C1 基线用法
+abstract	G1	Development	A2	NA	NA	C	维度一待定：too abstract＝缺具体支撑(G1-Dev)vs abstract language(G2)；同组 1 口径〔concordance 判定：d1=G1-Development〕
+friends	NA	-	NA	NA	C1	C	维度三待定：false friends（C1）vs 议题内容残留；参照侧 Freq 23 提示存在非 C1 基线用法〔concordance 判定：c=C1〕
 generally	NA	-	NA	M1	NA	H	手册 v3 M1 明示 hedge
-precision	PENDING	-	NA	NA	NA	-	维度一待定：precision of language(G2)vs of claims(G1)；同组 1 口径
+precision	NA	-	NA	NA	NA	C	维度一待定：precision of language(G2)vs of claims(G1)；同组 1 口径〔concordance 判定：d1=NA〕
 sentences	G2	Local Structure	NA	NA	NA	H	Local Structure 明示
 word	G2	Wording	NA	NA	NA	H	Wording 明示
-double	PENDING	-	PENDING	NA	NA	-	维度一与 act 层皆待定：double-check（A3）vs double negative（G2-Grammar）
-confusion	PENDING	-	A2	NA	NA	-	维度一待定（clear 系）；负向评价
+double	G2	Mechanics	NA	NA	NA	C	维度一与 act 层皆待定：double-check（A3）vs double negative（G2-Grammar）〔concordance 判定：d1=G2-Correctness-Mechanics，act=NA〕
+confusion	G2	Wording	A2	NA	NA	C	维度一待定（clear 系）；负向评价〔concordance 判定：d1=G2-Wording〕
 notes	NA	-	NA	NA	NA	M	元话语（a few notes on…）
 therefore	NA	-	NA	NA	NA	M	连接副词；亦可能为被建议使用的衔接词，待核
 singular	G2	Grammar	NA	NA	NA	H	单复数，Correctness/Grammar 明示
 come	NA	-	NA	NA	NA	M	comes across / comes from
-vary	PENDING	-	PENDING	NA	NA	-	维度一与 act 层皆待定：vary your sentence length(G2＋A3)vs 描述；内容动词类
+vary	NA	-	NA	NA	NA	C	维度一与 act 层皆待定：vary your sentence length(G2＋A3)vs 描述；内容动词类〔concordance 判定：d1=NA，act=NA〕
 independent	G2	Local Structure	NA	NA	NA	M	independent clause，与 clauses 共现
-basis	PENDING	-	NA	NA	NA	-	维度一待定：the basis of your claim(G1-Ideas)vs on a …basis（NA）
+basis	G1	Ideas	NA	NA	NA	C	维度一待定：the basis of your claim(G1-Ideas)vs on a …basis（NA）〔concordance 判定：d1=G1-Ideas(80%)〕
 contains	NA	-	NA	NA	NA	H	描述性动词
 once	NA	-	NA	NA	NA	M	时间/条件连接词
-only	NA	-	NA	PENDING	NA	-	hedge 层待定：最小化降调（only a few errors）vs 限定；同组 2
-understandable	PENDING	-	A1	NA	NA	L	维度一待定（clear 系）；act 低信度：低门槛褒扬与 A1 定义是否相符须查；同组 2
+only	NA	-	NA	NA	NA	C	hedge 层待定：最小化降调（only a few errors）vs 限定；同组 2〔concordance 判定：hedge=NA〕
+understandable	NA	-	A1	NA	NA	C	维度一待定（clear 系）；act 低信度：低门槛褒扬与 A1 定义是否相符须查；同组 2〔concordance 判定：d1=NA〕
 phrases	G2	Wording	NA	NA	NA	H	Wording 明示
 pay	NA	-	A3	NA	NA	M	pay attention to＝注意指令
 always	NA	-	NA	NA	NA	M	最大化副词，非 hedge
 few	NA	-	NA	PENDING	NA	-	hedge 层待定：a few errors 最小化降调 vs 单纯量词；同组 6
-rhetorical	PENDING	-	NA	NA	NA	-	维度一待定：rhetorical question（局部修辞手段）vs rhetorical strategy（G1）
+rhetorical	G2	Local Structure	NA	NA	NA	C	维度一待定：rhetorical question（局部修辞手段）vs rhetorical strategy（G1）〔concordance 判定：d1=G2-Local Structure〕
 given	NA	-	NA	NA	NA	M	given that / given the topic
 beginning	G1	Global Structure	NA	NA	NA	M	the beginning of your essay，大单位位置
-number	PENDING	-	NA	NA	NA	-	维度一待定：singular/plural number(G2-Grammar)vs a number of（NA）
+number	NA	-	NA	NA	NA	C	维度一待定：singular/plural number(G2-Grammar)vs a number of（NA）〔concordance 判定：d1=NA〕
 similarly	NA	-	NA	NA	NA	H	连接副词
-raise	G1	Ideas	PENDING	NA	NA	-	act 层待定：raises an important question 属开场归功套语(A1)vs 描述(NA)；与组 1 tackles、组 4 raises 并案
+raise	G1	Ideas	NA	NA	NA	C	act 层待定：raises an important question 属开场归功套语(A1)vs 描述(NA)；与组 1 tackles、组 4 raises 并案〔concordance 判定：act=NA〕
 quite	NA	-	NA	M1	NA	H	手册 v3 M1 明示 hedge
-appropriate	PENDING	-	NA	NA	NA	-	维度一待定：appropriate tone(register)vs appropriate word choice(G2)；规范性框架词
+appropriate	G2	Wording	NA	NA	NA	C	维度一待定：appropriate tone(register)vs appropriate word choice(G2)；规范性框架词〔concordance 判定：d1=G2-Wording〕
 plural	G2	Grammar	NA	NA	NA	H	单复数，Correctness/Grammar 明示
 argumentative	NA	-	NA	NA	NA	M	文体标签（argumentative essay），不指示层级
-direct	PENDING	-	NA	NA	PENDING	-	维度三待定（先验较低）：German writing is direct（文化—语用框架）vs be more direct(G2)
+direct	G1	Ideas	NA	NA	NA	C	维度三待定（先验较低）：German writing is direct（文化—语用框架）vs be more direct(G2)〔concordance 判定：d1=G1-Ideas，c=NA〕
 sounds	NA	-	NA	NA	NA	M	听感评价框架动词（sounds awkward/natural）；与 natural/unnatural 共现，其 C1 权重由后者承担
 introduces	NA	-	NA	NA	NA	M	描述性动词（your introduction introduces…）

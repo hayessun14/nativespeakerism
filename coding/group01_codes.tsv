@@ -1,65 +1,65 @@
 type	d1	d1sub	act	hedge	c	conf	note
 CLAIM	G1	Ideas	NA	NA	NA	H	论断/主张名词，Ideas 明示；本身中性，act 层不赋值
-rather	NA	-	NA	PENDING	NA	-	"M1待定：手册列为 hedge，但""rather than""（建议对比框架）可能占主导"
+rather	NA	-	NA	NA	NA	C	M1待定：手册列为 hedge，但"rather than"（建议对比框架）可能占主导〔concordance 判定：hedge=NA〕
 correctness	G2	Correctness	NA	NA	NA	H	直接命名 Correctness 焦点
-aim	G1	Ideas	PENDING	NA	NA	-	"act 层待定：""aim to/for""（A3）vs ""your aim""（名词，NA）"
+aim	G1	Ideas	A3	NA	NA	C	act 层待定："aim to/for"（A3）vs "your aim"（名词，NA）〔concordance 判定：act=A3(98%)〕
 paper	NA	-	NA	NA	NA	H	文本指称语，不指示层级
 SHARPEN	G1	Ideas	A3	NA	NA	M	主导搭配 sharpen your claim/thesis/argument
 mechanical	G2	Mechanics	NA	NA	NA	H	mechanical errors
-instance	NA	-	NA	NA	NA	M	"主导为""for instance""元话语（反馈自身举例，非要求学生举例）"
-level	PENDING	-	NA	NA	NA	-	维度一待定：sentence-level(G2)/paragraph-level(G1)/level of detail(G1-Dev)
+instance	NA	-	NA	NA	NA	M	主导为"for instance"元话语（反馈自身举例，非要求学生举例）
+level	G2	Local Structure	NA	NA	NA	C	维度一待定：sentence-level(G2)/paragraph-level(G1)/level of detail(G1-Dev)〔concordance 判定：d1=G2-Local Structure(94%)〕
 edit	PENDING	-	A3	NA	NA	-	维度一待定：表层编辑(G2)vs全局修改(G1)
-would	NA	-	PENDING	PENDING	NA	-	手册指定共享项，concordance 抽 50 行判 A3/M1
+would	NA	-	A3	M1	NA	C	手册指定共享项，concordance 抽 50 行判 A3/M1〔concordance 判定：act=A3(54%)，hedge=M1(54%)〕
 reasoning	G1	Ideas	NA	NA	NA	H	Ideas 定义明示 lines of thought and reasoning
-tighten	PENDING	-	A3	NA	NA	-	维度一待定：tighten prose/sentences(G2)vs tighten argument(G1)
+tighten	G1	Ideas	A3	NA	NA	C	维度一待定：tighten prose/sentences(G2)vs tighten argument(G1)〔concordance 判定：d1=G1-Ideas〕
 NEED	NA	-	A3	NA	NA	H	need to = Hyland&Hyland 明示建议套语
 material	G1	Development	NA	NA	NA	M	source material，属支撑材料
-CLARIFY	PENDING	-	A3	NA	NA	-	维度一待定：手册 clear/clarity 系列一律 PENDING
+CLARIFY	G1	Ideas	A3	NA	NA	C	维度一待定：手册 clear/clarity 系列一律 PENDING〔concordance 判定：d1=G1-Ideas〕
 defensible	G1	Ideas	A1	NA	NA	M	域固定于 claim/thesis；正向评价，但存在目标态框架风险
 cut	G2	Local Structure	A3	NA	NA	M	删削冗余，句内/句间
 phrasing	G2	Wording	NA	NA	NA	H	Wording 明示
 RELY	G1	Development	NA	NA	NA	M	rely on evidence/sources
 sweeping	G1	Ideas	A2	NA	NA	H	sweeping generalization，域固定于论断
-vague	PENDING	-	A2	NA	NA	-	维度一待定：与 unclear 同族，可指论证或用词
+vague	G2	Wording	A2	NA	NA	C	维度一待定：与 unclear 同族，可指论证或用词〔concordance 判定：d1=G2-Wording〕
 credible	G1	Development	A1	NA	NA	M	credible sources/evidence
-distract	PENDING	-	A2	NA	NA	-	维度一待定：typos distract(G2)vs digression distracts(G1)
+distract	G2	Mechanics	A2	NA	NA	C	维度一待定：typos distract(G2)vs digression distracts(G1)〔concordance 判定：d1=G2-Correctness-Mechanics〕
 authority	G1	Ideas	NA	NA	NA	L	写作者论述权威/立场，归修辞语境→G1
 complexity	G1	Ideas	NA	NA	NA	M	acknowledge the complexity of the issue
-might	NA	-	PENDING	PENDING	NA	-	手册指定共享项
+might	NA	-	A3	NA	NA	C	手册指定共享项〔concordance 判定：act=A3，hedge=NA〕
 prose	G2	Wording	NA	NA	NA	M	主导搭配 tighten/clarify your prose，句级文风
 even	NA	-	NA	NA	NA	H	焦点副词，非 hedge
 something	NA	-	NA	NA	NA	H	不定指代
 credibility	G1	Development	NA	NA	NA	M	与 credible 同域
-reads	PENDING	-	NA	NA	NA	-	维度一待定：the essay reads(整体)vs this sentence reads(句级)
-just	NA	-	NA	PENDING	NA	-	"M1待定：最小化降调(M1)vs""仅仅是""强化批评(NA)；竞争读法全在 hedge 层，与 act 层无关"
+reads	G1	Global Structure	NA	NA	NA	C	维度一待定：the essay reads(整体)vs this sentence reads(句级)〔concordance 判定：d1=G1-Global Structure〕
+just	NA	-	NA	NA	NA	C	M1待定：最小化降调(M1)vs"仅仅是"强化批评(NA)；竞争读法全在 hedge 层，与 act 层无关〔concordance 判定：hedge=NA〕
 PROOFREAD	G2	Correctness	A3	NA	NA	H	校对行动，Correctness+建议
 currently	NA	-	NA	NA	NA	M	元话语对比框架（现状→建议），本身非行为
 analysis	G1	Ideas	NA	NA	NA	H	Ideas 明示 analysis
-precision	PENDING	-	NA	NA	NA	-	维度一待定：precision of language(G2)vs of claims(G1)
+precision	NA	-	NA	NA	NA	C	维度一待定：precision of language(G2)vs of claims(G1)〔concordance 判定：d1=NA〕
 ASSERT	G1	Ideas	NA	NA	NA	H	assertions 属 Ideas
 MATTER	G1	Ideas	NA	NA	NA	M	why this matters，论点意义
-shifts	PENDING	-	NA	NA	NA	-	维度一待定：tense shifts(G2-Grammar)vs shifts in focus(G1)
+shifts	G1	Global Structure	NA	NA	NA	C	维度一待定：tense shifts(G2-Grammar)vs shifts in focus(G1)〔concordance 判定：d1=G1-Global Structure〕
 case	G1	Ideas	NA	NA	NA	M	make the case for，论证整体
 arguing	G1	Ideas	NA	NA	NA	H	Ideas 明示 arguments
 GIVE	NA	-	NA	NA	NA	M	gives/given 混合，无固定层级所指
 contains	NA	-	NA	NA	NA	H	描述性动词
-address	PENDING	-	PENDING	NA	NA	-	"手册 v3 强制查询清单（G1/A3 争议），不得凭词形归类：address counterarguments(G1+A3) vs 元话语""address the points below""(NA)"
+address	G1	Ideas	A3	NA	NA	C	手册 v3 强制查询清单（G1/A3 争议），不得凭词形归类：address counterarguments(G1+A3) vs 元话语"address the points below"(NA)〔concordance 判定：d1=G1-Ideas，act=A3〕
 reorganize	G1	Global Structure	A3	NA	NA	H	大单位重排，Global Structure 明示
 distinct	G1	Ideas	NA	NA	NA	M	distinct points/ideas
 STRENGTHEN	G1	Ideas	A3	NA	NA	M	strengthen your argument/thesis；Ideas/Development 子类边界待核
 assertion	G1	Ideas	NA	NA	NA	H	Ideas 明示
-strongest	NA	-	PENDING	NA	NA	-	手册 v3 强制查询清单（strong 系 A1/A3 争议），不得凭词形归类：your strongest evidence(A1) vs 目标态框架(A3)
+strongest	NA	-	A1	NA	NA	C	手册 v3 强制查询清单（strong 系 A1/A3 争议），不得凭词形归类：your strongest evidence(A1) vs 目标态框架(A3)〔concordance 判定：act=A1〕
 then	NA	-	NA	NA	NA	H	连接副词
-measured	PENDING	-	A1	NA	NA	L	维度一待定：属 tone/register，手册列 PENDING；D2 判定信度低
+measured	G2	Wording	A1	NA	NA	C	维度一待定：属 tone/register，手册列 PENDING；D2 判定信度低〔concordance 判定：d1=G2-Wording〕
 arguable	G1	Ideas	A1	NA	NA	M	an arguable thesis，域固定于论断
 should	NA	-	A3	NA	NA	H	Hyland&Hyland 明示建议套语
-right	PENDING	-	NA	NA	NA	-	维度一待定：the right word(G2)vs right now(NA)
-line	PENDING	-	NA	NA	NA	-	维度一待定：line of reasoning(G1)vs this line(G2)
+right	NA	-	NA	NA	NA	C	维度一待定：the right word(G2)vs right now(NA)〔concordance 判定：d1=NA〕
+line	G2	Local Structure	NA	NA	NA	C	维度一待定：line of reasoning(G1)vs this line(G2)〔concordance 判定：d1=G2-Local Structure〕
 now	NA	-	NA	NA	NA	H	时间/话语副词
 structural	G1	Global Structure	NA	NA	NA	H	structural issues，大单位
 engage	G1	Ideas	A3	NA	NA	M	engage with counterarguments/the reader
 piece	NA	-	NA	NA	NA	H	文本指称语
-imprecise	PENDING	-	A2	NA	NA	-	维度一待定：同 precision
+imprecise	G2	Wording	A2	NA	NA	C	维度一待定：同 precision〔concordance 判定：d1=G2-Wording〕
 detail	G1	Development	NA	NA	NA	H	Development 明示 detail
 alone	NA	-	NA	NA	NA	H	限定副词
 written	NA	-	NA	NA	NA	M	被动分词，无固定层级所指
@@ -73,14 +73,14 @@ underdeveloped	G1	Development	A2	NA	NA	H	Development 域固定，负向
 actual	NA	-	NA	NA	NA	M	对比性强调词
 carefully	NA	-	NA	NA	NA	M	方式副词，非 hedge 非行为
 precisely	NA	-	NA	NA	NA	M	方式副词
-define	PENDING	-	A3	NA	NA	-	维度一待定：define your terms 属 Wording(G2)还是概念澄清(G1)
+define	G1	Development	A3	NA	NA	C	维度一待定：define your terms 属 Wording(G2)还是概念澄清(G1)〔concordance 判定：d1=G1-Development〕
 evidence	G1	Development	NA	NA	NA	H	Development 核心
 four	NA	-	NA	NA	NA	M	数量词，多为反馈条目枚举
 specifically	NA	-	NA	NA	NA	M	元话语副词（区别于手册中 PENDING 的 specific）
 concerns	NA	-	A2	NA	NA	M	my main concerns are…，批评标记语
 placeholder	G2	Wording	A2	NA	NA	M	placeholder phrases/language，空泛措辞
-loosely	PENDING	-	A2	NA	NA	-	维度一待定：loosely connected(G1 连贯)vs loosely worded(G2)
-replace	PENDING	-	A3	NA	NA	-	维度一待定：replace this word(G2)vs replace this paragraph(G1)
+loosely	G1	Global Structure	A2	NA	NA	C	维度一待定：loosely connected(G1 连贯)vs loosely worded(G2)〔concordance 判定：d1=G1-Global Structure〕
+replace	G2	Wording	A3	NA	NA	C	维度一待定：replace this word(G2)vs replace this paragraph(G1)〔concordance 判定：d1=G2-Wording〕
 takes	NA	-	NA	NA	NA	M	轻动词
 core	G1	Ideas	NA	NA	NA	H	core claim/argument
 acknowledge	G1	Ideas	A3	NA	NA	M	acknowledge counterarguments
@@ -89,23 +89,23 @@ improving	NA	-	A3	NA	NA	M	改进指向，层级由宾语决定
 risk	NA	-	NA	M1	NA	M	M1：risks sounding X，删除后批评仍在且更强
 making	NA	-	NA	NA	NA	H	轻动词
 counterarguments	G1	Ideas	NA	NA	NA	H	Ideas 明示 counterargument
-sharper	NA	-	PENDING	NA	NA	-	act 层待定：比较级多嵌于目标态框架（make it sharper=A3）而非评价（A1）
-terms	PENDING	-	NA	NA	NA	-	维度一待定：key terms(G2-Wording)vs in terms of(NA)
+sharper	NA	-	A3	NA	NA	C	act 层待定：比较级多嵌于目标态框架（make it sharper=A3）而非评价（A1）〔concordance 判定：act=A3(75%)〕
+terms	G2	Wording	NA	NA	NA	C	维度一待定：key terms(G2-Wording)vs in terms of(NA)〔concordance 判定：d1=G2-Wording〕
 tackles	NA	-	A1	NA	NA	M	your essay tackles a difficult question，开场归功套语
 policy	NA	-	NA	NA	NA	H	议题内容残留
-cultural	NA	-	NA	NA	PENDING	-	C1待定：议题内容残留 vs 文化/语言背景框架（理论上关键）
+cultural	NA	-	NA	NA	NA	C	C1待定：议题内容残留 vs 文化/语言背景框架（理论上关键）〔concordance 判定：c=NA(100%)〕
 turn	NA	-	NA	NA	NA	H	in turn / turn to
 framing	G1	Ideas	NA	NA	NA	M	论点呈现方式
 weaken	NA	-	A2	NA	NA	M	weakens your argument，层级由宾语决定
 wording	G2	Wording	NA	NA	NA	H	Wording 明示
-abstract	PENDING	-	A2	NA	NA	-	维度一待定：too abstract=缺具体支撑(G1-Dev)vs abstract language(G2)
+abstract	G1	Development	A2	NA	NA	C	维度一待定：too abstract=缺具体支撑(G1-Dev)vs abstract language(G2)〔concordance 判定：d1=G1-Development〕
 readers	G1	Ideas	NA	NA	NA	M	受众；按窄口径 C1 规定归 G1
 mechanics	G2	Mechanics	NA	NA	NA	H	Mechanics 明示
 significant	NA	-	NA	NA	NA	M	程度形容词，极性依宾语
 skeptical	G1	Ideas	NA	NA	NA	M	a skeptical reader will ask…，预设反驳
-entirely	NA	-	NA	NA	NA	M	"强化词；""not entirely""否定缓和待观察"
+entirely	NA	-	NA	NA	NA	M	强化词；"not entirely"否定缓和待观察
 anecdote	G1	Development	NA	NA	NA	H	证据类型
-inconsistent	PENDING	-	A2	NA	NA	-	维度一待定：inconsistent tense(G2)vs inconsistent argument(G1)
+inconsistent	G2	Mechanics	A2	NA	NA	C	维度一待定：inconsistent tense(G2)vs inconsistent argument(G1)〔concordance 判定：d1=G2-Correctness-Mechanics〕
 fairly	NA	-	NA	M1	NA	H	手册 v3 M1 明示 hedge
 integrate	G1	Development	A3	NA	NA	M	integrate evidence/quotations
 come	NA	-	NA	NA	NA	M	comes across/comes from
@@ -113,13 +113,13 @@ actually	NA	-	NA	NA	NA	M	强化/对比副词
 want	NA	-	A3	NA	NA	M	you'll want to = 建议套语（常与 may 叠加）
 serve	NA	-	NA	NA	NA	M	描述性动词
 broader	G1	Ideas	NA	NA	NA	M	broader context/implications
-move	PENDING	-	PENDING	NA	NA	-	维度一待定：move this paragraph(G1)vs move on to(NA)；act 层随之待定
+move	G1	Global Structure	NA	NA	NA	C	维度一待定：move this paragraph(G1)vs move on to(NA)；act 层随之待定〔concordance 判定：d1=G1-Global Structure，act=NA〕
 genuine	NA	-	A1	NA	NA	M	a genuine strength/insight
-casual	PENDING	-	A2	NA	NA	-	维度一待定：属 tone/register，手册列 PENDING
+casual	G2	Wording	A2	NA	NA	C	维度一待定：属 tone/register，手册列 PENDING〔concordance 判定：d1=G2-Wording〕
 single	NA	-	NA	NA	NA	H	数量词
 sense	NA	-	NA	NA	NA	M	makes sense / a sense of
 overly	NA	-	A2	NA	NA	M	标记过度=内在负向
-polished	PENDING	-	A1	NA	NA	-	维度一待定：手册明列 polished 为 PENDING
+polished	G2	Wording	A1	NA	NA	C	维度一待定：手册明列 polished 为 PENDING〔concordance 判定：d1=G2-Wording〕
 biggest	NA	-	NA	NA	NA	M	级差强化词
 power	NA	-	NA	NA	NA	M	疑似议题内容残留（政治权力）；the power of your argument 待核
 draft	NA	-	NA	NA	NA	H	文本指称/写作过程；窄口径下不设类

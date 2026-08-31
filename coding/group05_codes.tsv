@@ -2,30 +2,30 @@ type	d1	d1sub	act	hedge	c	conf	note
 chinese	NA	-	NA	NA	C1	H	Identity marking 明示；子类（身份标记 vs 迁移框架）待 concordance，范畴不待定。依手册规则维度一、二均标 NA
 organization	G1	Global Structure	NA	NA	NA	H	Global Structure 明示
 readers	G1	Ideas	NA	NA	NA	M	受众；依窄口径 C1 规定归 G1
-explain	NA	-	PENDING	NA	NA	-	act 层待定：you explain X well（描述 NA）vs explain this further（A3）。属"内容动词"类，见报告 §5
+explain	NA	-	A3	NA	NA	C	act 层待定：you explain X well（描述 NA）vs explain this further（A3）。属"内容动词"类，见报告 §5〔concordance 判定：act=A3〕
 body	G1	Global Structure	NA	NA	NA	H	body paragraphs，大单位
 grammar	G2	Grammar	NA	NA	NA	H	Correctness/Grammar 明示
 schools	NA	-	NA	NA	NA	H	议题内容残留
-suggestion	NA	-	PENDING	NA	NA	-	act 层待定：反馈小标题（NA）vs 名词化建议行为（A3）
+suggestion	NA	-	A3	NA	NA	C	act 层待定：反馈小标题（NA）vs 名词化建议行为（A3）〔concordance 判定：act=A3〕
 revise	NA	-	A3	NA	NA	H	手册 A3 明示
-using	PENDING	-	PENDING	NA	NA	-	维度一待定：use of evidence(G1)/word use(G2)/use of tenses(G2)；act 层待定，属内容动词类
+using	NA	-	NA	NA	NA	C	维度一待定：use of evidence(G1)/word use(G2)/use of tenses(G2)；act 层待定，属内容动词类〔concordance 判定：d1=NA〔裸 NA 推定覆盖全部剩余 PENDING 层〕，act=NA〔裸 NA 推定覆盖全部剩余 PENDING 层〕〕
 mechanics	G2	Mechanics	NA	NA	NA	H	Mechanics 明示
-level	PENDING	-	NA	NA	NA	-	维度一待定：sentence-level(G2)/paragraph-level(G1)/level of detail(G1)；同组 1 口径
-specific	PENDING	-	NA	NA	NA	-	手册明列 specific 为 PENDING：细节不足(G1-Dev)vs 用词不准(G2)
+level	G2	Local Structure	NA	NA	NA	C	维度一待定：sentence-level(G2)/paragraph-level(G1)/level of detail(G1)；同组 1 口径〔concordance 判定：d1=G2-Local Structure(86%)〕
+specific	G1	Development	NA	NA	NA	C	手册明列 specific 为 PENDING：细节不足(G1-Dev)vs 用词不准(G2)〔concordance 判定：d1=G1-Development〕
 should	NA	-	A3	NA	NA	H	Hyland&Hyland 明示建议套语
-discuss	G1	Ideas	PENDING	NA	NA	-	act 层待定：you discuss X（描述）vs discuss counterarguments（A3）；内容动词类
+discuss	G1	Ideas	NA	NA	NA	C	act 层待定：you discuss X（描述）vs discuss counterarguments（A3）；内容动词类〔concordance 判定：act=NA〕
 restate	G1	Global Structure	A3	NA	NA	M	restate your thesis in the conclusion，大单位安排
 office	NA	-	NA	NA	NA	H	议题内容残留
 your	NA	-	NA	NA	NA	M	人称代词
-can	NA	-	PENDING	PENDING	NA	-	与 could/might/would 同类共享项，两层分别判
+can	NA	-	NA	NA	NA	C	与 could/might/would 同类共享项，两层分别判〔concordance 判定：act=NA，hedge=NA〕
 organizing	G1	Global Structure	NA	NA	NA	H	Global Structure 明示
 hours	NA	-	NA	NA	NA	H	议题内容残留
-confusing	PENDING	-	A2	NA	NA	-	维度一待定（clear 系）；手册 A2 词族例明列 confusing
+confusing	G2	Local Structure	A2	NA	NA	C	维度一待定（clear 系）；手册 A2 词族例明列 confusing〔concordance 判定：d1=G2-Local Structure〕
 details	G1	Development	NA	NA	NA	H	Development 明示
 recommend	NA	-	A3	NA	NA	H	手册 A3 明示
 safety	NA	-	NA	NA	NA	H	议题内容残留
 tool	NA	-	NA	NA	NA	M	疑似议题内容残留 vs "a useful tool"元话语，待核
-clarity	PENDING	-	NA	NA	NA	-	维度一待定（手册 clear 系）
+clarity	G2	Local Structure	NA	NA	NA	C	维度一待定（手册 clear 系）〔concordance 判定：d1=G2-Local Structure〕
 paragraphs	PENDING	-	NA	NA	NA	-	维度一待定：手册明示段落内部组织→G2、段落间安排→G1
 ideas	G1	Ideas	NA	NA	NA	H	Ideas 明示
 help	NA	-	NA	NA	NA	M	描述性动词（this helps the reader）
@@ -37,18 +37,18 @@ effects	NA	-	NA	NA	NA	M	疑似议题内容残留（effects of X）vs 对读者�
 some	NA	-	NA	M1	NA	H	手册 v3 M1 明示 hedge
 problems	NA	-	A2	NA	NA	H	手册 A2 明示（problem）
 logic	G1	Ideas	NA	NA	NA	H	手册 Ideas 词族例明列 logic
-awkward	PENDING	-	A2	NA	NA	-	维度一待定：awkward phrasing(G2-Wording)vs awkward transition(G1)；手册 A2 词族例明列 awkward
+awkward	G2	Wording	A2	NA	NA	C	维度一待定：awkward phrasing(G2-Wording)vs awkward transition(G1)；手册 A2 词族例明列 awkward〔concordance 判定：d1=G2-Wording〕
 adding	NA	-	A3	NA	NA	H	手册 A3 明示（add）
 data	G1	Development	NA	NA	NA	M	证据类型；疑似议题内容残留，待核
 far	NA	-	NA	NA	NA	M	so far / far from
-summary	PENDING	-	NA	NA	NA	-	维度一待定：your summary 段落(G1-Structure)vs "in summary"元话语(NA)
+summary	NA	-	NA	NA	NA	C	维度一待定：your summary 段落(G1-Structure)vs "in summary"元话语(NA)〔concordance 判定：d1=NA〕
 social	NA	-	NA	NA	NA	H	议题内容残留
 shows	NA	-	NA	NA	NA	M	描述性框架动词
 conclusion	G1	Global Structure	NA	NA	NA	H	大单位，Global Structure 明示
 effort	NA	-	NA	NA	NA	L	低信度：归功对象为写作者努力而非文本属性；若与评价词共现构成归功则应改判 A1。同组 2
 further	NA	-	NA	NA	NA	M	程度/延续副词，非 hedge
-inaccurate	PENDING	-	A2	NA	NA	-	维度一待定：inaccurate wording(G2)vs inaccurate facts(G1-Development)
-say	NA	-	PENDING	NA	NA	-	act 层待定：you say X（描述）vs say more about（A3）；内容动词类
+inaccurate	G1	Development	A2	NA	NA	C	维度一待定：inaccurate wording(G2)vs inaccurate facts(G1-Development)〔concordance 判定：d1=G1-Development〕
+say	NA	-	NA	NA	NA	C	act 层待定：you say X（描述）vs say more about（A3）；内容动词类〔concordance 判定：act=NA〕
 thesis	G1	Ideas	NA	NA	NA	H	Ideas 明示
 forward	NA	-	NA	NA	NA	M	going forward / put forward
 significant	NA	-	NA	NA	NA	M	程度形容词，极性依宾语

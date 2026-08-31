@@ -1,171 +1,34 @@
 word	layer	group	target_corpus
-background	维度一	2	Generic
-background	维度三	2	Generic
 chinese	C1 子类判定	3	Chinese
 chinese	C1 子类判定	5	Chinese
-cultural	维度三	1	L1
-direct	维度一	6	German
-direct	维度三	6	German
-direct	维度一	7	German
-direct	维度三	7	German
-direct	维度一	10	Generic
 direct	维度三	10	Generic
 english	维度三	2	Generic
-english	维度三	3	Chinese
-english	维度三	6	German
-english	维度三	7	German
 english	维度三	10	Generic
-false	维度三	6	German
-false	维度三	7	German
-friends	维度三	6	German
-friends	维度三	7	German
-INFLUENCE	维度一	6	German
-INFLUENCE	维度三	6	German
-influenced	维度一	7	German
-influenced	维度三	7	German
-language	维度一	2	Generic
 language	维度三	2	Generic
-language	维度一	3	Chinese
-language	维度三	3	Chinese
-language	维度一	7	German
-language	维度三	7	German
-language	维度一	10	Generic
 language	维度三	10	Generic
-natural	维度一	2	Generic
-natural	act 层	2	Generic
-natural	维度三	2	Generic
-natural	维度一	6	German
-natural	act 层	6	German
-natural	维度三	6	German
-natural	维度一	7	German
-natural	act 层	7	German
-natural	维度三	7	German
-natural	维度一	10	Generic
-natural	act 层	10	Generic
-natural	维度三	10	Generic
-speaking	维度三	6	German
-speaking	维度三	7	German
-tackles	act 层	9	Baseline
-unnatural	维度一	7	German
-unnatural	act 层	7	German
-unnatural	维度三	7	German
-address	维度一	1	L1
-address	act 层	1	L1
-address	维度一	8	Generic
-address	act 层	8	Generic
-address	维度一	9	Baseline
-address	act 层	9	Baseline
-can	act 层	2	Generic
-can	hedge 层	2	Generic
-can	act 层	5	Chinese
-can	hedge 层	5	Chinese
-CLEAR	维度一	2	Generic
-CLEAR	act 层	2	Generic
-CLEAR	维度一	10	Generic
-CLEAR	act 层	10	Generic
-could	act 层	2	Generic
-could	hedge 层	2	Generic
-could	act 层	4	Generic
-could	hedge 层	4	Generic
-could	act 层	6	German
-could	hedge 层	6	German
-GOOD	act 层	2	Generic
-good	act 层	8	Generic
-GOOD	act 层	10	Generic
-might	act 层	1	L1
-might	hedge 层	1	L1
-might	act 层	9	Baseline
-might	hedge 层	9	Baseline
-STRENGTH	act 层	2	Generic
-strength	act 层	4	Generic
+tackles	跨组一致性回填	1	L1
+tackles	跨组一致性回填	9	Baseline
+address	强制查询清单项（本轮已给标签，须复核）	1	L1
+address	强制查询清单项（本轮已给标签，须复核）	8	Generic
+address	强制查询清单项（本轮已给标签，须复核）	9	Baseline
+STRENGTH	强制查询清单项（本轮已给标签，须复核）	2	Generic
+strength	强制查询清单项（本轮已给标签，须复核）	4	Generic
 STRENGTHEN	强制查询清单项（本轮已给标签，须复核）	1	L1
 strengthen	强制查询清单项（本轮已给标签，须复核）	8	Generic
 STRENGTHEN	强制查询清单项（本轮已给标签，须复核）	9	Baseline
-strengths	act 层	10	Generic
-strong	act 层	2	Generic
-strong	act 层	10	Generic
-stronger	act 层	8	Generic
-strongest	act 层	1	L1
-strongest	act 层	4	Generic
-strongest	act 层	9	Baseline
-would	act 层	1	L1
-would	hedge 层	1	L1
-would	act 层	6	German
-would	hedge 层	6	German
+strengths	强制查询清单项（本轮已给标签，须复核）	10	Generic
+strong	强制查询清单项（本轮已给标签，须复核）	2	Generic
+strong	强制查询清单项（本轮已给标签，须复核）	10	Generic
+stronger	强制查询清单项（本轮已给标签，须复核）	8	Generic
+strongest	强制查询清单项（本轮已给标签，须复核）	1	L1
+strongest	强制查询清单项（本轮已给标签，须复核）	4	Generic
+strongest	强制查询清单项（本轮已给标签，须复核）	9	Baseline
 would	act 层	9	Baseline
-would	hedge 层	9	Baseline
-academic	维度一	2	Generic
-academic	维度一	6	German
-academic	维度一	7	German
-academic	维度一	10	Generic
-ARTICLE	维度一	2	Generic
-ARTICLE	维度一	3	Chinese
-ARTICLE	维度一	6	German
-ARTICLE	维度一	7	German
-ARTICLE	维度一	10	Generic
 clearly	维度一	2	Generic
 clearly	维度一	8	Generic
 clearly	维度一	10	Generic
-clearly	维度一	11	Baseline
-final	维度一	2	Generic
-final	维度一	4	Generic
-final	维度一	10	Generic
-paragraph	维度一	10	Generic
-paragraph	维度一	12	L1
 paragraphs	维度一	3	Chinese
 paragraphs	维度一	5	Chinese
-personal	维度一	9	Baseline
-right	维度一	1	L1
-right	维度一	8	Generic
-right	维度一	9	Baseline
-specific	维度一	5	Chinese
-specific	维度一	8	Generic
-specific	维度一	9	Baseline
-style	维度一	6	German
-style	维度一	7	German
-topic	维度一	2	Generic
-topic	维度一	10	Generic
-check	维度一	2	Generic
-check	维度一	3	Chinese
-check	维度一	7	German
-check	维度一	10	Generic
-check	维度一	12	L1
-create	act 层	6	German
-discuss	act 层	2	Generic
-discuss	act 层	5	Chinese
-discussing	act 层	11	Baseline
-double	维度一	7	German
-double	act 层	7	German
-explain	act 层	5	Chinese
-EXPLAIN	act 层	8	Generic
-explain	act 层	11	Baseline
-focus	维度一	2	Generic
-focus	act 层	2	Generic
-FOCUS	维度一	8	Generic
-FOCUS	act 层	8	Generic
-mention	act 层	2	Generic
-offer	act 层	9	Baseline
-raise	act 层	6	German
-raise	act 层	7	German
-raises	act 层	4	Generic
-read	act 层	6	German
-say	act 层	5	Chinese
-say	act 层	8	Generic
-saying	act 层	9	Baseline
-state	act 层	8	Generic
-USE	维度一	2	Generic
-USE	act 层	2	Generic
-use	维度一	10	Generic
-use	act 层	10	Generic
-used	维度一	6	German
-using	维度一	5	Chinese
-using	act 层	5	Chinese
-using	维度一	8	Generic
-using	act 层	8	Generic
-vary	维度一	7	German
-vary	act 层	7	German
-write	act 层	2	Generic
-write	act 层	10	Generic
 action	议题残留待核	5	Chinese
 become	议题残留待核	2	Generic
 data	议题残留待核	5	Chinese
@@ -192,161 +55,22 @@ story	议题残留待核	10	Generic
 studies	议题残留待核	9	Baseline
 therefore	其他待核	7	German
 tool	议题残留待核	5	Chinese
-abstract	维度一	1	L1
-abstract	维度一	7	German
-accurate	维度一	2	Generic
-accurate	维度一	11	Baseline
-advice	act 层	2	Generic
-advice	act 层	10	Generic
-aim	act 层	1	L1
-aim	act 层	9	Baseline
-appropriate	维度一	7	German
-ask	维度一	9	Baseline
+treatment	其他待核	9	Baseline
 authority	低信度复核	1	L1
 authority	低信度复核	9	Baseline
-awkward	维度一	5	Chinese
-awkward	维度一	8	Generic
-basis	维度一	6	German
-basis	维度一	7	German
-briefly	hedge 层	2	Generic
-briefly	hedge 层	8	Generic
-briefly	hedge 层	10	Generic
-casual	维度一	1	L1
-citation	维度一	10	Generic
-citations	维度一	11	Baseline
-CLARIFY	维度一	1	L1
-clarify	维度一	8	Generic
-clarify	维度一	9	Baseline
-clarity	维度一	5	Chinese
-clarity	维度一	8	Generic
-complete	维度一	2	Generic
-complex	维度一	2	Generic
-confusing	维度一	5	Chinese
 confusing	维度一	8	Generic
 confusing	维度一	10	Generic
-confusion	维度一	7	German
-consistency	维度一	2	Generic
-consistency	维度一	10	Generic
-consistent	维度一	10	Generic
-consistent	维度一	12	L1
-correct	act 层	2	Generic
-correct	act 层	10	Generic
-define	维度一	1	L1
-define	维度一	9	Baseline
-deserves	act 层	9	Baseline
-deserves	act 层	11	Baseline
-distract	维度一	1	L1
-distract	维度一	9	Baseline
-early	维度一	9	Baseline
 edit	维度一	1	L1
-EDIT	维度一	9	Baseline
 edit	维度一	12	L1
-editing	维度一	11	Baseline
 effort	低信度复核	2	Generic
 effort	低信度复核	5	Chinese
-emotional	维度一	2	Generic
-emotional	维度一	10	Generic
-emotionally	维度一	4	Generic
-emotionally	维度一	6	German
-essential	act 层	4	Generic
 few	hedge 层	6	German
 few	hedge 层	7	German
 fine	低信度复核	7	German
-fix	维度一	8	Generic
 formal	维度一	2	Generic
 formal	维度一	10	Generic
-important	act 层	2	Generic
-important	act 层	10	Generic
-imprecise	维度一	1	L1
-inaccurate	维度一	3	Chinese
-inaccurate	维度一	5	Chinese
-inconsistent	维度一	1	L1
-inconsistent	维度一	9	Baseline
-informal	维度一	2	Generic
-informal	维度一	10	Generic
-insert	维度一	3	Chinese
-just	hedge 层	1	L1
-just	hedge 层	3	Chinese
-just	hedge 层	9	Baseline
-level	维度一	1	L1
-level	维度一	5	Chinese
-level	维度一	8	Generic
-level	维度一	9	Baseline
-level	维度一	12	L1
-line	维度一	1	L1
-line	维度一	9	Baseline
-loosely	维度一	1	L1
-loosely	维度一	9	Baseline
 MEAN	维度一	7	German
-meaning	维度一	10	Generic
-measured	维度一	1	L1
-move	维度一	1	L1
-move	act 层	1	L1
-move	维度一	9	Baseline
-move	act 层	9	Baseline
-moves	维度一	4	Generic
-narrow	act 层	9	Baseline
-neutral	维度一	2	Generic
-number	维度一	7	German
-only	hedge 层	2	Generic
-only	hedge 层	7	German
-only	hedge 层	10	Generic
-order	维度一	6	German
-order	维度一	7	German
-PATTERN	维度一	7	German
-patterns	维度一	2	Generic
-patterns	维度一	3	Chinese
-patterns	维度一	6	German
-patterns	维度一	10	Generic
-polished	维度一	1	L1
 possible	hedge 层	2	Generic
 possible	hedge 层	10	Generic
-precise	维度一	6	German
-precision	维度一	1	L1
-precision	维度一	7	German
-precision	维度一	9	Baseline
-rather	hedge 层	1	L1
-rather	hedge 层	9	Baseline
-reads	维度一	1	L1
-reads	维度一	9	Baseline
-reduce	维度一	2	Generic
-reflection	维度一	9	Baseline
-register	维度一	3	Chinese
-register	维度一	6	German
-register	维度一	7	German
-remove	维度一	10	Generic
-repeated	维度一	9	Baseline
-repeated	维度一	11	Baseline
-replace	维度一	1	L1
-replace	维度一	9	Baseline
-REQUIRE	act 层	6	German
-REQUIRE	act 层	7	German
-rewrite	维度一	6	German
-rhetorical	维度一	6	German
-rhetorical	维度一	7	German
-sharper	act 层	1	L1
-sharper	act 层	9	Baseline
-shifts	维度一	1	L1
 subject	维度一	2	Generic
 subject	维度一	10	Generic
-suggested	act 层	2	Generic
-suggested	act 层	10	Generic
-suggestion	act 层	3	Chinese
-suggestion	act 层	5	Chinese
-suggestion	act 层	11	Baseline
-suggestions	act 层	2	Generic
-suggestions	act 层	10	Generic
-summary	维度一	5	Chinese
-terms	维度一	1	L1
-tighten	维度一	1	L1
-treatment	维度一	9	Baseline
-unclear	维度一	2	Generic
-unclear	维度一	10	Generic
-understandable	维度一	2	Generic
-understandable	维度一	7	German
-understandable	维度一	10	Generic
-vague	维度一	1	L1
-vague	维度一	9	Baseline
-vague	维度一	12	L1
-weakness	act 层	9	Baseline
-worth	act 层	10	Generic

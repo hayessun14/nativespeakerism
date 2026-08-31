@@ -37,7 +37,7 @@ LEGAL = {"d1": {"G1","G2","NA","PENDING"},
          "act": {"A1","A2","A3","NA","PENDING"},
          "hedge": {"M1","NA","PENDING"},
          "c": {"C1","NA","PENDING"},
-         "conf": {"H","M","L","-"}}
+         "conf": {"H","M","L","C","-"}}
 bad = [(r["type"], k, r[k]) for r in rows for k in LEGAL if r[k] not in LEGAL[k]]
 assert not bad, f"非法取值: {bad}"
 sub = [(r["type"], r["d1"], r["d1sub"]) for r in rows
