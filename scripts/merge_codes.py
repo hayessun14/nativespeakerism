@@ -4,13 +4,16 @@
 
 输出 coding/all_codes.tsv，字段：
   group contrast target_corpus ref_corpus rank type freq_tar freq_ref
-  range_tar range_ref ll lr d1 d1sub act hedge c conf note
+  range_tar range_ref ll lr d1 d1sub act hedge c conf src note
+
+src 逐层记录哪些层由 concordance 定夺（d1/act/hedge/c，"+"连接；"-"为无），
+与 conf（编码者信度 H/M/L）分列，互不覆盖。
 """
 import csv, sys
 
 SRC = "data_keyword_ALL_selected.md"
 OUT = "coding/all_codes.tsv"
-CODE_FIELDS = ["d1", "d1sub", "act", "hedge", "c", "conf", "note"]
+CODE_FIELDS = ["d1", "d1sub", "act", "hedge", "c", "conf", "src", "note"]
 OUT_FIELDS = ["group", "contrast", "target_corpus", "ref_corpus", "rank", "type",
               "freq_tar", "freq_ref", "range_tar", "range_ref", "ll", "lr"] + CODE_FIELDS
 
@@ -80,3 +83,8 @@ print(f"\n全表标签计数：G1 {tot[('d1','G1')]}、G2 {tot[('d1','G2')]}、"
       f"M1 {tot[('hedge','M1')]}、C1 {tot[('c','C1')]}")
 print(f"PENDING：维度一 {tot[('d1','PENDING')]}、act {tot[('act','PENDING')]}、"
       f"hedge {tot[('hedge','PENDING')]}、维度三 {tot[('c','PENDING')]}")
+src_rows = [r for r in merged if r["src"] != "-"]
+src_cells = Counter(L for r in src_rows for L in r["src"].split("+"))
+print(f"concordance 定夺：{len(src_rows)} 行 / {sum(src_cells.values())} 单元格"
+      f"（维度一 {src_cells['d1']}、act {src_cells['act']}、"
+      f"hedge {src_cells['hedge']}、维度三 {src_cells['c']}）")

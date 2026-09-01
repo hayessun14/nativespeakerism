@@ -1,4 +1,10 @@
 # 组 4 关键词质性分类编码报告
+
+> **状态：编码过程记录（concordance 消解前）**
+> 本文档保留编码当时的判断与未决理由，作为审计轨迹，内容不随后续消解改写。
+> 其中的占比数字计算于 PENDING 尚未消解之时，**已不是现行口径**；
+> 最终统计以 [`final_report.md`](final_report.md) 及各组 `group*_tables.md` 为准。
+
 ## Generic → Chinese（目标语料 = Generic 条件，参照语料 = Chinese 条件）
 
 > **编码日期**：2026-08-27（第一轮编码）

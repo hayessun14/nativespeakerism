@@ -1,37 +1,39 @@
 ## 附表 A：组 11 完整编码表（30 词位，按 LL 降序）
 
-| # | Type | Freq_Tar | LL | LR | 维度一 | 子类 | 维度二 act | 维度二 hedge | 维度三 | 信度 | 判定依据 |
-|---:|---|---:|---:|---:|---|---|---|---|---|---|---|
-| 1 | your | 5617 | 17.533 | 0.115 | NA | — | NA | NA | NA | M | 人称代词，无固定层级所指〔沿用组 2〕 |
-| 2 | accurate | 79 | 11.057 | 0.888 | G1 | Ideas | A1 | NA | NA | C | 维度一待定：accurate facts(G1-Dev)vs accurate grammar(G2)；正向评价〔沿用组 2〕〔concordance 判定：d1=G1-Ideas〕 |
-| 3 | evidence | 1543 | 9.338 | 0.163 | G1 | Development | NA | NA | NA | H | Development 核心〔沿用组 1〕 |
-| 4 | presents | 51 | 7.688 | 0.928 | NA | — | NA | NA | NA | M | 描述性框架动词（your essay presents…）；同组 8 shows 口径 |
-| 5 | revised | 81 | 7.642 | 0.707 | NA | — | NA | NA | NA | M | 与 original 配对的改写对照，元话语〔沿用组 2〕 |
-| 6 | expert | 38 | 7.454 | 1.089 | G1 | Development | NA | NA | NA | M | expert sources/opinion，证据来源类型 |
-| 7 | editing | 75 | 7.239 | 0.716 | G2 | Local Structure | A3 | NA | NA | C | 维度一待定：表层编辑(G2)vs 全局修改(G1)；沿用组 1 edit／组 9 EDIT 口径〔concordance 判定：d1=G2-Local Structure〕 |
-| 8 | effectively | 120 | 6.661 | 0.525 | NA | — | A1 | NA | NA | M | effectively argues／effectively supports，方式副词但携正向评价；与组 2 effective 同族，目标态框架风险〔沿用组 9〕 |
-| 9 | helps | 89 | 6.352 | 0.604 | NA | — | NA | NA | NA | M | 描述性动词（this helps the reader）〔沿用组 2〕 |
-| 10 | engaging | 98 | 6.095 | 0.559 | NA | — | A1 | NA | NA | M | an engaging introduction，正向评价；目标态框架风险 |
-| 11 | views | 77 | 5.990 | 0.634 | G1 | Ideas | NA | NA | NA | M | opposing views，反驳层；同组 8 opposing 口径〔沿用组 9〕 |
-| 12 | suggestion | 101 | 5.888 | 0.540 | NA | — | A3 | NA | NA | C | act 层待定：反馈小标题（NA）vs 名词化建议行为（A3）〔沿用组 3〕〔concordance 判定：act=A3〕 |
-| 13 | concerns | 110 | 5.718 | 0.507 | NA | — | A2 | NA | NA | M | my main concerns are…，批评标记语〔沿用组 1〕 |
-| 14 | promising | 51 | 5.666 | 0.776 | NA | — | A1 | NA | NA | M | a promising start，正向评价；目标态框架风险〔沿用组 9〕 |
-| 15 | paper | 265 | 5.379 | 0.306 | NA | — | NA | NA | NA | H | 文本指称语，不指示层级〔沿用组 1〕 |
-| 16 | deserves | 57 | 4.943 | 0.674 | NA | — | NA | NA | NA | C | act 层待定：this point deserves more attention＝隐性建议（A3）vs 正向评价（A1）〔沿用组 9〕〔concordance 判定：act=NA〕 |
-| 17 | additionally | 36 | 4.757 | 0.859 | NA | — | NA | NA | NA | M | 连接副词〔沿用组 9〕 |
-| 18 | may | 361 | 4.615 | 0.240 | NA | — | NA | M1 | NA | H | 手册 v3 M1 明示 hedge〔沿用组 2〕 |
-| 19 | anecdote | 111 | 4.596 | 0.448 | G1 | Development | NA | NA | NA | H | 证据类型〔沿用组 1〕 |
-| 20 | fairly | 84 | 4.584 | 0.520 | NA | — | NA | M1 | NA | H | 手册 v3 M1 明示 hedge〔沿用组 1〕 |
-| 21 | clearly | 434 | 4.455 | 0.214 | NA | — | NA | NA | NA | C | 维度一待定（clear 系）；方式副词，act 层不赋值〔沿用组 2〕〔concordance 判定：d1=NA〕 |
-| 22 | counterargument | 263 | 4.362 | 0.275 | G1 | Ideas | NA | NA | NA | H | Ideas 明示。注：组 1 为 counterarguments、组 9 为归并 COUNTERARGUMENT，本组为单数单独入选，系口径效应 |
-| 23 | citations | 159 | 4.341 | 0.358 | G1 | Development | NA | NA | NA | C | 维度一待定：引用来源的使用(G1-Development)vs 引用格式(G2-Mechanics)；同组 10 citation 口径〔concordance 判定：d1=G1-Development〕 |
-| 24 | forward | 44 | 4.239 | 0.715 | NA | — | NA | NA | NA | M | going forward / put forward〔沿用组 5〕 |
-| 25 | explain | 601 | 4.230 | 0.176 | NA | — | NA | NA | NA | C | act 层待定：you explain X well（描述 NA）vs explain this further（A3）。属"内容动词"类，见报告 §5〔沿用组 5〕〔concordance 判定：act=NA〕 |
-| 26 | repeated | 72 | 4.156 | 0.537 | NA | — | NA | NA | NA | C | 维度一待定：repeated errors(G2)vs repeated ideas(G2-Local，手册 repetitive 口径)vs 论点重复(G1)〔沿用组 9〕〔concordance 判定：d1=NA〕 |
-| 27 | discussing | 74 | 4.029 | 0.520 | G1 | Ideas | NA | NA | NA | C | act 层待定：you discuss X（描述）vs discuss counterarguments（A3）；内容动词类〔concordance 判定：act=NA(88%)〕 |
-| 28 | opposing | 152 | 4.019 | 0.352 | G1 | Ideas | NA | NA | NA | H | opposing views，反驳层〔沿用组 8〕 |
-| 29 | balanced | 76 | 3.909 | 0.504 | G1 | Ideas | A1 | NA | NA | M | a balanced argument/view，域固定于论断；正向评价〔沿用组 2〕 |
-| 30 | current | 97 | 3.903 | 0.441 | NA | — | NA | NA | NA | M | 元话语现状框架（your current draft），同组 1 currently〔沿用组 5〕 |
+「索引定夺」列标出该行哪些层的标签由 concordance 查证得出，其余层为依手册直接判定；「信度」为编码者对该行的信度评级，两列互不替代。
+
+| # | Type | Freq_Tar | LL | LR | 维度一 | 子类 | 维度二 act | 维度二 hedge | 维度三 | 信度 | 索引定夺 | 判定依据 |
+|---:|---|---:|---:|---:|---|---|---|---|---|---|---|---|
+| 1 | your | 5617 | 17.533 | 0.115 | NA | — | NA | NA | NA | M | — | 人称代词，无固定层级所指〔沿用组 2〕 |
+| 2 | accurate | 79 | 11.057 | 0.888 | G1 | Ideas | A1 | NA | NA | — | d1 | 维度一待定：accurate facts(G1-Dev)vs accurate grammar(G2)；正向评价〔沿用组 2〕 〔concordance回填：维度一=G1-Ideas；主导判定=G1-Ideas〕 |
+| 3 | evidence | 1543 | 9.338 | 0.163 | G1 | Development | NA | NA | NA | H | — | Development 核心〔沿用组 1〕 |
+| 4 | presents | 51 | 7.688 | 0.928 | NA | — | NA | NA | NA | M | — | 描述性框架动词（your essay presents…）；同组 8 shows 口径 |
+| 5 | revised | 81 | 7.642 | 0.707 | NA | — | NA | NA | NA | M | — | 与 original 配对的改写对照，元话语〔沿用组 2〕 |
+| 6 | expert | 38 | 7.454 | 1.089 | G1 | Development | NA | NA | NA | M | — | expert sources/opinion，证据来源类型 |
+| 7 | editing | 75 | 7.239 | 0.716 | G2 | Local Structure | A3 | NA | NA | — | d1 | 维度一待定：表层编辑(G2)vs 全局修改(G1)；沿用组 1 edit／组 9 EDIT 口径 〔concordance回填：维度一=G2-Local Structure；主导判定=G2-Local Structure〕 |
+| 8 | effectively | 120 | 6.661 | 0.525 | NA | — | A1 | NA | NA | M | — | effectively argues／effectively supports，方式副词但携正向评价；与组 2 effective 同族，目标态框架风险〔沿用组 9〕 |
+| 9 | helps | 89 | 6.352 | 0.604 | NA | — | NA | NA | NA | M | — | 描述性动词（this helps the reader）〔沿用组 2〕 |
+| 10 | engaging | 98 | 6.095 | 0.559 | NA | — | A1 | NA | NA | M | — | an engaging introduction，正向评价；目标态框架风险 |
+| 11 | views | 77 | 5.990 | 0.634 | G1 | Ideas | NA | NA | NA | M | — | opposing views，反驳层；同组 8 opposing 口径〔沿用组 9〕 |
+| 12 | suggestion | 101 | 5.888 | 0.540 | NA | — | A3 | NA | NA | — | act | act 层待定：反馈小标题（NA）vs 名词化建议行为（A3）〔沿用组 3〕 〔concordance回填：act 层=A3；主导判定=A3〕 |
+| 13 | concerns | 110 | 5.718 | 0.507 | NA | — | A2 | NA | NA | M | — | my main concerns are…，批评标记语〔沿用组 1〕 |
+| 14 | promising | 51 | 5.666 | 0.776 | NA | — | A1 | NA | NA | M | — | a promising start，正向评价；目标态框架风险〔沿用组 9〕 |
+| 15 | paper | 265 | 5.379 | 0.306 | NA | — | NA | NA | NA | H | — | 文本指称语，不指示层级〔沿用组 1〕 |
+| 16 | deserves | 57 | 4.943 | 0.674 | NA | — | NA | NA | NA | — | act | act 层待定：this point deserves more attention＝隐性建议（A3）vs 正向评价（A1）〔沿用组 9〕 〔concordance回填：act 层=NA；主导判定=NA〕 |
+| 17 | additionally | 36 | 4.757 | 0.859 | NA | — | NA | NA | NA | M | — | 连接副词〔沿用组 9〕 |
+| 18 | may | 361 | 4.615 | 0.240 | NA | — | NA | M1 | NA | H | — | 手册 v3 M1 明示 hedge〔沿用组 2〕 |
+| 19 | anecdote | 111 | 4.596 | 0.448 | G1 | Development | NA | NA | NA | H | — | 证据类型〔沿用组 1〕 |
+| 20 | fairly | 84 | 4.584 | 0.520 | NA | — | NA | M1 | NA | H | — | 手册 v3 M1 明示 hedge〔沿用组 1〕 |
+| 21 | clearly | 434 | 4.455 | 0.214 | NA | — | NA | NA | NA | — | d1 | 维度一待定（clear 系）；方式副词，act 层不赋值〔沿用组 2〕 〔concordance回填：维度一=NA；主导判定=NA〕 |
+| 22 | counterargument | 263 | 4.362 | 0.275 | G1 | Ideas | NA | NA | NA | H | — | Ideas 明示。注：组 1 为 counterarguments、组 9 为归并 COUNTERARGUMENT，本组为单数单独入选，系口径效应 |
+| 23 | citations | 159 | 4.341 | 0.358 | G1 | Development | NA | NA | NA | — | d1 | 维度一待定：引用来源的使用(G1-Development)vs 引用格式(G2-Mechanics)；同组 10 citation 口径 〔concordance回填：维度一=G1-Development；主导判定=G1-Development〕 |
+| 24 | forward | 44 | 4.239 | 0.715 | NA | — | NA | NA | NA | M | — | going forward / put forward〔沿用组 5〕 |
+| 25 | explain | 601 | 4.230 | 0.176 | NA | — | NA | NA | NA | — | act | act 层待定：you explain X well（描述 NA）vs explain this further（A3）。属"内容动词"类，见报告 §5〔沿用组 5〕 〔concordance回填：act 层=NA；主导判定=NA〕 |
+| 26 | repeated | 72 | 4.156 | 0.537 | NA | — | NA | NA | NA | — | d1 | 维度一待定：repeated errors(G2)vs repeated ideas(G2-Local，手册 repetitive 口径)vs 论点重复(G1)〔沿用组 9〕 〔concordance回填：维度一=NA；主导判定=NA〕 |
+| 27 | discussing | 74 | 4.029 | 0.520 | G1 | Ideas | NA | NA | NA | — | act | act 层待定：you discuss X（描述）vs discuss counterarguments（A3）；内容动词类 〔concordance回填：act 层=NA；主导判定=NA(88%)〕 |
+| 28 | opposing | 152 | 4.019 | 0.352 | G1 | Ideas | NA | NA | NA | H | — | opposing views，反驳层〔沿用组 8〕 |
+| 29 | balanced | 76 | 3.909 | 0.504 | G1 | Ideas | A1 | NA | NA | M | — | a balanced argument/view，域固定于论断；正向评价〔沿用组 2〕 |
+| 30 | current | 97 | 3.903 | 0.441 | NA | — | NA | NA | NA | M | — | 元话语现状框架（your current draft），同组 1 currently〔沿用组 5〕 |
 
 ### B1 维度一 Feedback Focus
 
@@ -118,18 +120,23 @@ act ＋ hedge 双标签共现：**0** 项
 
 ### B8 敏感性分析：维度一 PENDING 的极端归属
 
-| 情形 | G1 词位 | G2 词位 | G1 占比 |
-|---|---:|---:|---:|
-| 现状（PENDING 不计入） | 10 | 1 | 90.9% |
-| 0 个 PENDING 全归 G1（上界） | 10 | 1 | 90.9% |
-| 0 个 PENDING 全归 G2（下界） | 10 | 1 | 90.9% |
+本组维度一已无 PENDING，占比不再存在上下界：G1 10 项、G2 1 项，G1 占已定标签的 **90.9%**（分母 11）。
 
-### B9 concordance 待办清单
+### B9 concordance 定夺记录
 
-共 **0** 个词族需 concordance 判定（含 2 个低信度已定项）。
+本组 **9** 个词位、**9** 个单元格的标签由 concordance 查证定夺（维度一 5、act 4、hedge 0、维度三 0）；未决项 **0** 个。
 
-| Type | Freq_Tar | 待定层 | 竞争读法 |
-|---|---:|---|---|
+| Type | Freq_Tar | 定夺层 | 定夺结果 | 判定依据 |
+|---|---:|---|---|---|
+| `accurate` | 79 | d1 | 维度一=G1/Ideas | 维度一待定：accurate facts(G1-Dev)vs accurate grammar(G2)；正向评价〔沿用组 2〕 〔concordance回填：维度一=G1-Ideas；主导判定=G1-Ideas〕 |
+| `editing` | 75 | d1 | 维度一=G2/Local Structure | 维度一待定：表层编辑(G2)vs 全局修改(G1)；沿用组 1 edit／组 9 EDIT 口径 〔concordance回填：维度一=G2-Local Structure；主导判定=G2-Local Structure〕 |
+| `suggestion` | 101 | act | act=A3 | act 层待定：反馈小标题（NA）vs 名词化建议行为（A3）〔沿用组 3〕 〔concordance回填：act 层=A3；主导判定=A3〕 |
+| `deserves` | 57 | act | act=NA | act 层待定：this point deserves more attention＝隐性建议（A3）vs 正向评价（A1）〔沿用组 9〕 〔concordance回填：act 层=NA；主导判定=NA〕 |
+| `clearly` | 434 | d1 | 维度一=NA | 维度一待定（clear 系）；方式副词，act 层不赋值〔沿用组 2〕 〔concordance回填：维度一=NA；主导判定=NA〕 |
+| `citations` | 159 | d1 | 维度一=G1/Development | 维度一待定：引用来源的使用(G1-Development)vs 引用格式(G2-Mechanics)；同组 10 citation 口径 〔concordance回填：维度一=G1-Development；主导判定=G1-Development〕 |
+| `explain` | 601 | act | act=NA | act 层待定：you explain X well（描述 NA）vs explain this further（A3）。属"内容动词"类，见报告 §5〔沿用组 5〕 〔concordance回填：act 层=NA；主导判定=NA〕 |
+| `repeated` | 72 | d1 | 维度一=NA | 维度一待定：repeated errors(G2)vs repeated ideas(G2-Local，手册 repetitive 口径)vs 论点重复(G1)〔沿用组 9〕 〔concordance回填：维度一=NA；主导判定=NA〕 |
+| `discussing` | 74 | act | act=NA | act 层待定：you discuss X（描述）vs discuss counterarguments（A3）；内容动词类 〔concordance回填：act 层=NA；主导判定=NA(88%)〕 |
 
 ### B10 高效应量词位（LR ≥ 1.5）
 

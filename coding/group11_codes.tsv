@@ -1,31 +1,31 @@
-type	d1	d1sub	act	hedge	c	conf	note
-your	NA	-	NA	NA	NA	M	人称代词，无固定层级所指〔沿用组 2〕
-accurate	G1	Ideas	A1	NA	NA	C	维度一待定：accurate facts(G1-Dev)vs accurate grammar(G2)；正向评价〔沿用组 2〕〔concordance 判定：d1=G1-Ideas〕
-evidence	G1	Development	NA	NA	NA	H	Development 核心〔沿用组 1〕
-presents	NA	-	NA	NA	NA	M	描述性框架动词（your essay presents…）；同组 8 shows 口径
-revised	NA	-	NA	NA	NA	M	与 original 配对的改写对照，元话语〔沿用组 2〕
-expert	G1	Development	NA	NA	NA	M	expert sources/opinion，证据来源类型
-editing	G2	Local Structure	A3	NA	NA	C	维度一待定：表层编辑(G2)vs 全局修改(G1)；沿用组 1 edit／组 9 EDIT 口径〔concordance 判定：d1=G2-Local Structure〕
-effectively	NA	-	A1	NA	NA	M	effectively argues／effectively supports，方式副词但携正向评价；与组 2 effective 同族，目标态框架风险〔沿用组 9〕
-helps	NA	-	NA	NA	NA	M	描述性动词（this helps the reader）〔沿用组 2〕
-engaging	NA	-	A1	NA	NA	M	an engaging introduction，正向评价；目标态框架风险
-views	G1	Ideas	NA	NA	NA	M	opposing views，反驳层；同组 8 opposing 口径〔沿用组 9〕
-suggestion	NA	-	A3	NA	NA	C	act 层待定：反馈小标题（NA）vs 名词化建议行为（A3）〔沿用组 3〕〔concordance 判定：act=A3〕
-concerns	NA	-	A2	NA	NA	M	my main concerns are…，批评标记语〔沿用组 1〕
-promising	NA	-	A1	NA	NA	M	a promising start，正向评价；目标态框架风险〔沿用组 9〕
-paper	NA	-	NA	NA	NA	H	文本指称语，不指示层级〔沿用组 1〕
-deserves	NA	-	NA	NA	NA	C	act 层待定：this point deserves more attention＝隐性建议（A3）vs 正向评价（A1）〔沿用组 9〕〔concordance 判定：act=NA〕
-additionally	NA	-	NA	NA	NA	M	连接副词〔沿用组 9〕
-may	NA	-	NA	M1	NA	H	手册 v3 M1 明示 hedge〔沿用组 2〕
-anecdote	G1	Development	NA	NA	NA	H	证据类型〔沿用组 1〕
-fairly	NA	-	NA	M1	NA	H	手册 v3 M1 明示 hedge〔沿用组 1〕
-clearly	NA	-	NA	NA	NA	C	维度一待定（clear 系）；方式副词，act 层不赋值〔沿用组 2〕〔concordance 判定：d1=NA〕
-counterargument	G1	Ideas	NA	NA	NA	H	Ideas 明示。注：组 1 为 counterarguments、组 9 为归并 COUNTERARGUMENT，本组为单数单独入选，系口径效应
-citations	G1	Development	NA	NA	NA	C	维度一待定：引用来源的使用(G1-Development)vs 引用格式(G2-Mechanics)；同组 10 citation 口径〔concordance 判定：d1=G1-Development〕
-forward	NA	-	NA	NA	NA	M	going forward / put forward〔沿用组 5〕
-explain	NA	-	NA	NA	NA	C	act 层待定：you explain X well（描述 NA）vs explain this further（A3）。属"内容动词"类，见报告 §5〔沿用组 5〕〔concordance 判定：act=NA〕
-repeated	NA	-	NA	NA	NA	C	维度一待定：repeated errors(G2)vs repeated ideas(G2-Local，手册 repetitive 口径)vs 论点重复(G1)〔沿用组 9〕〔concordance 判定：d1=NA〕
-discussing	G1	Ideas	NA	NA	NA	C	act 层待定：you discuss X（描述）vs discuss counterarguments（A3）；内容动词类〔concordance 判定：act=NA(88%)〕
-opposing	G1	Ideas	NA	NA	NA	H	opposing views，反驳层〔沿用组 8〕
-balanced	G1	Ideas	A1	NA	NA	M	a balanced argument/view，域固定于论断；正向评价〔沿用组 2〕
-current	NA	-	NA	NA	NA	M	元话语现状框架（your current draft），同组 1 currently〔沿用组 5〕
+type	d1	d1sub	act	hedge	c	conf	src	note
+your	NA	-	NA	NA	NA	M	-	人称代词，无固定层级所指〔沿用组 2〕
+accurate	G1	Ideas	A1	NA	NA	-	d1	维度一待定：accurate facts(G1-Dev)vs accurate grammar(G2)；正向评价〔沿用组 2〕 〔concordance回填：维度一=G1-Ideas；主导判定=G1-Ideas〕
+evidence	G1	Development	NA	NA	NA	H	-	Development 核心〔沿用组 1〕
+presents	NA	-	NA	NA	NA	M	-	描述性框架动词（your essay presents…）；同组 8 shows 口径
+revised	NA	-	NA	NA	NA	M	-	与 original 配对的改写对照，元话语〔沿用组 2〕
+expert	G1	Development	NA	NA	NA	M	-	expert sources/opinion，证据来源类型
+editing	G2	Local Structure	A3	NA	NA	-	d1	维度一待定：表层编辑(G2)vs 全局修改(G1)；沿用组 1 edit／组 9 EDIT 口径 〔concordance回填：维度一=G2-Local Structure；主导判定=G2-Local Structure〕
+effectively	NA	-	A1	NA	NA	M	-	effectively argues／effectively supports，方式副词但携正向评价；与组 2 effective 同族，目标态框架风险〔沿用组 9〕
+helps	NA	-	NA	NA	NA	M	-	描述性动词（this helps the reader）〔沿用组 2〕
+engaging	NA	-	A1	NA	NA	M	-	an engaging introduction，正向评价；目标态框架风险
+views	G1	Ideas	NA	NA	NA	M	-	opposing views，反驳层；同组 8 opposing 口径〔沿用组 9〕
+suggestion	NA	-	A3	NA	NA	-	act	act 层待定：反馈小标题（NA）vs 名词化建议行为（A3）〔沿用组 3〕 〔concordance回填：act 层=A3；主导判定=A3〕
+concerns	NA	-	A2	NA	NA	M	-	my main concerns are…，批评标记语〔沿用组 1〕
+promising	NA	-	A1	NA	NA	M	-	a promising start，正向评价；目标态框架风险〔沿用组 9〕
+paper	NA	-	NA	NA	NA	H	-	文本指称语，不指示层级〔沿用组 1〕
+deserves	NA	-	NA	NA	NA	-	act	act 层待定：this point deserves more attention＝隐性建议（A3）vs 正向评价（A1）〔沿用组 9〕 〔concordance回填：act 层=NA；主导判定=NA〕
+additionally	NA	-	NA	NA	NA	M	-	连接副词〔沿用组 9〕
+may	NA	-	NA	M1	NA	H	-	手册 v3 M1 明示 hedge〔沿用组 2〕
+anecdote	G1	Development	NA	NA	NA	H	-	证据类型〔沿用组 1〕
+fairly	NA	-	NA	M1	NA	H	-	手册 v3 M1 明示 hedge〔沿用组 1〕
+clearly	NA	-	NA	NA	NA	-	d1	维度一待定（clear 系）；方式副词，act 层不赋值〔沿用组 2〕 〔concordance回填：维度一=NA；主导判定=NA〕
+counterargument	G1	Ideas	NA	NA	NA	H	-	Ideas 明示。注：组 1 为 counterarguments、组 9 为归并 COUNTERARGUMENT，本组为单数单独入选，系口径效应
+citations	G1	Development	NA	NA	NA	-	d1	维度一待定：引用来源的使用(G1-Development)vs 引用格式(G2-Mechanics)；同组 10 citation 口径 〔concordance回填：维度一=G1-Development；主导判定=G1-Development〕
+forward	NA	-	NA	NA	NA	M	-	going forward / put forward〔沿用组 5〕
+explain	NA	-	NA	NA	NA	-	act	act 层待定：you explain X well（描述 NA）vs explain this further（A3）。属"内容动词"类，见报告 §5〔沿用组 5〕 〔concordance回填：act 层=NA；主导判定=NA〕
+repeated	NA	-	NA	NA	NA	-	d1	维度一待定：repeated errors(G2)vs repeated ideas(G2-Local，手册 repetitive 口径)vs 论点重复(G1)〔沿用组 9〕 〔concordance回填：维度一=NA；主导判定=NA〕
+discussing	G1	Ideas	NA	NA	NA	-	act	act 层待定：you discuss X（描述）vs discuss counterarguments（A3）；内容动词类 〔concordance回填：act 层=NA；主导判定=NA(88%)〕
+opposing	G1	Ideas	NA	NA	NA	H	-	opposing views，反驳层〔沿用组 8〕
+balanced	G1	Ideas	A1	NA	NA	M	-	a balanced argument/view，域固定于论断；正向评价〔沿用组 2〕
+current	NA	-	NA	NA	NA	M	-	元话语现状框架（your current draft），同组 1 currently〔沿用组 5〕

@@ -1,5 +1,9 @@
 # P4–P6 PENDING 项杠杆筛查结果
 
+> **状态：已完成（历史存档）**
+> 本清单所列待决项已全部由 concordance 消解，总表现存 0 个 PENDING。
+> 保留以记录当时的筛查依据；最终统计见 [`final_report.md`](final_report.md)。
+
 > 由 `scripts/leverage_screen.py` 生成，只读 `coding/all_codes.tsv` 与 `coding/pending_worklist.tsv`，未修改任何编码。
 > **P1–P3（17 个词形）一律必查，不参与筛查。** 本报告只处理 P4–P6 的 28 个词形。
 > 占比口径：分母 = 该组该层已定标签数（N/A 与 PENDING 不计入）。

@@ -1,5 +1,9 @@
 # concordance 待判定词形总表
 
+> **状态：已完成（历史存档）**
+> 本清单所列待决项已全部由 concordance 消解，总表现存 0 个 PENDING。
+> 保留以记录当时的筛查依据；最终统计见 [`final_report.md`](final_report.md)。
+
 > 由 `scripts/make_pending.py` 从 `coding/all_codes.tsv` 生成。
 > **单位是词形，不是词位**：concordance 对一个词形在语料中的用法作一次判定，结果回填到它出现的所有组，因此同一词形在多组的 PENDING 合并为一行。
 > 总表共 24 个 PENDING 单元格，聚合为 **45 个待判定词形**；另含 note 标记待核项与两项特殊情况（见 P1、P5）。

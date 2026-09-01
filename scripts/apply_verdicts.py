@@ -2,6 +2,14 @@
 # -*- coding: utf-8 -*-
 """把 concordance 判定结果回填到 all_codes.tsv 的 PENDING 单元格。
 
+【已停用 — 保留作过程存档，勿再运行】
+本脚本是第一轮回填工具，把 315 个 PENDING 中的 291 个落了位，余下 24 个因判定
+未覆盖对应层而留空。第二轮改由外部流程从原始基线整体重跑、消解全部 PENDING，
+结果经 scripts/split_codes.py 拆回分组文件，本脚本不再参与流水线。
+它以 conf="C" 记录"该行由 concordance 定夺"，这一取值已被独立的 src 列取代且
+不再是 analyze.py 的合法值——重新运行会覆盖 conf 的原始 H/M/L 评级，
+并使后续校验断言失败。
+
 判定表以（词形 × 语料）为键，总表以（组 × 词形）为键，语料→组为一对多：
   L1→1,12  Generic→2,4,8,10  Chinese→3,5  German→6,7  Baseline→9,11
 判定表的取值有多种写法，本脚本统一解析后按层落位；只填当前为 PENDING 的单元格，

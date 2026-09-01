@@ -37,23 +37,38 @@ LEGAL = {"d1": {"G1","G2","NA","PENDING"},
          "act": {"A1","A2","A3","NA","PENDING"},
          "hedge": {"M1","NA","PENDING"},
          "c": {"C1","NA","PENDING"},
-         "conf": {"H","M","L","C","-"}}
+         "conf": {"H","M","L","-"}}
 bad = [(r["type"], k, r[k]) for r in rows for k in LEGAL if r[k] not in LEGAL[k]]
 assert not bad, f"非法取值: {bad}"
 sub = [(r["type"], r["d1"], r["d1sub"]) for r in rows
        if (r["d1"] in ("G1","G2")) != (r["d1sub"] != "-")]
 assert not sub, f"主类与子类不匹配: {sub}"
-print(f"[校验] {N} 行全部匹配，取值合法，主类/子类一致\n")
+# src 只能由 d1/act/hedge/c 组成，且所标之层不得仍为 PENDING
+SRC_OK = {"d1", "act", "hedge", "c"}
+bad_src = [(r["type"], r["src"]) for r in rows
+           if r["src"] != "-" and not set(r["src"].split("+")) <= SRC_OK]
+assert not bad_src, f"src 取值非法: {bad_src}"
+stale = [(r["type"], L) for r in rows if r["src"] != "-"
+         for L in r["src"].split("+") if r[L] == "PENDING"]
+assert not stale, f"src 标记为已定夺但该层仍是 PENDING: {stale}"
+# C1 项依手册规则维度一、二须归 NA
+c1_bad = [r["type"] for r in rows if r["c"] == "C1"
+          and not (r["d1"] == "NA" and r["act"] == "NA" and r["hedge"] == "NA")]
+assert not c1_bad, f"C1 项未按规则将维度一/二归 NA: {c1_bad}"
+print(f"[校验] {N} 行全部匹配，取值合法，主类/子类一致，src 与 C1 规则自洽\n")
 
 out = []; W = out.append
 
 W(f"## 附表 A：组 {G} 完整编码表（{N} 词位，按 LL 降序）\n")
-W("| # | Type | Freq_Tar | LL | LR | 维度一 | 子类 | 维度二 act | 维度二 hedge | 维度三 | 信度 | 判定依据 |")
-W("|---:|---|---:|---:|---:|---|---|---|---|---|---|---|")
+W("「索引定夺」列标出该行哪些层的标签由 concordance 查证得出，"
+  "其余层为依手册直接判定；「信度」为编码者对该行的信度评级，两列互不替代。\n")
+W("| # | Type | Freq_Tar | LL | LR | 维度一 | 子类 | 维度二 act | 维度二 hedge | 维度三 | 信度 | 索引定夺 | 判定依据 |")
+W("|---:|---|---:|---:|---:|---|---|---|---|---|---|---|---|")
 for r in rows:
     W(f"| {r['rank']} | {r['type']} | {r['ft']} | {r['ll']:.3f} | {r['lr']:.3f} | {r['d1']} | "
       f"{r['d1sub'] if r['d1sub'] != '-' else '—'} | {r['act']} | {r['hedge']} | {r['c']} | "
-      f"{r['conf'] if r['conf'] != '-' else '—'} | {r['note']} |")
+      f"{r['conf'] if r['conf'] != '-' else '—'} | "
+      f"{r['src'].replace('+', '、') if r['src'] != '-' else '—'} | {r['note']} |")
 W("")
 
 def tbl(title, key, subkey=None, note=None):
@@ -131,23 +146,38 @@ W("")
 W("### B8 敏感性分析：维度一 PENDING 的极端归属\n")
 g1 = sum(1 for r in rows if r["d1"] == "G1"); g2 = sum(1 for r in rows if r["d1"] == "G2")
 p  = sum(1 for r in rows if r["d1"] == "PENDING")
-W("| 情形 | G1 词位 | G2 词位 | G1 占比 |")
-W("|---|---:|---:|---:|")
-W(f"| 现状（PENDING 不计入） | {g1} | {g2} | {g1/(g1+g2)*100:.1f}% |")
-W(f"| {p} 个 PENDING 全归 G1（上界） | {g1+p} | {g2} | {(g1+p)/(g1+g2+p)*100:.1f}% |")
-W(f"| {p} 个 PENDING 全归 G2（下界） | {g1} | {g2+p} | {g1/(g1+g2+p)*100:.1f}% |")
-W("")
+if p == 0:
+    W(f"本组维度一已无 PENDING，占比不再存在上下界：G1 {g1} 项、G2 {g2} 项，"
+      f"G1 占已定标签的 **{g1/(g1+g2)*100:.1f}%**（分母 {g1+g2}）。\n")
+else:
+    W("| 情形 | G1 词位 | G2 词位 | G1 占比 |")
+    W("|---|---:|---:|---:|")
+    W(f"| 现状（PENDING 不计入） | {g1} | {g2} | {g1/(g1+g2)*100:.1f}% |")
+    W(f"| {p} 个 PENDING 全归 G1（上界） | {g1+p} | {g2} | {(g1+p)/(g1+g2+p)*100:.1f}% |")
+    W(f"| {p} 个 PENDING 全归 G2（下界） | {g1} | {g2+p} | {g1/(g1+g2+p)*100:.1f}% |")
+    W("")
 
-W("### B9 concordance 待办清单\n")
-pend = [r for r in rows if "PENDING" in (r["d1"], r["act"], r["hedge"], r["c"]) or r["conf"] == "L"]
-W(f"共 **{len(pend)}** 个词族需 concordance 判定（含 2 个低信度已定项）。\n")
-W("| Type | Freq_Tar | 待定层 | 竞争读法 |")
-W("|---|---:|---|---|")
-for r in pend:
-    d = [n for n, k in (("维度一", "d1"), ("act", "act"), ("hedge", "hedge"), ("维度三", "c")) if r[k] == "PENDING"]
-    if r["conf"] == "L": d.append("低信度复核")
-    W(f"| `{r['type']}` | {r['ft']} | {'、'.join(d)} | {r['note']} |")
-W("")
+W("### B9 concordance 定夺记录\n")
+resolved = [r for r in rows if r["src"] != "-"]
+cells = Counter(L for r in resolved for L in r["src"].split("+"))
+pend = [r for r in rows if "PENDING" in (r["d1"], r["act"], r["hedge"], r["c"])]
+W(f"本组 **{len(resolved)}** 个词位、**{sum(cells.values())}** 个单元格的标签由 concordance 查证定夺"
+  f"（维度一 {cells['d1']}、act {cells['act']}、hedge {cells['hedge']}、维度三 {cells['c']}）；"
+  f"未决项 **{len(pend)}** 个。\n")
+if resolved:
+    W("| Type | Freq_Tar | 定夺层 | 定夺结果 | 判定依据 |")
+    W("|---|---:|---|---|---|")
+    for r in resolved:
+        got = "；".join(f"{n}={r[k]}" + (f"/{r['d1sub']}" if k == "d1" and r["d1sub"] != "-" else "")
+                        for n, k in (("维度一", "d1"), ("act", "act"),
+                                     ("hedge", "hedge"), ("维度三", "c"))
+                        if k in r["src"].split("+"))
+        W(f"| `{r['type']}` | {r['ft']} | {r['src'].replace('+', '、')} | {got} | {r['note']} |")
+    W("")
+low = [r for r in rows if r["conf"] == "L"]
+if low:
+    W(f"另有 **{len(low)}** 个低信度（conf=L）已定项，标签成立但依据偏弱，"
+      f"复核时应优先重看：" + "、".join(f"`{r['type']}`" for r in low) + "。\n")
 
 W("### B10 高效应量词位（LR ≥ 1.5）\n")
 W("| Type | LL | LR | 维度一 | act | hedge |")
@@ -170,4 +200,5 @@ for name, key in (("维度一", "d1"), ("act 层", "act"), ("hedge 层", "hedge"
     parts = [f"{k} {v}" + (f" ({v/n*100:.1f}%)" if n else "") for k, v in c.most_common() if k not in ("NA", "PENDING")]
     print(f"{name:<7} 已定 {n:>3} | " + "、".join(parts) if parts else f"{name:<7} 已定 {n:>3} | 无")
     print(f"        N/A {c['NA']}、PENDING {c['PENDING']}")
-print(f"\nconcordance 清单 {len(pend)} 项；写出 coding/group{int(G):02d}_tables.md")
+print(f"\nconcordance 定夺 {len(resolved)} 词位 / {sum(cells.values())} 单元格；"
+      f"未决 {len(pend)} 项；写出 coding/group{int(G):02d}_tables.md")

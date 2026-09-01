@@ -1,60 +1,60 @@
-type	d1	d1sub	act	hedge	c	conf	note
-german	NA	-	NA	NA	C1	H	Identity marking 明示。Freq_Ref = 0（组内唯一 +0.5 平滑例），LR 9.902 为全研究最高
-english	NA	-	NA	NA	C1	C	手册明列：指语言系统（correct English）→C1；作文体修饰→NA。本组共现语境使 C1 先验极高，但仍依规则待查〔concordance 判定：c=C1〕
-SPEAKER	NA	-	NA	NA	C1	H	手册 Identity marking 词族例明列 speaker；German speakers / native speakers 两读法均属 C1
-ARTICLE	G2	Grammar	NA	NA	NA	C	维度一待定：英语冠词(G2-Grammar)vs 引用的文章(G1-Development)〔concordance 判定：d1=G2-Correctness-Grammar〕
-order	G2	Local Structure	NA	NA	NA	C	维度一待定：word order（G2-Grammar，德语语序迁移的典型项）vs "in order to"（NA）〔concordance 判定：d1=G2-Local Structure〕
-transfer	NA	-	NA	NA	C1	H	手册 Transfer framing 词族例明列 transfer
-false	NA	-	NA	NA	C1	C	维度三待定：false friends（跨语言词汇概念，C1）vs false dichotomy（逻辑谬误，G1-Ideas）。与 friends 的 Freq/Range 近乎同步，见报告 §3.2〔concordance 判定：c=C1〕
-style	G2	Wording	NA	NA	NA	C	维度一待定（手册列 tone/register 为 PENDING）〔concordance 判定：d1=G2-Wording〕
-moment	NA	-	NA	NA	NA	M	元话语现状框架（at the moment），与组 1 currently、组 5 current 同构
-common	NA	-	NA	NA	NA	M	常见性标记（a common error）＝正常化框架；属手册排除的 paired acts 类，不入 M1
-argumentation	G1	Ideas	NA	NA	NA	H	Ideas 明示
-patterns	G2	Grammar	NA	NA	NA	C	维度一待定：error patterns(G2)vs sentence patterns(G2-Local)vs 论证模式(G1)〔concordance 判定：d1=G2-Correctness-Grammar〕
-speaking	NA	-	NA	NA	C1	C	维度三待定：German-speaking / German speakers（C1）vs generally speaking（NA）〔concordance 判定：c=C1〕
-INFLUENCE	NA	-	NA	NA	NA	C	维度三待定：the influence of German on your English（Transfer framing，C1）vs influence the reader（G1）〔concordance 判定：d1=NA(59%)，c=NA(59%)〕
-basis	G1	Ideas	NA	NA	NA	C	维度一待定：the basis of your claim(G1-Ideas)vs on a …basis（NA）〔concordance 判定：d1=G1-Ideas(80%)〕
-watch	NA	-	A3	NA	NA	M	watch for / watch out for＝注意指令，属建议行为
-usage	G2	Correctness	NA	NA	NA	M	article usage / comma usage，语言使用规范层
-likely	NA	-	NA	M1	NA	H	认识型 hedge，与手册 probably/possibly 同类
-REQUIRE	NA	-	NA	NA	NA	C	act 层待定：this requires a comma（补救指令 A3）vs German requires…（描述，且可能属 C1 共现语境）〔concordance 判定：act=NA〕
-natural	NA	-	NA	NA	NA	C	三层皆待定：sounds natural 是否以母语者语感为隐含标准（C1）；同组 2 口径〔concordance 判定：d1=NA，act=NA，c=NA〕
-commas	G2	Mechanics	NA	NA	NA	H	Mechanics 明示
-structure	G1	Global Structure	NA	NA	NA	H	手册边界规则明示：structure 主导义为篇章结构，归 G1
-often	NA	-	NA	M1	NA	H	手册 v3 M1 明示 hedge
-clauses	G2	Local Structure	NA	NA	NA	H	手册 Local Structure 词族例明列 clause
-few	NA	-	NA	PENDING	NA	-	hedge 层待定：a few errors 最小化降调（M1）vs 单纯量词（NA）；同组 1 just、组 2 only
-writer	NA	-	NA	NA	NA	M	第三人称指称写作者（the writer），与 your 的第二人称形成对照，值得单独记录
-direct	G1	Ideas	NA	NA	NA	C	维度三待定（先验较低）：German writing is direct（文化—语用框架，C1）vs be more direct(G2)/direct quotation(NA)〔concordance 判定：d1=G1-Ideas，c=NA〕
-noun	G2	Grammar	NA	NA	NA	H	Correctness/Grammar 明示；德语名词大写为典型迁移项
-friends	NA	-	NA	NA	C1	C	维度三待定：false friends（C1）vs 议题内容残留（friends and family）。参照侧 Freq 20 提示存在非 C1 基线用法〔concordance 判定：c=C1〕
-steps	NA	-	NA	NA	NA	M	元话语（next steps）
-phrasing	G2	Wording	NA	NA	NA	H	Wording 明示
-rhetorical	G2	Local Structure	NA	NA	NA	C	维度一待定：rhetorical question（局部修辞手段）vs rhetorical strategy/situation（G1）〔concordance 判定：d1=G2-Local Structure〕
-very	NA	-	NA	NA	NA	M	强化词，非 hedge
-rewrite	G1	Global Structure	A3	NA	NA	C	维度一待定：rewrite this sentence(G2)vs rewrite this paragraph(G1)；建议动词〔concordance 判定：d1=G1-Global Structure〕
-register	G2	Wording	NA	NA	NA	C	维度一待定（手册列 register 为 PENDING）；元语言学术语，显性命名语域规范〔concordance 判定：d1=G2-Wording(100%)〕
-could	NA	-	NA	NA	NA	C	手册指定共享项，抽 50 行分别判两层〔concordance 判定：act=NA〔裸 NA 推定覆盖全部剩余 PENDING 层〕，hedge=NA〔裸 NA 推定覆盖全部剩余 PENDING 层〕〕
-notes	NA	-	NA	NA	NA	M	元话语（a few notes on…）
-question	G1	Ideas	NA	NA	NA	M	the question your essay raises；同组 4 口径
-cut	G2	Local Structure	A3	NA	NA	M	删削冗余，句内/句间；同组 1 口径
-capitalization	G2	Mechanics	NA	NA	NA	H	Mechanics 明示；德语名词首字母大写为典型迁移项
-argumentative	NA	-	NA	NA	NA	M	文体标签（argumentative essay/writing），不指示层级
-punctuation	G2	Mechanics	NA	NA	NA	H	Mechanics 明示
-new	NA	-	NA	NA	NA	M	a new paragraph / new ideas，层级由宾语决定
-would	NA	-	NA	NA	NA	C	手册指定共享项，抽 50 行分别判两层〔concordance 判定：act=NA，hedge=NA〕
-academic	G2	Wording	NA	NA	NA	C	维度一待定（register）；同组 2 口径〔concordance 判定：d1=G2-Wording〕
-find	NA	-	NA	NA	NA	M	I find… / readers may find…＝人称归因，属手册排除的缓和策略
-always	NA	-	NA	NA	NA	M	最大化副词，非 hedge（区别于手册 often/usually/sometimes）
-precise	G1	Ideas	NA	NA	NA	C	维度一待定：precise wording(G2)vs precise claims(G1)；同组 1 precision 口径〔concordance 判定：d1=G1-Ideas〕
-raise	G1	Ideas	NA	NA	NA	C	act 层待定：raises an important question 属开场归功套语(A1)vs 描述(NA)；与组 1 tackles、组 4 raises 并案〔concordance 判定：act=NA〕
-above	NA	-	NA	NA	NA	M	指示元话语（see above）
-emotionally	G2	Wording	NA	NA	NA	C	维度一待定：emotionally charged language(G2)vs emotional appeal(G1)；同组 4 口径〔concordance 判定：d1=G2-Wording〕
-quite	NA	-	NA	M1	NA	H	手册 v3 M1 明示 hedge
-properly	G2	Correctness	NA	NA	NA	M	规范性副词（used properly）；同组 2 proper 口径
-place	NA	-	NA	NA	NA	M	in place of / places where，指示元话语
-placeholder	G2	Wording	A2	NA	NA	M	placeholder phrases/language，空泛措辞；同组 1 口径
-second	NA	-	NA	NA	NA	M	序数词，反馈条目枚举
-create	NA	-	NA	NA	NA	C	act 层待定：create a clearer transition（A3）vs 描述（NA）；内容动词类〔concordance 判定：act=NA〕
-read	NA	-	NA	NA	NA	C	act 层待定：read your essay aloud（A3）vs 描述（NA）；内容动词类〔concordance 判定：act=NA〕
-used	NA	-	NA	NA	NA	C	维度一待定：同 USE/using 口径〔concordance 判定：d1=NA〕
+type	d1	d1sub	act	hedge	c	conf	src	note
+german	NA	-	NA	NA	C1	H	-	Identity marking 明示。Freq_Ref = 0（组内唯一 +0.5 平滑例），LR 9.902 为全研究最高
+english	NA	-	NA	NA	C1	-	c	手册明列：指语言系统（correct English）→C1；作文体修饰→NA。本组共现语境使 C1 先验极高，但仍依规则待查 〔concordance回填：维度三=C1；主导判定=C1〕
+SPEAKER	NA	-	NA	NA	C1	H	-	手册 Identity marking 词族例明列 speaker；German speakers / native speakers 两读法均属 C1
+ARTICLE	G2	Grammar	NA	NA	NA	-	d1	维度一待定：英语冠词(G2-Grammar)vs 引用的文章(G1-Development) 〔concordance回填：维度一=G2-Correctness-Grammar；主导判定=G2-Correctness-Grammar〕
+order	G2	Local Structure	NA	NA	NA	-	d1	维度一待定：word order（G2-Grammar，德语语序迁移的典型项）vs "in order to"（NA） 〔concordance回填：维度一=G2-Local Structure；主导判定=G2-Local Structure〕
+transfer	NA	-	NA	NA	C1	H	-	手册 Transfer framing 词族例明列 transfer
+false	NA	-	NA	NA	C1	-	c	维度三待定：false friends（跨语言词汇概念，C1）vs false dichotomy（逻辑谬误，G1-Ideas）。与 friends 的 Freq/Range 近乎同步，见报告 §3.2 〔concordance回填：维度三=C1；主导判定=C1〕
+style	G2	Wording	NA	NA	NA	-	d1	维度一待定（手册列 tone/register 为 PENDING） 〔concordance回填：维度一=G2-Wording；主导判定=G2-Wording〕
+moment	NA	-	NA	NA	NA	M	-	元话语现状框架（at the moment），与组 1 currently、组 5 current 同构
+common	NA	-	NA	NA	NA	M	-	常见性标记（a common error）＝正常化框架；属手册排除的 paired acts 类，不入 M1
+argumentation	G1	Ideas	NA	NA	NA	H	-	Ideas 明示
+patterns	G2	Grammar	NA	NA	NA	-	d1	维度一待定：error patterns(G2)vs sentence patterns(G2-Local)vs 论证模式(G1) 〔concordance回填：维度一=G2-Correctness-Grammar；主导判定=G2-Correctness-Grammar〕
+speaking	NA	-	NA	NA	C1	-	c	维度三待定：German-speaking / German speakers（C1）vs generally speaking（NA） 〔concordance回填：维度三=C1；主导判定=C1〕
+INFLUENCE	NA	-	NA	NA	NA	-	d1+c	维度三待定：the influence of German on your English（Transfer framing，C1）vs influence the reader（G1） 〔concordance回填：维度一=NA；主导判定=维度一=NA(100%) ; 维度三=NA(59%)〕 〔concordance回填：维度三=NA；主导判定=维度一=NA(100%) ; 维度三=NA(59%)〕
+basis	G1	Ideas	NA	NA	NA	-	d1	维度一待定：the basis of your claim(G1-Ideas)vs on a …basis（NA） 〔concordance回填：维度一=G1-Ideas；主导判定=G1-Ideas(80%)〕
+watch	NA	-	A3	NA	NA	M	-	watch for / watch out for＝注意指令，属建议行为
+usage	G2	Correctness	NA	NA	NA	M	-	article usage / comma usage，语言使用规范层
+likely	NA	-	NA	M1	NA	H	-	认识型 hedge，与手册 probably/possibly 同类
+REQUIRE	NA	-	NA	NA	NA	-	act	act 层待定：this requires a comma（补救指令 A3）vs German requires…（描述，且可能属 C1 共现语境） 〔concordance回填：act 层=NA；主导判定=NA〕
+natural	NA	-	NA	NA	NA	-	d1+act+c	三层皆待定：sounds natural 是否以母语者语感为隐含标准（C1）；同组 2 口径 〔concordance回填：维度一=NA；主导判定=维度一=NA；act=NA；维度三=NA〕 〔concordance回填：act 层=NA；主导判定=维度一=NA；act=NA；维度三=NA〕 〔concordance回填：维度三=NA；主导判定=维度一=NA；act=NA；维度三=NA〕
+commas	G2	Mechanics	NA	NA	NA	H	-	Mechanics 明示
+structure	G1	Global Structure	NA	NA	NA	H	-	手册边界规则明示：structure 主导义为篇章结构，归 G1
+often	NA	-	NA	M1	NA	H	-	手册 v3 M1 明示 hedge
+clauses	G2	Local Structure	NA	NA	NA	H	-	手册 Local Structure 词族例明列 clause
+few	NA	-	NA	M1	NA	-	hedge	hedge 层待定：a few errors 最小化降调（M1）vs 单纯量词（NA）；同组 1 just、组 2 only 〔concordance回填：hedge 层=M1；主导判定=M1〕
+writer	NA	-	NA	NA	NA	M	-	第三人称指称写作者（the writer），与 your 的第二人称形成对照，值得单独记录
+direct	G1	Ideas	NA	NA	NA	-	d1+c	维度三待定（先验较低）：German writing is direct（文化—语用框架，C1）vs be more direct(G2)/direct quotation(NA) 〔concordance回填：维度一=G1-Ideas；主导判定=维度一=G1-Ideas；维度三=NA〕 〔concordance回填：维度三=NA；主导判定=维度一=G1-Ideas；维度三=NA〕
+noun	G2	Grammar	NA	NA	NA	H	-	Correctness/Grammar 明示；德语名词大写为典型迁移项
+friends	NA	-	NA	NA	C1	-	c	维度三待定：false friends（C1）vs 议题内容残留（friends and family）。参照侧 Freq 20 提示存在非 C1 基线用法 〔concordance回填：维度三=C1；主导判定=C1〕
+steps	NA	-	NA	NA	NA	M	-	元话语（next steps）
+phrasing	G2	Wording	NA	NA	NA	H	-	Wording 明示
+rhetorical	G2	Local Structure	NA	NA	NA	-	d1	维度一待定：rhetorical question（局部修辞手段）vs rhetorical strategy/situation（G1） 〔concordance回填：维度一=G2-Local Structure；主导判定=G2-Local Structure〕
+very	NA	-	NA	NA	NA	M	-	强化词，非 hedge
+rewrite	G1	Global Structure	A3	NA	NA	-	d1	维度一待定：rewrite this sentence(G2)vs rewrite this paragraph(G1)；建议动词 〔concordance回填：维度一=G1-Global Structure；主导判定=G1-Global Structure〕
+register	G2	Wording	NA	NA	NA	-	d1	维度一待定（手册列 register 为 PENDING）；元语言学术语，显性命名语域规范 〔concordance回填：维度一=G2-Wording；主导判定=G2-Wording(100%)〕
+could	NA	-	NA	NA	NA	-	act+hedge	手册指定共享项，抽 50 行分别判两层 〔concordance回填：act 层=NA；主导判定=NA〕 〔concordance回填：hedge 层=NA；主导判定=NA〕
+notes	NA	-	NA	NA	NA	M	-	元话语（a few notes on…）
+question	G1	Ideas	NA	NA	NA	M	-	the question your essay raises；同组 4 口径
+cut	G2	Local Structure	A3	NA	NA	M	-	删削冗余，句内/句间；同组 1 口径
+capitalization	G2	Mechanics	NA	NA	NA	H	-	Mechanics 明示；德语名词首字母大写为典型迁移项
+argumentative	NA	-	NA	NA	NA	M	-	文体标签（argumentative essay/writing），不指示层级
+punctuation	G2	Mechanics	NA	NA	NA	H	-	Mechanics 明示
+new	NA	-	NA	NA	NA	M	-	a new paragraph / new ideas，层级由宾语决定
+would	NA	-	NA	NA	NA	-	act+hedge	手册指定共享项，抽 50 行分别判两层 〔concordance回填：act 层=NA；主导判定=act=NA；hedge=NA〕 〔concordance回填：hedge 层=NA；主导判定=act=NA；hedge=NA〕
+academic	G2	Wording	NA	NA	NA	-	d1	维度一待定（register）；同组 2 口径 〔concordance回填：维度一=G2-Wording；主导判定=G2-Wording〕
+find	NA	-	NA	NA	NA	M	-	I find… / readers may find…＝人称归因，属手册排除的缓和策略
+always	NA	-	NA	NA	NA	M	-	最大化副词，非 hedge（区别于手册 often/usually/sometimes）
+precise	G1	Ideas	NA	NA	NA	-	d1	维度一待定：precise wording(G2)vs precise claims(G1)；同组 1 precision 口径 〔concordance回填：维度一=G1-Ideas；主导判定=G1-Ideas〕
+raise	G1	Ideas	NA	NA	NA	-	act	act 层待定：raises an important question 属开场归功套语(A1)vs 描述(NA)；与组 1 tackles、组 4 raises 并案 〔concordance回填：act 层=NA；主导判定=NA〕
+above	NA	-	NA	NA	NA	M	-	指示元话语（see above）
+emotionally	G2	Wording	NA	NA	NA	-	d1	维度一待定：emotionally charged language(G2)vs emotional appeal(G1)；同组 4 口径 〔concordance回填：维度一=G2-Wording；主导判定=G2-Wording〕
+quite	NA	-	NA	M1	NA	H	-	手册 v3 M1 明示 hedge
+properly	G2	Correctness	NA	NA	NA	M	-	规范性副词（used properly）；同组 2 proper 口径
+place	NA	-	NA	NA	NA	M	-	in place of / places where，指示元话语
+placeholder	G2	Wording	A2	NA	NA	M	-	placeholder phrases/language，空泛措辞；同组 1 口径
+second	NA	-	NA	NA	NA	M	-	序数词，反馈条目枚举
+create	NA	-	NA	NA	NA	-	act	act 层待定：create a clearer transition（A3）vs 描述（NA）；内容动词类 〔concordance回填：act 层=NA；主导判定=NA〕
+read	NA	-	NA	NA	NA	-	act	act 层待定：read your essay aloud（A3）vs 描述（NA）；内容动词类 〔concordance回填：act 层=NA；主导判定=NA〕
+used	NA	-	NA	NA	NA	-	d1	维度一待定：同 USE/using 口径 〔concordance回填：维度一=NA；主导判定=NA〕

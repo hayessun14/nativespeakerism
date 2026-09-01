@@ -1,37 +1,39 @@
 ## 附表 A：组 4 完整编码表（30 词位，按 LL 降序）
 
-| # | Type | Freq_Tar | LL | LR | 维度一 | 子类 | 维度二 act | 维度二 hedge | 维度三 | 信度 | 判定依据 |
-|---:|---|---:|---:|---:|---|---|---|---|---|---|---|
-| 1 | emotionally | 63 | 13.009 | 1.136 | G2 | Wording | NA | NA | NA | C | 维度一待定：emotionally charged language(G2-Wording/register)vs emotional appeal(G1-Ideas)；同组 2 emotional 口径〔concordance 判定：d1=G2-Wording〕 |
-| 2 | luck | 36 | 9.511 | 1.329 | NA | — | NA | NA | NA | M | 人际礼貌（good luck）；属手册排除的 paired acts 类，不入 M1 |
-| 3 | could | 499 | 8.327 | 0.278 | NA | — | A3 | M1 | NA | C | 手册指定共享项，抽 50 行分别判 act 层与 hedge 层〔concordance 判定：act=A3(53%)，hedge=M1(53%)〕 |
-| 4 | question | 128 | 8.199 | 0.574 | G1 | Ideas | NA | NA | NA | M | the question your essay raises／questions worth addressing，属论断层 |
-| 5 | raises | 47 | 7.846 | 0.997 | G1 | Ideas | NA | NA | NA | C | act 层待定：raises an important question 属开场归功套语(A1)vs 单纯描述(NA)；与组 1 tackles 同构，须并案处理〔concordance 判定：act=NA(79%)〕 |
-| 6 | arguments | 163 | 7.607 | 0.482 | G1 | Ideas | NA | NA | NA | H | Ideas 明示 |
-| 7 | essential | 59 | 7.514 | 0.849 | NA | — | NA | NA | NA | C | act 层待定：an essential point(A1)vs it is essential to…(A3 框架)；同组 2 important 口径〔concordance 判定：act=NA〕 |
-| 8 | comment | 57 | 7.201 | 0.845 | NA | — | NA | NA | NA | M | 元话语（a comment on… / 小标题） |
-| 9 | choose | 102 | 6.956 | 0.594 | NA | — | A3 | NA | NA | M | choose more precise words，层级由宾语决定 |
-| 10 | your | 5416 | 6.839 | 0.073 | NA | — | NA | NA | NA | M | 人称代词，无固定层级所指 |
-| 11 | feels | 110 | 6.693 | 0.558 | NA | — | NA | M1 | NA | M | this feels abrupt/rushed：与手册 M1 词族例 seem/appear 同类；删除后批评仍在且更强 |
-| 12 | errors | 317 | 6.680 | 0.315 | G2 | Correctness | A2 | NA | NA | H | 手册边界规则明示：error/mistake 归 G2-Correctness 且同时得批评标签 |
-| 13 | impact | 102 | 6.506 | 0.573 | G1 | Ideas | NA | NA | NA | M | the impact of your argument on the reader；受众/效果，依窄口径归 G1 |
-| 14 | makes | 216 | 6.250 | 0.372 | NA | — | NA | NA | NA | M | 轻动词 |
-| 15 | find | 52 | 6.094 | 0.809 | NA | — | NA | NA | NA | M | I find… / readers may find…＝人称归因，属手册排除的缓和策略，不入 M1 |
-| 16 | experience | 105 | 5.839 | 0.531 | G1 | Development | NA | NA | NA | M | personal experience 作为证据类型，与组 1 anecdote 同位 |
-| 17 | thought | 73 | 5.564 | 0.632 | G1 | Ideas | NA | NA | NA | M | your thought process／well-thought-out |
-| 18 | paper | 100 | 5.407 | 0.523 | NA | — | NA | NA | NA | H | 文本指称语，不指示层级 |
-| 19 | describing | 41 | 5.384 | 0.864 | G1 | Ideas | NA | NA | NA | M | describing rather than analysing，描述—分析对举，属论述方式 |
-| 20 | final | 414 | 5.116 | 0.238 | NA | — | NA | NA | NA | C | 维度一待定：your final paragraph(G1-Structure)vs"Final thoughts:"小标题(NA)〔concordance 判定：d1=NA〕 |
-| 21 | punctuation | 238 | 5.001 | 0.314 | G2 | Mechanics | NA | NA | NA | H | Mechanics 明示 |
-| 22 | her | 91 | 4.485 | 0.497 | NA | — | NA | NA | NA | M | 疑似议题内容残留（引述作文内容），待核 |
-| 23 | strongest | 122 | 4.439 | 0.421 | NA | — | A1 | NA | NA | C | 手册 v3 强制查询清单（strong 系 A1/A3 争议），不得凭词形归类〔concordance 判定：act=A1〕 |
-| 24 | strength | 92 | 4.419 | 0.490 | NA | — | A1 | NA | NA | C | act 层待定：反馈小标题"Strengths:"（元话语 NA）vs 归功（A1）；且属 strong 词族，按 v3 强制查询规则不得凭词形定〔concordance 判定：act=A1〕 |
-| 25 | key | 88 | 4.308 | 0.495 | NA | — | NA | NA | NA | M | 重要性前置修饰语（your key claim），少见于 it is key to… 框架，故与 essential/important 不同判 |
-| 26 | point | 431 | 4.198 | 0.210 | G1 | Ideas | NA | NA | NA | H | 手册 Ideas 词族例明列 point |
-| 27 | moves | 79 | 4.160 | 0.515 | G1 | Global Structure | NA | NA | NA | C | 维度一待定：the essay moves from X to Y(G1-Structure)vs move this paragraph(元话语/G1)；同组 1 move 口径〔concordance 判定：d1=G1-Global Structure〕 |
-| 28 | claims | 554 | 3.970 | 0.179 | G1 | Ideas | NA | NA | NA | H | Ideas 明示。注：本组为复数 claims 独立入选（组 1 为归并 CLAIM），系 R1 先行的口径效应 |
-| 29 | several | 487 | 3.915 | 0.190 | NA | — | NA | NA | NA | M | 量词 |
-| 30 | section | 114 | 3.888 | 0.407 | G1 | Global Structure | NA | NA | NA | M | 大于段落的单位 |
+「索引定夺」列标出该行哪些层的标签由 concordance 查证得出，其余层为依手册直接判定；「信度」为编码者对该行的信度评级，两列互不替代。
+
+| # | Type | Freq_Tar | LL | LR | 维度一 | 子类 | 维度二 act | 维度二 hedge | 维度三 | 信度 | 索引定夺 | 判定依据 |
+|---:|---|---:|---:|---:|---|---|---|---|---|---|---|---|
+| 1 | emotionally | 63 | 13.009 | 1.136 | G2 | Wording | NA | NA | NA | — | d1 | 维度一待定：emotionally charged language(G2-Wording/register)vs emotional appeal(G1-Ideas)；同组 2 emotional 口径 〔concordance回填：维度一=G2-Wording；主导判定=G2-Wording〕 |
+| 2 | luck | 36 | 9.511 | 1.329 | NA | — | NA | NA | NA | M | — | 人际礼貌（good luck）；属手册排除的 paired acts 类，不入 M1 |
+| 3 | could | 499 | 8.327 | 0.278 | NA | — | A3 | M1 | NA | — | act、hedge | 手册指定共享项，抽 50 行分别判 act 层与 hedge 层 〔concordance回填：act 层=A3；主导判定=act=A3(53%) ; hedge=M1(54%)〕 〔concordance回填：hedge 层=M1；主导判定=act=A3(53%) ; hedge=M1(54%)〕 |
+| 4 | question | 128 | 8.199 | 0.574 | G1 | Ideas | NA | NA | NA | M | — | the question your essay raises／questions worth addressing，属论断层 |
+| 5 | raises | 47 | 7.846 | 0.997 | G1 | Ideas | NA | NA | NA | — | act | act 层待定：raises an important question 属开场归功套语(A1)vs 单纯描述(NA)；与组 1 tackles 同构，须并案处理 〔concordance回填：act 层=NA；主导判定=NA(79%)〕 |
+| 6 | arguments | 163 | 7.607 | 0.482 | G1 | Ideas | NA | NA | NA | H | — | Ideas 明示 |
+| 7 | essential | 59 | 7.514 | 0.849 | NA | — | NA | NA | NA | — | act | act 层待定：an essential point(A1)vs it is essential to…(A3 框架)；同组 2 important 口径 〔concordance回填：act 层=NA；主导判定=NA〕 |
+| 8 | comment | 57 | 7.201 | 0.845 | NA | — | NA | NA | NA | M | — | 元话语（a comment on… / 小标题） |
+| 9 | choose | 102 | 6.956 | 0.594 | NA | — | A3 | NA | NA | M | — | choose more precise words，层级由宾语决定 |
+| 10 | your | 5416 | 6.839 | 0.073 | NA | — | NA | NA | NA | M | — | 人称代词，无固定层级所指 |
+| 11 | feels | 110 | 6.693 | 0.558 | NA | — | NA | M1 | NA | M | — | this feels abrupt/rushed：与手册 M1 词族例 seem/appear 同类；删除后批评仍在且更强 |
+| 12 | errors | 317 | 6.680 | 0.315 | G2 | Correctness | A2 | NA | NA | H | — | 手册边界规则明示：error/mistake 归 G2-Correctness 且同时得批评标签 |
+| 13 | impact | 102 | 6.506 | 0.573 | G1 | Ideas | NA | NA | NA | M | — | the impact of your argument on the reader；受众/效果，依窄口径归 G1 |
+| 14 | makes | 216 | 6.250 | 0.372 | NA | — | NA | NA | NA | M | — | 轻动词 |
+| 15 | find | 52 | 6.094 | 0.809 | NA | — | NA | NA | NA | M | — | I find… / readers may find…＝人称归因，属手册排除的缓和策略，不入 M1 |
+| 16 | experience | 105 | 5.839 | 0.531 | G1 | Development | NA | NA | NA | M | — | personal experience 作为证据类型，与组 1 anecdote 同位 |
+| 17 | thought | 73 | 5.564 | 0.632 | G1 | Ideas | NA | NA | NA | M | — | your thought process／well-thought-out |
+| 18 | paper | 100 | 5.407 | 0.523 | NA | — | NA | NA | NA | H | — | 文本指称语，不指示层级 |
+| 19 | describing | 41 | 5.384 | 0.864 | G1 | Ideas | NA | NA | NA | M | — | describing rather than analysing，描述—分析对举，属论述方式 |
+| 20 | final | 414 | 5.116 | 0.238 | NA | — | NA | NA | NA | — | d1 | 维度一待定：your final paragraph(G1-Structure)vs"Final thoughts:"小标题(NA) 〔concordance回填：维度一=NA；主导判定=NA〕 |
+| 21 | punctuation | 238 | 5.001 | 0.314 | G2 | Mechanics | NA | NA | NA | H | — | Mechanics 明示 |
+| 22 | her | 91 | 4.485 | 0.497 | NA | — | NA | NA | NA | M | d1 | 疑似议题内容残留（引述作文内容），待核 〔concordance回填：维度一=NA；主导判定=NA〕 |
+| 23 | strongest | 122 | 4.439 | 0.421 | NA | — | A1 | NA | NA | — | act | 手册 v3 强制查询清单（strong 系 A1/A3 争议），不得凭词形归类 〔concordance回填：act 层=A1；主导判定=A1〕 |
+| 24 | strength | 92 | 4.419 | 0.490 | NA | — | A1 | NA | NA | — | act | act 层待定：反馈小标题"Strengths:"（元话语 NA）vs 归功（A1）；且属 strong 词族，按 v3 强制查询规则不得凭词形定 〔concordance回填：act 层=A1；主导判定=A1〕 |
+| 25 | key | 88 | 4.308 | 0.495 | NA | — | NA | NA | NA | M | — | 重要性前置修饰语（your key claim），少见于 it is key to… 框架，故与 essential/important 不同判 |
+| 26 | point | 431 | 4.198 | 0.210 | G1 | Ideas | NA | NA | NA | H | — | 手册 Ideas 词族例明列 point |
+| 27 | moves | 79 | 4.160 | 0.515 | G1 | Global Structure | NA | NA | NA | — | d1 | 维度一待定：the essay moves from X to Y(G1-Structure)vs move this paragraph(元话语/G1)；同组 1 move 口径 〔concordance回填：维度一=G1-Global Structure；主导判定=G1-Global Structure〕 |
+| 28 | claims | 554 | 3.970 | 0.179 | G1 | Ideas | NA | NA | NA | H | — | Ideas 明示。注：本组为复数 claims 独立入选（组 1 为归并 CLAIM），系 R1 先行的口径效应 |
+| 29 | several | 487 | 3.915 | 0.190 | NA | — | NA | NA | NA | M | — | 量词 |
+| 30 | section | 114 | 3.888 | 0.407 | G1 | Global Structure | NA | NA | NA | M | — | 大于段落的单位 |
 
 ### B1 维度一 Feedback Focus
 
@@ -121,18 +123,23 @@ act ＋ hedge 双标签共现：**1** 项（`could`）
 
 ### B8 敏感性分析：维度一 PENDING 的极端归属
 
-| 情形 | G1 词位 | G2 词位 | G1 占比 |
-|---|---:|---:|---:|
-| 现状（PENDING 不计入） | 11 | 3 | 78.6% |
-| 0 个 PENDING 全归 G1（上界） | 11 | 3 | 78.6% |
-| 0 个 PENDING 全归 G2（下界） | 11 | 3 | 78.6% |
+本组维度一已无 PENDING，占比不再存在上下界：G1 11 项、G2 3 项，G1 占已定标签的 **78.6%**（分母 14）。
 
-### B9 concordance 待办清单
+### B9 concordance 定夺记录
 
-共 **0** 个词族需 concordance 判定（含 2 个低信度已定项）。
+本组 **9** 个词位、**10** 个单元格的标签由 concordance 查证定夺（维度一 4、act 5、hedge 1、维度三 0）；未决项 **0** 个。
 
-| Type | Freq_Tar | 待定层 | 竞争读法 |
-|---|---:|---|---|
+| Type | Freq_Tar | 定夺层 | 定夺结果 | 判定依据 |
+|---|---:|---|---|---|
+| `emotionally` | 63 | d1 | 维度一=G2/Wording | 维度一待定：emotionally charged language(G2-Wording/register)vs emotional appeal(G1-Ideas)；同组 2 emotional 口径 〔concordance回填：维度一=G2-Wording；主导判定=G2-Wording〕 |
+| `could` | 499 | act、hedge | act=A3；hedge=M1 | 手册指定共享项，抽 50 行分别判 act 层与 hedge 层 〔concordance回填：act 层=A3；主导判定=act=A3(53%) ; hedge=M1(54%)〕 〔concordance回填：hedge 层=M1；主导判定=act=A3(53%) ; hedge=M1(54%)〕 |
+| `raises` | 47 | act | act=NA | act 层待定：raises an important question 属开场归功套语(A1)vs 单纯描述(NA)；与组 1 tackles 同构，须并案处理 〔concordance回填：act 层=NA；主导判定=NA(79%)〕 |
+| `essential` | 59 | act | act=NA | act 层待定：an essential point(A1)vs it is essential to…(A3 框架)；同组 2 important 口径 〔concordance回填：act 层=NA；主导判定=NA〕 |
+| `final` | 414 | d1 | 维度一=NA | 维度一待定：your final paragraph(G1-Structure)vs"Final thoughts:"小标题(NA) 〔concordance回填：维度一=NA；主导判定=NA〕 |
+| `her` | 91 | d1 | 维度一=NA | 疑似议题内容残留（引述作文内容），待核 〔concordance回填：维度一=NA；主导判定=NA〕 |
+| `strongest` | 122 | act | act=A1 | 手册 v3 强制查询清单（strong 系 A1/A3 争议），不得凭词形归类 〔concordance回填：act 层=A1；主导判定=A1〕 |
+| `strength` | 92 | act | act=A1 | act 层待定：反馈小标题"Strengths:"（元话语 NA）vs 归功（A1）；且属 strong 词族，按 v3 强制查询规则不得凭词形定 〔concordance回填：act 层=A1；主导判定=A1〕 |
+| `moves` | 79 | d1 | 维度一=G1/Global Structure | 维度一待定：the essay moves from X to Y(G1-Structure)vs move this paragraph(元话语/G1)；同组 1 move 口径 〔concordance回填：维度一=G1-Global Structure；主导判定=G1-Global Structure〕 |
 
 ### B10 高效应量词位（LR ≥ 1.5）
 
