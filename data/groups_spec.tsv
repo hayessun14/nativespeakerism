@@ -1,0 +1,15 @@
+# 按组的检索规格：每组只在其 target_corpus 中检索
+# group<TAB>target_corpus<TAB>逗号分隔的检索词（大写为 R4 归并标签，按 merged_map_groups.tsv 展开）
+group	target_corpus	words
+group01	L1	CLAIM,defensible,sweeping,reasoning,tighten,aim,RELY,credible
+group02	Generic	corrections,english,GOOD,vocabulary,tense,expressions,ARTICLE,thank,some
+group03	Chinese	chinese,ARTICLE,RUN-ON,splices,sentences,patterns,english,issues
+group04	Generic	arguments,question,raises,errors
+group05	Chinese	chinese,organization,body,organizing,readers,grammar,mechanics,restate
+group06	German	german,transfer,false,SPEAKER,english,speaking,INFLUENCE,order,ARTICLE,usage,natural
+group07	German	german,ARTICLE,transfer,english,SPEAKER,influenced,PATTERN,NOUN,order,register,natural,writer
+group08	Generic	clarity,organization,SUPPORT,strengthen
+group09	Baseline	CLAIM,COUNTERARGUMENT,evidence,reasoning,RELY,arguable,credible,correctness,prose,SHARPEN,aim
+group10	Generic	corrections,english,slightly,GOOD,grammar,verb,ARTICLE,strengths
+group11	Baseline	evidence,accurate,anecdote,expert,effectively,engaging,promising
+group12	L1	underdeveloped,consistent,sentence,vague,check
