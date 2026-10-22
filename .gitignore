@@ -2,6 +2,7 @@ corpora/
 *.db
 __pycache__/
 
-# 抽取输出默认不入库，但分组成品是交付物，须随仓库分发
+# 抽取输出默认不入库，但以下成品是交付物，须随仓库分发
 out/*
 !out/groups/
+!out/merged/
