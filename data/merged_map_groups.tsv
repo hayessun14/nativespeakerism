@@ -1,0 +1,15 @@
+# 本次分组检索所需的 R4 归并标签展开
+# LABEL<TAB>form1,form2,...   （含空格的条目表示连续 token 序列，用于 bigram 匹配）
+CLAIM	claim,claims
+RELY	rely,relies
+GOOD	good,better
+ARTICLE	article,articles
+SPEAKER	speaker,speakers
+INFLUENCE	influence,influenced
+PATTERN	pattern,patterns
+NOUN	noun,nouns
+SUPPORT	support,supporting
+COUNTERARGUMENT	counterargument,counterarguments
+SHARPEN	sharpen,sharpening
+# 语料 tokenizer 为 [\p{L}]+，连字符不入 token，故 run-on(s) 必然切分为 run + on/ons
+RUN-ON	run-on,run-ons,run on,run ons
