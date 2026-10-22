@@ -1,0 +1,232 @@
+﻿word	corpus	主导判定
+strengthen	L1	A3
+abstract	L1	G1-Development
+address	Generic	G1-Ideas; A3
+authority	L1	NA
+can	Generic	NA
+casual	L1	G2-Wording
+check	German	G2-Wording
+citations	Baseline	G1-Development
+clarify	Generic	G1-Ideas
+consistent	Generic	G1-Ideas
+create	German	NA
+discuss	Generic	NA
+discussion	Baseline	G1-Development
+double	German	G2-Correctness-Mechanics; NA
+emotionally	German	G2-Wording
+inconsistent	L1	G2-Correctness-Mechanics
+just	Baseline	NA
+loosely	L1	G1-Global Structure
+meaning	Generic	G2-Wording
+move	L1	G1-Global Structure; NA
+moves	Generic	G1-Global Structure
+paragraph	Generic	G1-Development
+power	L1	NA
+precise	German	G1-Ideas
+rather	Baseline	NA
+rewrite	German	G1-Global Structure
+right	L1	NA
+saying	Baseline	NA
+strength	Generic	A1
+tool	Chinese	NA
+explain	Generic	A3(86%)
+influence	German	维度一=NA(100%) ; 维度三=NA(59%)
+mean	German	G2-Wording(50%) / NA(50%)
+aim	L1	A3(98%)
+aim	Baseline	A3(100%)
+basis	German	G1-Ideas(80%)
+briefly	Generic	M1(71%)
+check	L1	G1-Development(29%)
+clarity	Generic	G1-Ideas(40%)
+consistent	L1	G1-Ideas(33%)
+could	Generic	act=A3(53%) ; hedge=M1(54%)
+cultural	L1	NA(100%)
+define	Baseline	G1-Development(76%)
+discussing	Baseline	NA(88%)
+distract	Baseline	G2-Correctness-Mechanics(47%)
+early	Baseline	G1-Global Structure(83%)
+effects	Chinese	NA(100%)
+fix	Generic	G2-Correctness-Mechanics(33%)
+influenced	German	维度一=NA(100%) ; 维度三=C1(74%)
+level	L1	G2-Local Structure(94%)
+level	Chinese	G2-Local Structure(86%)
+level	Baseline	G2-Local Structure(89%)
+our	Chinese	NA(100%)
+paragraph	L1	G1-Development(36%)
+patterns	Generic	G2-Correctness-Grammar(38%)
+personal	Baseline	NA(52%)
+raises	Generic	NA(79%)
+reads	Baseline	G1-Ideas(70%)
+register	German	G2-Wording(100%)
+sharper	L1	A3(75%)
+sharper	Baseline	A3(76%)
+specific	Generic	G1-Development(47%)
+strengthen	Generic	A3(99%)
+strong	Generic	A1(91%)
+suggestions	Generic	A3(100%)
+therefore	German	NA(100%)
+unclear	Generic	G2-Wording(29%)
+using	Generic	维度一=G1-Development(26%) ; act=A3(53%)
+would	L1	act=A3(54%) ; hedge=M1(55%)
+appropriate	German	G2-Wording
+ARTICLE	Chinese	G2-Correctness-Grammar
+check	Generic	G2-Correctness-Mechanics
+citation	Generic	G1-Development
+CLEAR	Generic	维度一=G1-Ideas；维度二=NA
+confusing	Chinese	G2-Local Structure
+data	Chinese	G1-Development
+define	L1	G1-Development
+distract	L1	G2-Correctness-Mechanics
+english	German	C1
+explain	Chinese	A3
+final	Generic	NA
+important	Generic	NA
+informal	Generic	G2-Wording
+language	Chinese	维度一=G2-Wording；维度三=NA
+language	German	维度一=G2-Wording；维度三=NA
+line	Baseline	G2-Local Structure
+line	L1	G2-Local Structure
+loosely	Baseline	G1-Global Structure
+measured	L1	G2-Wording
+mention	Generic	NA
+number	German	NA
+PATTERN	German	G2-Correctness-Grammar
+patterns	German	G2-Correctness-Grammar
+people	Generic	NA
+precision	Baseline	G2-Wording
+reads	L1	G1-Global Structure
+REQUIRE	German	NA
+rhetorical	German	G2-Local Structure
+say	Chinese	NA
+she	Generic	NA
+shifts	L1	G1-Global Structure
+strengths	Generic	A1
+stronger	Generic	A3
+strongest	Generic	A1
+studies	Baseline	G1-Development
+tighten	L1	G1-Ideas
+understandable	Generic	G1-Ideas
+unnatural	German	维度一=G2-Wording；维度二=A2；维度三=NA
+vague	Baseline	G1-Ideas
+write	Generic	A3
+focus	Generic	维度一=G1-Ideas；act=NA
+use	Generic	维度一=G1-Development；act=NA
+action	Chinese	NA
+address	L1	维度一=G1-Ideas；act=A3
+awkward	Chinese	G2-Wording
+background	Generic	维度一=G1-Development；维度三=NA
+chinese	Chinese	C1-Identity
+clarify	Baseline	G1-Ideas
+clarity	Chinese	G2-Local Structure
+complex	Generic	NA
+dates	Baseline	NA
+deserves	Baseline	NA
+direct	German	维度一=G1-Ideas；维度三=NA
+editing	Baseline	G2-Local Structure
+effects	Generic	NA
+good	Generic	A1
+her	Generic	NA
+inaccurate	Chinese	G1-Development
+inconsistent	Baseline	G2-Correctness-Mechanics
+main	Generic	G1-Ideas
+might	L1	act=A3；hedge=NA
+narrow	Baseline	A3
+natural	Generic	维度一=NA；act=NA；维度三=NA
+natural	German	维度一=NA；act=NA；维度三=NA
+polished	L1	G2-Wording
+rather	L1	NA
+replace	Baseline	G1-Development
+right	Generic	NA
+specific	Chinese	G1-Development
+state	Generic	NA
+strongest	Baseline	A1
+style	German	G2-Wording
+suggestion	Baseline	A3
+suggestion	Chinese	A3
+summary	Chinese	NA
+tackles	Baseline	NA
+understandable	German	NA
+used	German	NA
+vary	German	维度一=NA；act=NA
+would	German	act=NA；hedge=NA
+ARTICLE	Generic	G2-Correctness-Grammar
+STRENGTHEN	Baseline	A3
+abstract	German	G1-Development
+academic	Generic	G2-Wording
+academic	German	G2-Wording
+become	Generic	NA
+clearly	Baseline	NA
+complete	Generic	NA
+confusion	German	G2-Wording
+consistency	Generic	G2-Correctness-Grammar
+correct	Generic	A3
+could	German	NA
+data	Generic	G1-Development
+direct	Generic	G2-Wording
+discuss	Chinese	NA
+effort	Chinese	A1
+emotional	Generic	NA
+explain	Baseline	NA
+friends	German	C1
+he	Generic	NA
+just	L1	NA
+just	Chinese	NA
+language	Generic	G2-Wording
+level	Generic	G2-Local Structure
+neutral	Generic	NA
+offer	Baseline	NA
+only	German	NA
+patterns	Chinese	G2-Correctness-Grammar
+raise	German	NA
+reduce	Generic	NA
+repeated	Baseline	NA
+replace	L1	G2-Wording
+speaking	German	C1
+story	Generic	G1-Development
+terms	L1	G2-Wording
+treatment	Baseline	NA
+using	Chinese	NA
+vague	L1	G2-Wording
+weakness	Baseline	A2
+worth	Generic	NA
+would	Baseline	M1
+ARTICLE	German	G2-Correctness-Grammar
+CLARIFY	L1	G1-Ideas
+EDIT	Baseline	G2-Correctness-Mechanics
+GOOD	Generic	A1
+STRENGTH	Generic	A1
+accurate	Baseline	G1-Ideas
+accurate	Generic	G1-Ideas
+address	Baseline	G1-Ideas; A3
+advice	Generic	A3
+ask	Baseline	G1-Ideas
+authority	Baseline	G1-Ideas
+awkward	Generic	G2-Wording
+can	Chinese	NA; NA
+check	Chinese	G1-Development
+effort	Generic	NA
+emotionally	Generic	G2-Wording
+english	Chinese	C1
+essential	Generic	NA
+false	German	C1
+fine	German	A1
+focus	Generic	G1-Ideas; NA
+imprecise	L1	G2-Wording
+insert	Chinese	G1-Development
+might	Baseline	A3; M1
+move	Baseline	NA; NA
+only	Generic	NA
+order	German	G2-Local Structure
+precision	L1	NA
+precision	German	NA
+read	German	NA
+reflection	Baseline	G1-Ideas
+register	Chinese	G2-Wording
+remove	Generic	G2-Wording
+right	Baseline	NA
+say	Generic	NA
+specific	Baseline	G1-Development
+strongest	L1	A1
+suggested	Generic	A3
+topic	Generic	G1-Ideas
+use	Generic	NA; NA

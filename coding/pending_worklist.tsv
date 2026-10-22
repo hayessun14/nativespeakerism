@@ -1,0 +1,46 @@
+priority	type	layers	n_layers	groups	n_groups	max_freq_tar	freq_by_group	max_ll	max_lr	note
+1	language	维度三	1	2/10	2	795	组2:642; 组3:712; 组7:795; 组10:642	150.991	1.210	维度三待定：your language background/first language(C1) vs academic language(G2 Wording)；本组理论枢纽词〔concordance 判定：d1=G2-Wording〕
+1	english	维度三	1	2/10	2	508	组2:74; 组3:138; 组6:508; 组7:508; 组10:74	362.732	2.776	手册明列：指语言系统（correct English）→C1；作文体修饰（English essay）→NA。两读法维度一均为 NA
+1	direct	维度三	1	10	1	164	组6:164; 组7:164; 组10:129	10.656	0.579	维度三待定（先验较低）：German writing is direct（文化—语用框架，C1）vs be more direct(G2)/direct quotation(NA)〔concordance 判定：d1=G1-Ideas，c=NA〕
+1	tackles	跨组一致性回填	1	1/9	2	82	组1:66; 组9:82	13.974	1.008	组 1 编为 A1、组 9 编为 PENDING（有意保留的唯一跨组不一致）；须与组 4 raises 并案判定后统一回填组 1、4、9
+1	chinese	C1 子类判定	1	3/5	2	61	组3:61; 组5:61	77.281	5.968	已定 C1，但 Identity marking 与 Transfer framing 的子类归属未定；决定中文条件的 C1 是纯身份命名还是含迁移归因
+2	would	act 层	1	9	1	786	组1:786; 组6:628; 组9:739	25.427	0.395	手册指定共享项，concordance 抽 50 行判 A3/M1〔concordance 判定：act=A3(54%)，hedge=M1(54%)〕
+2	strong	强制查询清单项（本轮已给标签，须复核）	1	2/10	2	711	组2:711; 组10:711	21.022	0.372	手册 v3 强制查询清单（A1/A3 争议），不得凭词形归类〔concordance 判定：act=A1(91%)〕
+2	STRENGTHEN	强制查询清单项（本轮已给标签，须复核）	1	1/9	2	525	组1:476; 组9:525	23.078	0.466	strengthen your argument/thesis；Ideas/Development 子类边界待核
+2	stronger	强制查询清单项（本轮已给标签，须复核）	1	8	1	477	组8:477	7.934	0.276	手册 v3 强制查询清单（strong 系 A1/A3 争议），不得凭词形归类〔concordance 判定：act=A3〕
+2	strengthen	强制查询清单项（本轮已给标签，须复核）	1	8	1	346	组8:346	9.071	0.351	strengthen your argument/thesis；同组 1 STRENGTHEN 口径。注：属 strong 词族，若 v3 强制查询清单覆盖则须改判 PENDING
+2	address	强制查询清单项（本轮已给标签，须复核）	1	1/8/9	3	302	组1:264; 组8:190; 组9:302	23.654	0.641	手册 v3 强制查询清单（G1/A3 争议），不得凭词形归类：address counterarguments(G1+A3) vs 元话语"address the points below"(NA)〔concordance 判定：d1=G1-Ideas，act=A3〕
+2	STRENGTH	强制查询清单项（本轮已给标签，须复核）	1	2	1	257	组2:257	62.497	1.237	act 层待定：反馈自身小标题"Strengths:"（元话语 NA）vs 归功（A1）；且属 strong 词族，按 v3 强制查询规则不得凭词形定〔concordance 判定：act=A1〕
+2	strongest	强制查询清单项（本轮已给标签，须复核）	1	1/4/9	3	180	组1:180; 组4:122; 组9:176	9.728	0.523	手册 v3 强制查询清单（strong 系 A1/A3 争议），不得凭词形归类：your strongest evidence(A1) vs 目标态框架(A3)〔concordance 判定：act=A1〕
+2	strengths	强制查询清单项（本轮已给标签，须复核）	1	10	1	165	组10:165	49.273	1.417	act 层待定：反馈小标题"Strengths:"（元话语 NA）vs 归功（A1）；且属 strong 词族，按 v3 强制查询规则不得凭词形定。注：组 2 为归并 STRENGTH，本组为 strengths 单独入选，系口径效应〔concordance 判定：act=A1〕
+2	strength	强制查询清单项（本轮已给标签，须复核）	1	4	1	92	组4:92	4.419	0.490	act 层待定：反馈小标题"Strengths:"（元话语 NA）vs 归功（A1）；且属 strong 词族，按 v3 强制查询规则不得凭词形定〔concordance 判定：act=A1〕
+3	paragraphs	维度一	1	3/5	2	605	组3:605; 组5:605	6.315	0.215	维度一待定：手册明示段落内部组织→G2、段落间安排→G1
+3	clearly	维度一	1	2/8/10	3	502	组2:502; 组8:502; 组10:502; 组11:434	21.342	0.451	维度一待定（clear 系）；方式副词，act 层不赋值
+5	main	子类边界待核	1	2/10	2	716	组2:716; 组10:716	60.781	0.663	main point/argument/idea；子类 Ideas 与 Global Structure 边界待核
+5	people	议题残留待核	1	2/10	2	608	组2:608; 组10:608	17.362	0.364	疑似议题内容残留（LOCNESS 主题）；people reading your essay 读法待核
+5	become	议题残留待核	1	2	1	293	组2:293	6.098	0.308	疑似议题内容残留（has become），待核
+5	effects	议题残留待核	1	5/8	2	143	组5:140; 组8:143	5.319	0.425	疑似议题内容残留（effects of X）vs 对读者的效果，待核
+5	power	议题残留待核	1	1	1	132	组1:132	4.185	0.391	疑似议题内容残留（政治权力）；the power of your argument 待核
+5	our	议题残留待核	1	3	1	129	组3:129	4.396	0.401	疑似议题内容残留（our society）vs 包容性人称，待核
+5	studies	议题残留待核	1	9	1	112	组9:112	6.270	0.532	来源/证据类型（studies show）；疑似议题内容残留，待核
+5	he	议题残留待核	1	2/10	2	110	组2:110; 组10:110	7.625	0.591	疑似议题内容残留，待核
+5	her	议题残留待核	1	2/4/10	3	91	组2:91; 组4:91; 组10:91	11.531	0.835	疑似议题内容残留，待核
+5	story	议题残留待核	1	8/10	2	86	组8:86; 组10:86	4.381	0.500	疑似议题内容残留，待核
+5	data	议题残留待核	1	5/8	2	85	组5:72; 组8:85	9.881	0.798	证据类型；疑似议题内容残留，待核
+5	discussion	子类边界待核	1	9	1	83	组9:83	4.778	0.540	your discussion of X；子类 Ideas 与 Global Structure 边界待核
+5	she	议题残留待核	1	2/10	2	70	组2:70; 组10:70	11.242	0.958	疑似议题内容残留（引述作文内容），待核
+5	action	议题残留待核	1	5	1	70	组5:70	3.887	0.523	疑似议题内容残留 vs call to action（结论段套语），待核
+5	treatment	其他待核	1	9	1	70	组9:70	7.125	0.744	维度一待定：your treatment of the topic(G1-Ideas)vs 议题内容残留，待核〔concordance 判定：d1=NA〕
+5	therefore	其他待核	1	7	1	63	组7:63	6.194	0.726	连接副词；亦可能为被建议使用的衔接词，待核
+5	tool	议题残留待核	1	5	1	57	组5:57	6.488	0.783	疑似议题内容残留 vs "a useful tool"元话语，待核
+5	dates	议题残留待核	1	9	1	44	组9:44	4.345	0.732	疑似议题内容残留（与 historical 共现）vs 引证信息，待核
+6	formal	维度一	1	2/10	2	364	组2:364; 组10:364	27.609	0.622	维度一待定（register）；命名目标态而非评价，act 层不赋值
+6	MEAN	维度一	1	7	1	206	组7:206	9.061	0.464	维度一待定：what you mean（G1 表意清晰）vs by means of（NA）
+6	possible	hedge 层	1	2/10	2	192	组2:192; 组10:192	6.642	0.404	hedge 层待定：it is possible that（M1）vs possible improvements（NA）
+6	subject	维度一	1	2/10	2	181	组2:181; 组10:181	18.887	0.746	维度一待定：subject-verb agreement(G2-Grammar)vs the subject of your essay(G1)
+6	few	hedge 层	1	6/7	2	173	组6:173; 组7:173	12.568	0.616	hedge 层待定：a few errors 最小化降调（M1）vs 单纯量词（NA）；同组 1 just、组 2 only
+6	edit	维度一	1	1/12	2	122	组1:122; 组12:122	26.167	1.165	维度一待定：表层编辑(G2)vs全局修改(G1)
+6	effort	低信度复核	1	2/5	2	73	组2:71; 组5:73	4.514	0.555	低信度：归功对象为写作者努力而非文本属性；若与 GOOD/great 共现构成归功则应改判 A1
+6	fine	低信度复核	1	7	1	71	组7:71	13.236	1.059	低信度：this is fine 属低门槛褒扬，与 A1「归功于正面价值特征」的定义是否相符须查；同组 2 understandable
+6	authority	低信度复核	1	1/9	2	65	组1:65; 组9:58	17.372	1.340	写作者论述权威/立场，归修辞语境→G1
+6	confusing	维度一	1	8/10	2	56	组5:55; 组8:56; 组10:56	6.764	0.819	维度一待定（clear 系）；手册 A2 词族例明列 confusing〔concordance 判定：d1=G2-Local Structure〕

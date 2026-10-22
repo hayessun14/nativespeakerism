@@ -1,0 +1,76 @@
+word	layer	group	target_corpus
+chinese	C1 子类判定	3	Chinese
+chinese	C1 子类判定	5	Chinese
+direct	维度三	10	Generic
+english	维度三	2	Generic
+english	维度三	10	Generic
+language	维度三	2	Generic
+language	维度三	10	Generic
+tackles	跨组一致性回填	1	L1
+tackles	跨组一致性回填	9	Baseline
+address	强制查询清单项（本轮已给标签，须复核）	1	L1
+address	强制查询清单项（本轮已给标签，须复核）	8	Generic
+address	强制查询清单项（本轮已给标签，须复核）	9	Baseline
+STRENGTH	强制查询清单项（本轮已给标签，须复核）	2	Generic
+strength	强制查询清单项（本轮已给标签，须复核）	4	Generic
+STRENGTHEN	强制查询清单项（本轮已给标签，须复核）	1	L1
+strengthen	强制查询清单项（本轮已给标签，须复核）	8	Generic
+STRENGTHEN	强制查询清单项（本轮已给标签，须复核）	9	Baseline
+strengths	强制查询清单项（本轮已给标签，须复核）	10	Generic
+strong	强制查询清单项（本轮已给标签，须复核）	2	Generic
+strong	强制查询清单项（本轮已给标签，须复核）	10	Generic
+stronger	强制查询清单项（本轮已给标签，须复核）	8	Generic
+strongest	强制查询清单项（本轮已给标签，须复核）	1	L1
+strongest	强制查询清单项（本轮已给标签，须复核）	4	Generic
+strongest	强制查询清单项（本轮已给标签，须复核）	9	Baseline
+would	act 层	9	Baseline
+clearly	维度一	2	Generic
+clearly	维度一	8	Generic
+clearly	维度一	10	Generic
+paragraphs	维度一	3	Chinese
+paragraphs	维度一	5	Chinese
+action	议题残留待核	5	Chinese
+become	议题残留待核	2	Generic
+data	议题残留待核	5	Chinese
+data	议题残留待核	8	Generic
+dates	议题残留待核	9	Baseline
+discussion	子类边界待核	9	Baseline
+effects	议题残留待核	5	Chinese
+effects	议题残留待核	8	Generic
+he	议题残留待核	2	Generic
+he	议题残留待核	10	Generic
+her	议题残留待核	2	Generic
+her	议题残留待核	4	Generic
+her	议题残留待核	10	Generic
+main	子类边界待核	2	Generic
+main	子类边界待核	10	Generic
+our	议题残留待核	3	Chinese
+people	议题残留待核	2	Generic
+people	议题残留待核	10	Generic
+power	议题残留待核	1	L1
+she	议题残留待核	2	Generic
+she	议题残留待核	10	Generic
+story	议题残留待核	8	Generic
+story	议题残留待核	10	Generic
+studies	议题残留待核	9	Baseline
+therefore	其他待核	7	German
+tool	议题残留待核	5	Chinese
+treatment	其他待核	9	Baseline
+authority	低信度复核	1	L1
+authority	低信度复核	9	Baseline
+confusing	维度一	8	Generic
+confusing	维度一	10	Generic
+edit	维度一	1	L1
+edit	维度一	12	L1
+effort	低信度复核	2	Generic
+effort	低信度复核	5	Chinese
+few	hedge 层	6	German
+few	hedge 层	7	German
+fine	低信度复核	7	German
+formal	维度一	2	Generic
+formal	维度一	10	Generic
+MEAN	维度一	7	German
+possible	hedge 层	2	Generic
+possible	hedge 层	10	Generic
+subject	维度一	2	Generic
+subject	维度一	10	Generic
