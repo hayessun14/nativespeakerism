@@ -197,9 +197,9 @@ def concordance(forms_by_doc, lower_by_doc, ids_by_doc, targets, window):
 def main(argv=None):
     ap = argparse.ArgumentParser(
         description="Per-group KWIC extraction from the AntConc corpora.")
-    ap.add_argument("--spec", default="data/groups_spec.tsv")
-    ap.add_argument("--merge-map", default="data/merged_map_groups.tsv")
-    ap.add_argument("--out-dir", default="out/groups")
+    ap.add_argument("--spec", default="concordances/wordlists/groups_spec.tsv")
+    ap.add_argument("--merge-map", default="concordances/wordlists/merged_map_groups.tsv")
+    ap.add_argument("--out-dir", default="concordances/by_group")
     ap.add_argument("--cache-dir", default="corpora")
     ap.add_argument("--window", type=int, default=WINDOW)
     ap.add_argument("--groups", default=None,

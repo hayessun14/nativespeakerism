@@ -85,8 +85,8 @@ import urllib.request
 # --------------------------------------------------------------------------
 
 REPO = "hayessun14/nativespeakerism"
-REF = "claude/keen-brahmagupta-kkr013"          # branch holding the .db files
-RAW = "https://raw.githubusercontent.com/{repo}/{ref}/{name}"
+REF = "main"                                    # branch holding corpora/*.db
+RAW = "https://raw.githubusercontent.com/{repo}/{ref}/corpora/{name}"
 
 CORPORA = ["L1", "Generic", "Chinese", "German", "Baseline"]
 

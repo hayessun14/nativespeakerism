@@ -11,7 +11,7 @@ src 逐层记录哪些层由 concordance 定夺（d1/act/hedge/c，"+"连接；"
 """
 import csv, sys
 
-SRC = "data_keyword_ALL_selected.md"
+SRC = "keywords/keyword_ALL_selected.md"
 OUT = "coding/all_codes.tsv"
 CODE_FIELDS = ["d1", "d1sub", "act", "hedge", "c", "conf", "src", "note"]
 OUT_FIELDS = ["group", "contrast", "target_corpus", "ref_corpus", "rank", "type",

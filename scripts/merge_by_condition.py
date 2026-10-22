@@ -21,7 +21,7 @@ expected file names, and each block byte-identical to the stored text.
 Usage
 -----
     python3 scripts/merge_by_condition.py              # all 10 files
-    python3 scripts/merge_by_condition.py --out-dir out/merged
+    python3 scripts/merge_by_condition.py --out-dir merged
 
 Only the Python standard library is used.
 """
@@ -86,7 +86,7 @@ def verify(path, docs):
 
 def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
-    ap.add_argument("--out-dir", default="out/merged")
+    ap.add_argument("--out-dir", default="merged")
     ap.add_argument("--cache-dir", default="corpora")
     ap.add_argument("--repo", default=REPO)
     ap.add_argument("--ref", default=REF)

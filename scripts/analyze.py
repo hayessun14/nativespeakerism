@@ -9,7 +9,7 @@ from collections import Counter
 
 import sys
 G = sys.argv[1] if len(sys.argv) > 1 else "1"
-SRC, CODES = "data_keyword_ALL_selected.md", f"coding/group{int(G):02d}_codes.tsv"
+SRC, CODES = "keywords/keyword_ALL_selected.md", f"coding/group{int(G):02d}_codes.tsv"
 HEAD = f"## 组 {G}："
 NEXT = f"## 组 {int(G)+1}：" if int(G) < 12 else "@@NO_NEXT@@"
 

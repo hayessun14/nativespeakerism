@@ -18,7 +18,7 @@
 import csv, re, sys
 from collections import defaultdict
 
-VERDICTS = "data_concordance_verdicts.tsv"
+VERDICTS = "coding/concordance_verdicts.tsv"
 ALL = "coding/all_codes.tsv"
 CORPUS2G = {"L1": [1, 12], "Generic": [2, 4, 8, 10], "Chinese": [3, 5],
             "German": [6, 7], "Baseline": [9, 11]}
